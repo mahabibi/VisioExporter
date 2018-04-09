@@ -1,0 +1,109 @@
+                <Shape ID="@@LINE_ID@@" Name="com.CapBPM.Line" NameU="com.CapBPM.Line.@@LINE_ID@@" Type="Shape">
+                    <XForm1D>
+                        <BeginX>@@LINE_START_X@@</BeginX>
+                        <BeginY>@@LINE_START_Y@@</BeginY>
+                        <EndX>@@LINE_END_X@@</EndX>
+                        <EndY>@@LINE_END_Y@@</EndY>
+                    </XForm1D>
+                    <XForm>
+                        <Width>@@LINE_VERTIX_X@@</Width>
+                        <Height>@@LINE_VERTIX_Y@@</Height>
+                        <PinX>@@LINE_PINX@@</PinX>
+                        <PinY>@@LINE_PINY@@</PinY>
+                        <LocPinX F="Width*0.5">@@LINE_LOC_PINX@@</LocPinX>
+                        <LocPinY F="Height*0.5">@@LINE_LOC_PINY@@</LocPinY>
+                        <Angle>-0.0</Angle>
+                    </XForm>
+                    <TextXForm>
+                        <TxtWidth F="TEXTWIDTH(TheText)" />
+                        <TxtHeight F="TEXTHEIGHT(TheText,TxtWidth)">0.135</TxtHeight>
+                        <TxtPinX F="SETATREF(Controls.TextPosition)">0.75</TxtPinX>
+                        <TxtPinY F="SETATREF(Controls.TextPosition.Y)">-0.3456</TxtPinY>
+                        <TxtLocPinX F="TxtWidth*0.5">0.393</TxtLocPinX>
+                        <TxtLocPinY F="TxtHeight*0.5">0.393</TxtLocPinY>
+                        <TxtAngle>-0.0</TxtAngle>
+                    </TextXForm>
+                    <Line>
+                        <LineWeight>0.0125</LineWeight>
+                        <LineColor>#999999</LineColor>
+                        <LineColorTrans>0.0</LineColorTrans>
+                        <LinePattern>1</LinePattern>
+                        <EndArrowSize>2</EndArrowSize>
+                        <BeginArrowSize>2</BeginArrowSize>
+                        <BeginArrow>0</BeginArrow>
+                        <EndArrow>4</EndArrow>
+                        <Rounding>0.003125</Rounding>
+                    </Line>
+                    <Misc>
+                        <ObjType>2</ObjType>
+                        <DynFeedback>2</DynFeedback>
+                        <NoLiveDynamics>1</NoLiveDynamics>
+                        <NoAlignBox>1</NoAlignBox>
+                    </Misc>
+                    <Layout>
+                        <ConFixedCode>1</ConFixedCode>
+                        <ShapeRouteStyle>0</ShapeRouteStyle>
+                        <ConLineRouteExt>0</ConLineRouteExt>
+                        <ConLineJumpCode>0</ConLineJumpCode>
+                    </Layout>
+                    <Group />
+                    <Event />
+                    <Control ID="0" NameU="TextPosition">
+                        <X>0.75</X>
+                        <Y>-0.3456</Y>
+                        <ConX>0.0</ConX>
+                        <ConY>0.0</ConY>
+                        <DynX F="TextPosition">0.75</DynX>
+                        <DynY F="TextPosition.Y">-0.3456</DynY>
+                        <Prompt>Reposition Text</Prompt>
+                    </Control>
+                    <Char IX="0">
+                        <Font>4</Font>
+                        <ComplexScriptFont>4</ComplexScriptFont>
+                        <Color>#333333</Color>
+                        <Size>0.1111111111111111</Size>
+                        <Style>17</Style>
+                        <Case>0</Case>
+                        <Pos>0</Pos>
+                        <Strikethru>0</Strikethru>
+                        <ColorTrans>0.0</ColorTrans>
+                    </Char>
+                    <Para IX="0">
+                        <IndFirst>0.0</IndFirst>
+                        <IndLeft>0.0</IndLeft>
+                        <IndRight>0.0</IndRight>
+                        <SpLine Unit="DT">-1.0</SpLine>
+                        <SpBefore>0.0</SpBefore>
+                        <SpAfter>0.0</SpAfter>
+                        <HorzAlign>1</HorzAlign>
+                        <Bullet>0</Bullet>
+                    </Para>
+                    <Geom IX="0">
+                        <NoFill>1</NoFill>
+                        <NoLine>0</NoLine>
+                        <NoShow>0</NoShow>
+                        <MoveTo IX="1">
+                            <X F="Width*0.42478477571363843">0.75</X>
+                            <Y F="Height*1.0">@@LINE_VERTIX_Y@@</Y>
+                        </MoveTo>
+                        <LineTo IX="2">
+                            <X F="Width*0.42478477571363843">0.75</X>
+                            <Y F="Height*-0.0">0.0</Y>
+                        </LineTo>
+                        <LineTo IX="3">
+                            <X F="Width*1.0">@@LINE_VERTIX_X@@</X>
+                            <Y F="Height*-0.0">0.0</Y>
+                        </LineTo>
+                    </Geom>
+                    <TextBlock>
+                        <VerticalAlign>1</VerticalAlign>
+                        <TextBkgnd>#ffffff</TextBkgnd>
+                        <LeftMargin>0.0</LeftMargin>
+                        <RightMargin>0.0</RightMargin>
+                        <TopMargin>0.0</TopMargin>
+                        <BottomMargin>0.0</BottomMargin>
+                    </TextBlock>
+                    <Text>
+                        <pp IX="0" />
+                        <cp IX="0" />@@LINE_LABEL@@</Text>
+                </Shape>
