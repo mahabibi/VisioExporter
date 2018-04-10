@@ -31,6 +31,7 @@
         <FaceName CharSets="536871391 536870912" Flags="324" ID="128" Name="Segoe UI" Panos="2 11 5 2 4 2 4 2 2 3" UnicodeRanges="-520084737 -1073683329 41 0" />
     </FaceNames>
     <Masters>
+    
         <Master ID="1" Name="DefaultTextBlockNew" NameU="com.CapBPM.DefaultTextBlockNew21.99a52000c799870a436f73c7b3c11021">
             <Shapes>
                 <Shape ID="5" Type="Group">
@@ -1661,6 +1662,962 @@
                 </Shape>
             </Shapes>
         </Master>
+        <Master ID="8" Name="BPMNEvent" NameU="com.CapBPM.BPMNEvent41.4d648da178d0b0fca031cda6c9ed5c71">
+	            <Shapes>
+	                <Shape ID="5" Type="Group">
+	                    <XForm>
+	                        <Width>0.375</Width>
+	                        <Height>0.375</Height>
+	                        <PinX>3.8125</PinX>
+	                        <PinY>2.4625</PinY>
+	                        <LocPinX F="Width*0.5">0.1875</LocPinX>
+	                        <LocPinY F="Height*0.5">0.1875</LocPinY>
+	                        <Angle>-0.0</Angle>
+	                    </XForm>
+	                    <TextXForm>
+	                        <TxtWidth F="Width*1.0">0.375</TxtWidth>
+	                        <TxtHeight F="Height*0.3333333333333333">0.125</TxtHeight>
+	                        <TxtPinX F="Width*0.5">0.1875</TxtPinX>
+	                        <TxtPinY F="Height*-0.16666666666666666">-0.0625</TxtPinY>
+	                        <TxtLocPinX F="TxtWidth*0.5">0.1875</TxtLocPinX>
+	                        <TxtLocPinY F="TxtHeight*0.5">0.0625</TxtLocPinY>
+	                        <TxtAngle>-0.0</TxtAngle>
+	                    </TextXForm>
+	                    <Fill>
+	                        <FillForegnd>#FFFFFF</FillForegnd>
+	                        <FillBkgnd>#000000</FillBkgnd>
+	                        <FillForegndTrans>0.0</FillForegndTrans>
+	                        <FillBkgndTrans>0.0</FillBkgndTrans>
+	                        <FillPattern>1</FillPattern>
+	                    </Fill>
+	                    <Line>
+	                        <LineWeight>0.0125</LineWeight>
+	                        <LineColor>#000000</LineColor>
+	                        <LineColorTrans>0.0</LineColorTrans>
+	                        <LinePattern>1</LinePattern>
+	                        <EndArrowSize>2</EndArrowSize>
+	                        <BeginArrowSize>2</BeginArrowSize>
+	                        <BeginArrow>0</BeginArrow>
+	                        <EndArrow>4</EndArrow>
+	                        <Rounding>0.003125</Rounding>
+	                    </Line>
+	                    <Protection>
+	                        <LockGroup>1</LockGroup>
+	                    </Protection>
+	                    <Group>
+	                        <DontMoveChildren>0</DontMoveChildren>
+	                    </Group>
+	                    <Event>
+	                        <EventDblClick F="OpenTextWin()" />
+	                    </Event>
+	                    <Char IX="0">
+	                        <Font>4</Font>
+	                        <ComplexScriptFont>4</ComplexScriptFont>
+	                        <Color>#333333</Color>
+	                        <Size>0.1111111111111111</Size>
+	                        <Style>0</Style>
+	                        <Case>0</Case>
+	                        <Pos>0</Pos>
+	                        <Strikethru>0</Strikethru>
+	                        <ColorTrans>0.0</ColorTrans>
+	                    </Char>
+	                    <Para IX="0">
+	                        <IndFirst>0.0</IndFirst>
+	                        <IndLeft>0.0</IndLeft>
+	                        <IndRight>0.0</IndRight>
+	                        <SpLine Unit="DT">-1.0</SpLine>
+	                        <SpBefore>0.0</SpBefore>
+	                        <SpAfter>0.0</SpAfter>
+	                        <HorzAlign>-1</HorzAlign>
+	                        <Bullet>0</Bullet>
+	                    </Para>
+	                    <Connection IX="0">
+	                        <X F="Width*0.0">0.0</X>
+	                        <Y F="Height*0.5">0.1875</Y>
+	                    </Connection>
+	                    <Connection IX="1">
+	                        <X F="Width*1.0">0.375</X>
+	                        <Y F="Height*0.5">0.1875</Y>
+	                    </Connection>
+	                    <Connection IX="2">
+	                        <X F="Width*0.5">0.1875</X>
+	                        <Y F="Height*0.0">0.0</Y>
+	                    </Connection>
+	                    <Connection IX="3">
+	                        <X F="Width*0.5">0.1875</X>
+	                        <Y F="Height*1.0">0.375</Y>
+	                    </Connection>
+	                    <Shapes>
+	                        <Shape ID="6" Type="Shape">
+	                            <XForm>
+	                                <Width F="Sheet.5!Width*1">0.375</Width>
+	                                <Height F="Sheet.5!Height*1">0.375</Height>
+	                                <PinX F="Sheet.5!Width*0.5">0.1875</PinX>
+	                                <PinY F="Sheet.5!Height*0.5">0.1875</PinY>
+	                                <LocPinX F="Width*0.5">0.1875</LocPinX>
+	                                <LocPinY F="Height*0.5">0.1875</LocPinY>
+	                                <Angle>0.0</Angle>
+	                            </XForm>
+	                            <Fill>
+	                                <FillForegnd F="Sheet.5!FillForegnd">#FFFFFF</FillForegnd>
+	                                <FillForegndTrans F="Sheet.5!FillForegndTrans">0.0</FillForegndTrans>
+	                                <FillBkgndTrans F="Sheet.5!FillBkgndTrans">0.0</FillBkgndTrans>
+	                                <FillBkgnd F="Sheet.5!FillBkgnd">#000000</FillBkgnd>
+	                                <FillPattern F="Sheet.5!FillPattern">1</FillPattern>
+	                            </Fill>
+	                            <Line>
+	                                <LineWeight>0.0125</LineWeight>
+	                                <LineColor>#666666</LineColor>
+	                                <LineColorTrans>0.0</LineColorTrans>
+	                                <LinePattern>1</LinePattern>
+	                                <EndArrowSize>2</EndArrowSize>
+	                                <BeginArrowSize>2</BeginArrowSize>
+	                                <BeginArrow>0</BeginArrow>
+	                                <EndArrow>0</EndArrow>
+	                                <Rounding>0.003125</Rounding>
+	                            </Line>
+	                            <Protection>
+	                                <LockHeight>1</LockHeight>
+	                                <LockWidth>1</LockWidth>
+	                                <LockMoveX>1</LockMoveX>
+	                                <LockMoveY>1</LockMoveY>
+	                                <LockRotate>1</LockRotate>
+	                                <LockTextEdit>1</LockTextEdit>
+	                            </Protection>
+	                            <Group />
+	                            <Event />
+	                            <Geom IX="0">
+	                                <NoFill>0</NoFill>
+	                                <NoLine>0</NoLine>
+	                                <NoShow>0</NoShow>
+	                                <MoveTo IX="1">
+	                                    <X F="Width*1.0">0.375</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <NURBSTo IX="2">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.0">0.0</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,1.0,0.2232,0.0,1.0,0.7768,0.0,0.0,1.0)</E>
+	                                </NURBSTo>
+	                                <NURBSTo IX="3">
+	                                    <X F="Width*0.0">0.0</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.2232,0.0,0.0,1.0,0.0,0.2232,0.0,1.0)</E>
+	                                </NURBSTo>
+	                                <NURBSTo IX="4">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*1.0">0.375</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.0,0.7768,0.0,1.0,0.2232,1.0,0.0,1.0)</E>
+	                                </NURBSTo>
+	                                <NURBSTo IX="5">
+	                                    <X F="Width*1.0">0.375</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.7768,1.0,0.0,1.0,1.0,0.7768,0.0,1.0)</E>
+	                                </NURBSTo>
+	                            </Geom>
+	                        </Shape>
+	                        <Shape ID="7" Type="Shape">
+	                            <XForm>
+	                                <Width F="Sheet.5!Width*1">0.375</Width>
+	                                <Height F="Sheet.5!Height*1">0.375</Height>
+	                                <PinX F="Sheet.5!Width*0.5">0.1875</PinX>
+	                                <PinY F="Sheet.5!Height*0.5">0.1875</PinY>
+	                                <LocPinX F="Width*0.5">0.1875</LocPinX>
+	                                <LocPinY F="Height*0.5">0.1875</LocPinY>
+	                                <Angle>0.0</Angle>
+	                            </XForm>
+	                            <Fill>
+	                                <FillForegnd F="Sheet.5!FillForegnd">#FFFFFF</FillForegnd>
+	                                <FillForegndTrans F="Sheet.5!FillForegndTrans">0.0</FillForegndTrans>
+	                                <FillBkgndTrans F="Sheet.5!FillBkgndTrans">0.0</FillBkgndTrans>
+	                                <FillBkgnd F="Sheet.5!FillBkgnd">#000000</FillBkgnd>
+	                                <FillPattern F="Sheet.5!FillPattern">1</FillPattern>
+	                            </Fill>
+	                            <Line>
+	                                <LineWeight>0.0125</LineWeight>
+	                                <LineColor>#666666</LineColor>
+	                                <LineColorTrans>0.0</LineColorTrans>
+	                                <LinePattern>1</LinePattern>
+	                                <EndArrowSize>2</EndArrowSize>
+	                                <BeginArrowSize>2</BeginArrowSize>
+	                                <BeginArrow>0</BeginArrow>
+	                                <EndArrow>0</EndArrow>
+	                                <Rounding>0.003125</Rounding>
+	                            </Line>
+	                            <Protection>
+	                                <LockHeight>1</LockHeight>
+	                                <LockWidth>1</LockWidth>
+	                                <LockMoveX>1</LockMoveX>
+	                                <LockMoveY>1</LockMoveY>
+	                                <LockRotate>1</LockRotate>
+	                                <LockTextEdit>1</LockTextEdit>
+	                            </Protection>
+	                            <Group />
+	                            <Event />
+	                            <Geom IX="0">
+	                                <NoFill>0</NoFill>
+	                                <NoLine>0</NoLine>
+	                                <NoShow>0</NoShow>
+	                                <MoveTo IX="1">
+	                                    <X F="Width*0.9501333333333334">0.3563</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <NURBSTo IX="2">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.050133333333333335">0.0188</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.9501,0.2517,0.0,1.0,0.7483,0.0501,0.0,1.0)</E>
+	                                </NURBSTo>
+	                                <NURBSTo IX="3">
+	                                    <X F="Width*0.050133333333333335">0.0188</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.2517,0.0501,0.0,1.0,0.0501,0.2517,0.0,1.0)</E>
+	                                </NURBSTo>
+	                                <NURBSTo IX="4">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.9501333333333334">0.3563</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.0501,0.7483,0.0,1.0,0.2517,0.9501,0.0,1.0)</E>
+	                                </NURBSTo>
+	                                <NURBSTo IX="5">
+	                                    <X F="Width*0.9501333333333334">0.3563</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.7483,0.9501,0.0,1.0,0.9501,0.7483,0.0,1.0)</E>
+	                                </NURBSTo>
+	                            </Geom>
+	                        </Shape>
+	                        <Shape ID="8" Type="Shape">
+	                            <XForm>
+	                                <Width F="Sheet.5!Width*1">0.375</Width>
+	                                <Height F="Sheet.5!Height*1">0.375</Height>
+	                                <PinX F="Sheet.5!Width*0.5">0.1875</PinX>
+	                                <PinY F="Sheet.5!Height*0.5">0.1875</PinY>
+	                                <LocPinX F="Width*0.5">0.1875</LocPinX>
+	                                <LocPinY F="Height*0.5">0.1875</LocPinY>
+	                                <Angle>0.0</Angle>
+	                            </XForm>
+	                            <Fill>
+	                                <FillForegnd F="Sheet.5!FillForegnd">#FFFFFF</FillForegnd>
+	                                <FillForegndTrans F="Sheet.5!FillForegndTrans">0.0</FillForegndTrans>
+	                                <FillBkgndTrans F="Sheet.5!FillBkgndTrans">0.0</FillBkgndTrans>
+	                                <FillBkgnd F="Sheet.5!FillBkgnd">#000000</FillBkgnd>
+	                                <FillPattern F="Sheet.5!FillPattern">1</FillPattern>
+	                            </Fill>
+	                            <Line>
+	                                <LineWeight>0.0125</LineWeight>
+	                                <LineColor>#666666</LineColor>
+	                                <LineColorTrans>0.0</LineColorTrans>
+	                                <LinePattern>1</LinePattern>
+	                                <EndArrowSize>2</EndArrowSize>
+	                                <BeginArrowSize>2</BeginArrowSize>
+	                                <BeginArrow>0</BeginArrow>
+	                                <EndArrow>0</EndArrow>
+	                                <Rounding>0.003125</Rounding>
+	                            </Line>
+	                            <Protection>
+	                                <LockHeight>1</LockHeight>
+	                                <LockWidth>1</LockWidth>
+	                                <LockMoveX>1</LockMoveX>
+	                                <LockMoveY>1</LockMoveY>
+	                                <LockRotate>1</LockRotate>
+	                                <LockTextEdit>1</LockTextEdit>
+	                            </Protection>
+	                            <Group />
+	                            <Event />
+	                            <Geom IX="0">
+	                                <NoFill>0</NoFill>
+	                                <NoLine>0</NoLine>
+	                                <NoShow>0</NoShow>
+	                                <MoveTo IX="1">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <NURBSTo IX="2">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.16666666666666666">0.0625</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.8333,0.3168,0.0,1.0,0.6835,0.1667,0.0,1.0)</E>
+	                                </NURBSTo>
+	                                <NURBSTo IX="3">
+	                                    <X F="Width*0.16666666666666666">0.0625</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.3168,0.1667,0.0,1.0,0.1667,0.3168,0.0,1.0)</E>
+	                                </NURBSTo>
+	                                <NURBSTo IX="4">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.8333333333333334">0.3125</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.1667,0.6835,0.0,1.0,0.3168,0.8333,0.0,1.0)</E>
+	                                </NURBSTo>
+	                                <NURBSTo IX="5">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.6835,0.8333,0.0,1.0,0.8333,0.6835,0.0,1.0)</E>
+	                                </NURBSTo>
+	                                <MoveTo IX="8">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <LineTo IX="9">
+	                                    <X F="Width*0.7666666666666666">0.2875</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </LineTo>
+	                                <MoveTo IX="10">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="11">
+	                                    <X F="Width*0.7882666666666666">0.2956</X>
+	                                    <Y F="Height*0.3333333333333333">0.125</Y>
+	                                </MoveTo>
+	                                <LineTo IX="12">
+	                                    <X F="Width*0.7317333333333332">0.2744</X>
+	                                    <Y F="Height*0.3666666666666667">0.1375</Y>
+	                                </LineTo>
+	                                <MoveTo IX="13">
+	                                    <X F="Width*0.7882666666666666">0.2956</X>
+	                                    <Y F="Height*0.3333333333333333">0.125</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="14">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="15">
+	                                    <X F="Width*0.6666666666666666">0.25</X>
+	                                    <Y F="Height*0.21173333333333333">0.0794</Y>
+	                                </MoveTo>
+	                                <LineTo IX="16">
+	                                    <X F="Width*0.6333333333333333">0.2375</X>
+	                                    <Y F="Height*0.26826666666666665">0.1006</Y>
+	                                </LineTo>
+	                                <MoveTo IX="17">
+	                                    <X F="Width*0.6666666666666666">0.25</X>
+	                                    <Y F="Height*0.21173333333333333">0.0794</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="18">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="19">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.16666666666666666">0.0625</Y>
+	                                </MoveTo>
+	                                <LineTo IX="20">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.2333333333333333">0.0875</Y>
+	                                </LineTo>
+	                                <MoveTo IX="21">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.16666666666666666">0.0625</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="22">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="23">
+	                                    <X F="Width*0.3333333333333333">0.125</X>
+	                                    <Y F="Height*0.21173333333333333">0.0794</Y>
+	                                </MoveTo>
+	                                <LineTo IX="24">
+	                                    <X F="Width*0.3666666666666667">0.1375</X>
+	                                    <Y F="Height*0.26826666666666665">0.1006</Y>
+	                                </LineTo>
+	                                <MoveTo IX="25">
+	                                    <X F="Width*0.3333333333333333">0.125</X>
+	                                    <Y F="Height*0.21173333333333333">0.0794</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="26">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="27">
+	                                    <X F="Width*0.21173333333333333">0.0794</X>
+	                                    <Y F="Height*0.3333333333333333">0.125</Y>
+	                                </MoveTo>
+	                                <LineTo IX="28">
+	                                    <X F="Width*0.26826666666666665">0.1006</X>
+	                                    <Y F="Height*0.3666666666666667">0.1375</Y>
+	                                </LineTo>
+	                                <MoveTo IX="29">
+	                                    <X F="Width*0.21173333333333333">0.0794</X>
+	                                    <Y F="Height*0.3333333333333333">0.125</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="30">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="31">
+	                                    <X F="Width*0.16666666666666666">0.0625</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <LineTo IX="32">
+	                                    <X F="Width*0.2333333333333333">0.0875</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </LineTo>
+	                                <MoveTo IX="33">
+	                                    <X F="Width*0.16666666666666666">0.0625</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="34">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="35">
+	                                    <X F="Width*0.21173333333333333">0.0794</X>
+	                                    <Y F="Height*0.6666666666666666">0.25</Y>
+	                                </MoveTo>
+	                                <LineTo IX="36">
+	                                    <X F="Width*0.26826666666666665">0.1006</X>
+	                                    <Y F="Height*0.6333333333333333">0.2375</Y>
+	                                </LineTo>
+	                                <MoveTo IX="37">
+	                                    <X F="Width*0.21173333333333333">0.0794</X>
+	                                    <Y F="Height*0.6666666666666666">0.25</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="38">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="39">
+	                                    <X F="Width*0.3333333333333333">0.125</X>
+	                                    <Y F="Height*0.7882666666666666">0.2956</Y>
+	                                </MoveTo>
+	                                <LineTo IX="40">
+	                                    <X F="Width*0.3666666666666667">0.1375</X>
+	                                    <Y F="Height*0.7317333333333332">0.2744</Y>
+	                                </LineTo>
+	                                <MoveTo IX="41">
+	                                    <X F="Width*0.3333333333333333">0.125</X>
+	                                    <Y F="Height*0.7882666666666666">0.2956</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="42">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="43">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.8333333333333334">0.3125</Y>
+	                                </MoveTo>
+	                                <LineTo IX="44">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.7666666666666666">0.2875</Y>
+	                                </LineTo>
+	                                <MoveTo IX="45">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.8333333333333334">0.3125</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="46">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="47">
+	                                    <X F="Width*0.6666666666666666">0.25</X>
+	                                    <Y F="Height*0.7882666666666666">0.2956</Y>
+	                                </MoveTo>
+	                                <LineTo IX="48">
+	                                    <X F="Width*0.6333333333333333">0.2375</X>
+	                                    <Y F="Height*0.7317333333333332">0.2744</Y>
+	                                </LineTo>
+	                                <MoveTo IX="49">
+	                                    <X F="Width*0.6666666666666666">0.25</X>
+	                                    <Y F="Height*0.7882666666666666">0.2956</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="50">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="51">
+	                                    <X F="Width*0.7882666666666666">0.2956</X>
+	                                    <Y F="Height*0.6666666666666666">0.25</Y>
+	                                </MoveTo>
+	                                <LineTo IX="52">
+	                                    <X F="Width*0.7317333333333332">0.2744</X>
+	                                    <Y F="Height*0.6333333333333333">0.2375</Y>
+	                                </LineTo>
+	                                <MoveTo IX="53">
+	                                    <X F="Width*0.7882666666666666">0.2956</X>
+	                                    <Y F="Height*0.6666666666666666">0.25</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="54">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="55">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <LineTo IX="56">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.7000000000000001">0.2625</Y>
+	                                </LineTo>
+	                                <MoveTo IX="57">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="58">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <MoveTo IX="59">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <LineTo IX="60">
+	                                    <X F="Width*0.6168">0.2313</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </LineTo>
+	                                <MoveTo IX="61">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                            </Geom>
+	                        </Shape>
+	                    </Shapes>
+	                    <TextBlock>
+	                        <VerticalAlign>-1</VerticalAlign>
+	                        <LeftMargin>0.0</LeftMargin>
+	                        <RightMargin>0.0</RightMargin>
+	                        <TopMargin>0.0</TopMargin>
+	                        <BottomMargin>0.0</BottomMargin>
+	                    </TextBlock>
+	                    <Text>
+	                        <pp IX="0" />
+	                        <cp IX="0" />wait 5 min</Text>
+	                </Shape>
+	            </Shapes>
+        </Master>
+        <Master ID="9" Name="BPMNEvent" NameU="com.CapBPM.BPMNEvent51.38b740ab7b8e10c356bc51819e061cd6">
+	            <Shapes>
+	                <Shape ID="5" Type="Group">
+	                    <XForm>
+	                        <Width>0.375</Width>
+	                        <Height>0.375</Height>
+	                        <PinX>5.8</PinX>
+	                        <PinY>5.3938</PinY>
+	                        <LocPinX F="Width*0.5">0.1875</LocPinX>
+	                        <LocPinY F="Height*0.5">0.1875</LocPinY>
+	                        <Angle>-0.0</Angle>
+	                    </XForm>
+	                    <TextXForm>
+	                        <TxtWidth F="Width*1.0">0.375</TxtWidth>
+	                        <TxtHeight F="Height*0.3333333333333333">0.125</TxtHeight>
+	                        <TxtPinX F="Width*0.5">0.1875</TxtPinX>
+	                        <TxtPinY F="Height*-0.16666666666666666">-0.0625</TxtPinY>
+	                        <TxtLocPinX F="TxtWidth*0.5">0.1875</TxtLocPinX>
+	                        <TxtLocPinY F="TxtHeight*0.5">0.0625</TxtLocPinY>
+	                        <TxtAngle>-0.0</TxtAngle>
+	                    </TextXForm>
+	                    <Fill>
+	                        <FillForegnd>#FFFFFF</FillForegnd>
+	                        <FillBkgnd>#000000</FillBkgnd>
+	                        <FillForegndTrans>0.0</FillForegndTrans>
+	                        <FillBkgndTrans>0.0</FillBkgndTrans>
+	                        <FillPattern>1</FillPattern>
+	                    </Fill>
+	                    <Line>
+	                        <LineWeight>0.0125</LineWeight>
+	                        <LineColor>#000000</LineColor>
+	                        <LineColorTrans>0.0</LineColorTrans>
+	                        <LinePattern>1</LinePattern>
+	                        <EndArrowSize>2</EndArrowSize>
+	                        <BeginArrowSize>2</BeginArrowSize>
+	                        <BeginArrow>0</BeginArrow>
+	                        <EndArrow>4</EndArrow>
+	                        <Rounding>0.003125</Rounding>
+	                    </Line>
+	                    <Protection>
+	                        <LockGroup>1</LockGroup>
+	                    </Protection>
+	                    <Group>
+	                        <DontMoveChildren>0</DontMoveChildren>
+	                    </Group>
+	                    <Event>
+	                        <EventDblClick F="OpenTextWin()" />
+	                    </Event>
+	                    <Char IX="0">
+	                        <Font>4</Font>
+	                        <ComplexScriptFont>4</ComplexScriptFont>
+	                        <Color>#333333</Color>
+	                        <Size>0.1111111111111111</Size>
+	                        <Style>0</Style>
+	                        <Case>0</Case>
+	                        <Pos>0</Pos>
+	                        <Strikethru>0</Strikethru>
+	                        <ColorTrans>0.0</ColorTrans>
+	                    </Char>
+	                    <Para IX="0">
+	                        <IndFirst>0.0</IndFirst>
+	                        <IndLeft>0.0</IndLeft>
+	                        <IndRight>0.0</IndRight>
+	                        <SpLine Unit="DT">-1.0</SpLine>
+	                        <SpBefore>0.0</SpBefore>
+	                        <SpAfter>0.0</SpAfter>
+	                        <HorzAlign>-1</HorzAlign>
+	                        <Bullet>0</Bullet>
+	                    </Para>
+	                    <Connection IX="0">
+	                        <X F="Width*0.0">0.0</X>
+	                        <Y F="Height*0.5">0.1875</Y>
+	                    </Connection>
+	                    <Connection IX="1">
+	                        <X F="Width*1.0">0.375</X>
+	                        <Y F="Height*0.5">0.1875</Y>
+	                    </Connection>
+	                    <Connection IX="2">
+	                        <X F="Width*0.5">0.1875</X>
+	                        <Y F="Height*0.0">0.0</Y>
+	                    </Connection>
+	                    <Connection IX="3">
+	                        <X F="Width*0.5">0.1875</X>
+	                        <Y F="Height*1.0">0.375</Y>
+	                    </Connection>
+	                    <Shapes>
+	                        <Shape ID="6" Type="Shape">
+	                            <XForm>
+	                                <Width F="Sheet.5!Width*1">0.375</Width>
+	                                <Height F="Sheet.5!Height*1">0.375</Height>
+	                                <PinX F="Sheet.5!Width*0.5">0.1875</PinX>
+	                                <PinY F="Sheet.5!Height*0.5">0.1875</PinY>
+	                                <LocPinX F="Width*0.5">0.1875</LocPinX>
+	                                <LocPinY F="Height*0.5">0.1875</LocPinY>
+	                                <Angle>0.0</Angle>
+	                            </XForm>
+	                            <Fill>
+	                                <FillForegnd F="Sheet.5!FillForegnd">#FFFFFF</FillForegnd>
+	                                <FillForegndTrans F="Sheet.5!FillForegndTrans">0.0</FillForegndTrans>
+	                                <FillBkgndTrans F="Sheet.5!FillBkgndTrans">0.0</FillBkgndTrans>
+	                                <FillBkgnd F="Sheet.5!FillBkgnd">#000000</FillBkgnd>
+	                                <FillPattern F="Sheet.5!FillPattern">1</FillPattern>
+	                            </Fill>
+	                            <Line>
+	                                <LineWeight>0.0125</LineWeight>
+	                                <LineColor>#666666</LineColor>
+	                                <LineColorTrans>0.0</LineColorTrans>
+	                                <LinePattern>1</LinePattern>
+	                                <EndArrowSize>2</EndArrowSize>
+	                                <BeginArrowSize>2</BeginArrowSize>
+	                                <BeginArrow>0</BeginArrow>
+	                                <EndArrow>0</EndArrow>
+	                                <Rounding>0.003125</Rounding>
+	                            </Line>
+	                            <Protection>
+	                                <LockHeight>1</LockHeight>
+	                                <LockWidth>1</LockWidth>
+	                                <LockMoveX>1</LockMoveX>
+	                                <LockMoveY>1</LockMoveY>
+	                                <LockRotate>1</LockRotate>
+	                                <LockTextEdit>1</LockTextEdit>
+	                            </Protection>
+	                            <Group />
+	                            <Event />
+	                            <Geom IX="0">
+	                                <NoFill>0</NoFill>
+	                                <NoLine>0</NoLine>
+	                                <NoShow>0</NoShow>
+	                                <MoveTo IX="1">
+	                                    <X F="Width*1.0">0.375</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <NURBSTo IX="2">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.0">0.0</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,1.0,0.2232,0.0,1.0,0.7768,0.0,0.0,1.0)</E>
+	                                </NURBSTo>
+	                                <NURBSTo IX="3">
+	                                    <X F="Width*0.0">0.0</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.2232,0.0,0.0,1.0,0.0,0.2232,0.0,1.0)</E>
+	                                </NURBSTo>
+	                                <NURBSTo IX="4">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*1.0">0.375</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.0,0.7768,0.0,1.0,0.2232,1.0,0.0,1.0)</E>
+	                                </NURBSTo>
+	                                <NURBSTo IX="5">
+	                                    <X F="Width*1.0">0.375</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.7768,1.0,0.0,1.0,1.0,0.7768,0.0,1.0)</E>
+	                                </NURBSTo>
+	                            </Geom>
+	                        </Shape>
+	                        <Shape ID="7" Type="Shape">
+	                            <XForm>
+	                                <Width F="Sheet.5!Width*1">0.375</Width>
+	                                <Height F="Sheet.5!Height*1">0.375</Height>
+	                                <PinX F="Sheet.5!Width*0.5">0.1875</PinX>
+	                                <PinY F="Sheet.5!Height*0.5">0.1875</PinY>
+	                                <LocPinX F="Width*0.5">0.1875</LocPinX>
+	                                <LocPinY F="Height*0.5">0.1875</LocPinY>
+	                                <Angle>0.0</Angle>
+	                            </XForm>
+	                            <Fill>
+	                                <FillForegnd F="Sheet.5!FillForegnd">#FFFFFF</FillForegnd>
+	                                <FillForegndTrans F="Sheet.5!FillForegndTrans">0.0</FillForegndTrans>
+	                                <FillBkgndTrans F="Sheet.5!FillBkgndTrans">0.0</FillBkgndTrans>
+	                                <FillBkgnd F="Sheet.5!FillBkgnd">#000000</FillBkgnd>
+	                                <FillPattern F="Sheet.5!FillPattern">1</FillPattern>
+	                            </Fill>
+	                            <Line>
+	                                <LineWeight>0.0125</LineWeight>
+	                                <LineColor>#666666</LineColor>
+	                                <LineColorTrans>0.0</LineColorTrans>
+	                                <LinePattern>1</LinePattern>
+	                                <EndArrowSize>2</EndArrowSize>
+	                                <BeginArrowSize>2</BeginArrowSize>
+	                                <BeginArrow>0</BeginArrow>
+	                                <EndArrow>0</EndArrow>
+	                                <Rounding>0.003125</Rounding>
+	                            </Line>
+	                            <Protection>
+	                                <LockHeight>1</LockHeight>
+	                                <LockWidth>1</LockWidth>
+	                                <LockMoveX>1</LockMoveX>
+	                                <LockMoveY>1</LockMoveY>
+	                                <LockRotate>1</LockRotate>
+	                                <LockTextEdit>1</LockTextEdit>
+	                            </Protection>
+	                            <Group />
+	                            <Event />
+	                            <Geom IX="0">
+	                                <NoFill>0</NoFill>
+	                                <NoLine>0</NoLine>
+	                                <NoShow>0</NoShow>
+	                                <MoveTo IX="1">
+	                                    <X F="Width*0.9501333333333334">0.3563</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </MoveTo>
+	                                <NURBSTo IX="2">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.050133333333333335">0.0188</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.9501,0.2517,0.0,1.0,0.7483,0.0501,0.0,1.0)</E>
+	                                </NURBSTo>
+	                                <NURBSTo IX="3">
+	                                    <X F="Width*0.050133333333333335">0.0188</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.2517,0.0501,0.0,1.0,0.0501,0.2517,0.0,1.0)</E>
+	                                </NURBSTo>
+	                                <NURBSTo IX="4">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.9501333333333334">0.3563</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.0501,0.7483,0.0,1.0,0.2517,0.9501,0.0,1.0)</E>
+	                                </NURBSTo>
+	                                <NURBSTo IX="5">
+	                                    <X F="Width*0.9501333333333334">0.3563</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                    <A>0.0</A>
+	                                    <B>1.0</B>
+	                                    <C>0.0</C>
+	                                    <D>1.0</D>
+	                                    <E Unit="NURBS">NURBS(1.0,3,0,0,0.7483,0.9501,0.0,1.0,0.9501,0.7483,0.0,1.0)</E>
+	                                </NURBSTo>
+	                            </Geom>
+	                        </Shape>
+	                        <Shape ID="8" Type="Shape">
+	                            <XForm>
+	                                <Width F="Sheet.5!Width*1">0.375</Width>
+	                                <Height F="Sheet.5!Height*1">0.375</Height>
+	                                <PinX F="Sheet.5!Width*0.5">0.1875</PinX>
+	                                <PinY F="Sheet.5!Height*0.5">0.1875</PinY>
+	                                <LocPinX F="Width*0.5">0.1875</LocPinX>
+	                                <LocPinY F="Height*0.5">0.1875</LocPinY>
+	                                <Angle>0.0</Angle>
+	                            </XForm>
+	                            <Fill>
+	                                <FillForegnd F="Sheet.5!FillForegnd">#FFFFFF</FillForegnd>
+	                                <FillForegndTrans F="Sheet.5!FillForegndTrans">0.0</FillForegndTrans>
+	                                <FillBkgndTrans F="Sheet.5!FillBkgndTrans">0.0</FillBkgndTrans>
+	                                <FillBkgnd F="Sheet.5!FillBkgnd">#000000</FillBkgnd>
+	                                <FillPattern F="Sheet.5!FillPattern">1</FillPattern>
+	                            </Fill>
+	                            <Line>
+	                                <LineWeight>0.0125</LineWeight>
+	                                <LineColor>#666666</LineColor>
+	                                <LineColorTrans>0.0</LineColorTrans>
+	                                <LinePattern>1</LinePattern>
+	                                <EndArrowSize>2</EndArrowSize>
+	                                <BeginArrowSize>2</BeginArrowSize>
+	                                <BeginArrow>0</BeginArrow>
+	                                <EndArrow>0</EndArrow>
+	                                <Rounding>0.0</Rounding>
+	                            </Line>
+	                            <Protection>
+	                                <LockHeight>1</LockHeight>
+	                                <LockWidth>1</LockWidth>
+	                                <LockMoveX>1</LockMoveX>
+	                                <LockMoveY>1</LockMoveY>
+	                                <LockRotate>1</LockRotate>
+	                                <LockTextEdit>1</LockTextEdit>
+	                            </Protection>
+	                            <Group />
+	                            <Event />
+	                            <Geom IX="0">
+	                                <NoFill>0</NoFill>
+	                                <NoLine>0</NoLine>
+	                                <NoShow>0</NoShow>
+	                                <MoveTo IX="1">
+	                                    <X F="Width*0.16666666666666666">0.0625</X>
+	                                    <Y F="Height*0.6866666666666666">0.2575</Y>
+	                                </MoveTo>
+	                                <LineTo IX="2">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.6866666666666666">0.2575</Y>
+	                                </LineTo>
+	                                <LineTo IX="3">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.31173333333333336">0.1169</Y>
+	                                </LineTo>
+	                                <LineTo IX="4">
+	                                    <X F="Width*0.16666666666666666">0.0625</X>
+	                                    <Y F="Height*0.31173333333333336">0.1169</Y>
+	                                </LineTo>
+	                                <LineTo IX="5">
+	                                    <X F="Width*0.16666666666666666">0.0625</X>
+	                                    <Y F="Height*0.6866666666666666">0.2575</Y>
+	                                </LineTo>
+	                            </Geom>
+	                        </Shape>
+	                        <Shape ID="9" Type="Shape">
+	                            <XForm>
+	                                <Width F="Sheet.5!Width*1">0.375</Width>
+	                                <Height F="Sheet.5!Height*1">0.375</Height>
+	                                <PinX F="Sheet.5!Width*0.5">0.1875</PinX>
+	                                <PinY F="Sheet.5!Height*0.5">0.1875</PinY>
+	                                <LocPinX F="Width*0.5">0.1875</LocPinX>
+	                                <LocPinY F="Height*0.5">0.1875</LocPinY>
+	                                <Angle>0.0</Angle>
+	                            </XForm>
+	                            <Fill>
+	                                <FillForegnd F="Sheet.5!FillForegnd">#FFFFFF</FillForegnd>
+	                                <FillForegndTrans F="Sheet.5!FillForegndTrans">0.0</FillForegndTrans>
+	                                <FillBkgndTrans F="Sheet.5!FillBkgndTrans">0.0</FillBkgndTrans>
+	                                <FillBkgnd F="Sheet.5!FillBkgnd">#000000</FillBkgnd>
+	                                <FillPattern F="Sheet.5!FillPattern">1</FillPattern>
+	                            </Fill>
+	                            <Line>
+	                                <LineWeight>0.0125</LineWeight>
+	                                <LineColor>#666666</LineColor>
+	                                <LineColorTrans>0.0</LineColorTrans>
+	                                <LinePattern>1</LinePattern>
+	                                <EndArrowSize>2</EndArrowSize>
+	                                <BeginArrowSize>2</BeginArrowSize>
+	                                <BeginArrow>0</BeginArrow>
+	                                <EndArrow>0</EndArrow>
+	                                <Rounding>0.0</Rounding>
+	                            </Line>
+	                            <Protection>
+	                                <LockHeight>1</LockHeight>
+	                                <LockWidth>1</LockWidth>
+	                                <LockMoveX>1</LockMoveX>
+	                                <LockMoveY>1</LockMoveY>
+	                                <LockRotate>1</LockRotate>
+	                                <LockTextEdit>1</LockTextEdit>
+	                            </Protection>
+	                            <Group />
+	                            <Event />
+	                            <Geom IX="0">
+	                                <NoFill>1</NoFill>
+	                                <NoLine>0</NoLine>
+	                                <NoShow>0</NoShow>
+	                                <MoveTo IX="1">
+	                                    <X F="Width*0.16666666666666666">0.0625</X>
+	                                    <Y F="Height*0.6866666666666666">0.2575</Y>
+	                                </MoveTo>
+	                                <LineTo IX="2">
+	                                    <X F="Width*0.5">0.1875</X>
+	                                    <Y F="Height*0.5">0.1875</Y>
+	                                </LineTo>
+	                                <LineTo IX="3">
+	                                    <X F="Width*0.8333333333333334">0.3125</X>
+	                                    <Y F="Height*0.6866666666666666">0.2575</Y>
+	                                </LineTo>
+	                            </Geom>
+	                        </Shape>
+	                    </Shapes>
+	                    <TextBlock>
+	                        <VerticalAlign>-1</VerticalAlign>
+	                        <LeftMargin>0.0</LeftMargin>
+	                        <RightMargin>0.0</RightMargin>
+	                        <TopMargin>0.0</TopMargin>
+	                        <BottomMargin>0.0</BottomMargin>
+	                    </TextBlock>
+	                    <Text>
+	                        <pp IX="0" />
+	                        <cp IX="0" />TRigger Event</Text>
+	                </Shape>
+	            </Shapes>
+        </Master>
     </Masters>
     <Pages>
         <Page ID="0" Name="Page 1">
@@ -2945,6 +3902,507 @@
 		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="StrokeStyle">"solid"</lc:Property>
 		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Restrictions">{}</lc:Property>
                 </Shape>
+               	<Shape ID="200" Master="9" Name="com.CapBPM.BPMNEvent" NameU="com.CapBPM.BPMNEvent.200" Type="Group">
+		    <XForm>
+			<Width>0.375</Width>
+			<Height>0.375</Height>
+			<PinX>5.8</PinX>
+			<PinY>5.3938</PinY>
+			<LocPinX F="Width*0.5">0.1875</LocPinX>
+			<LocPinY F="Height*0.5">0.1875</LocPinY>
+			<Angle>-0.0</Angle>
+		    </XForm>
+		    <TextXForm>
+			<TxtWidth F="Width*1.0">0.375</TxtWidth>
+			<TxtHeight F="Height*0.3333333333333333">0.125</TxtHeight>
+			<TxtPinX F="Width*0.5">0.1875</TxtPinX>
+			<TxtPinY F="Height*-0.16666666666666666">-0.0625</TxtPinY>
+			<TxtLocPinX F="TxtWidth*0.5">0.1875</TxtLocPinX>
+			<TxtLocPinY F="TxtHeight*0.5">0.0625</TxtLocPinY>
+			<TxtAngle>-0.0</TxtAngle>
+		    </TextXForm>
+		    <Fill>
+			<FillForegnd>#ffffff</FillForegnd>
+			<FillBkgnd>#000000</FillBkgnd>
+			<FillForegndTrans>0.0</FillForegndTrans>
+			<FillBkgndTrans>0.0</FillBkgndTrans>
+			<FillPattern>1</FillPattern>
+		    </Fill>
+		    <Line>
+			<LineWeight>0.0125</LineWeight>
+			<LineColor>#666666</LineColor>
+			<LineColorTrans>0.0</LineColorTrans>
+			<LinePattern>1</LinePattern>
+			<EndArrowSize>2</EndArrowSize>
+			<BeginArrowSize>2</BeginArrowSize>
+			<BeginArrow>0</BeginArrow>
+			<EndArrow>0</EndArrow>
+			<Rounding>0.0</Rounding>
+		    </Line>
+		    <Protection>
+			<LockGroup>1</LockGroup>
+		    </Protection>
+		    <Group>
+			<DontMoveChildren>0</DontMoveChildren>
+		    </Group>
+		    <Event>
+			<EventDblClick F="OpenTextWin()" />
+		    </Event>
+		    <Char IX="0">
+			<Font>4</Font>
+			<ComplexScriptFont>4</ComplexScriptFont>
+			<Color>#333333</Color>
+			<Size>0.1111111111111111</Size>
+			<Style>0</Style>
+			<Case>0</Case>
+			<Pos>0</Pos>
+			<Strikethru>0</Strikethru>
+			<ColorTrans>0.0</ColorTrans>
+		    </Char>
+		    <Para IX="0">
+			<IndFirst>0.0</IndFirst>
+			<IndLeft>0.0</IndLeft>
+			<IndRight>0.0</IndRight>
+			<SpLine Unit="DT">-1.0</SpLine>
+			<SpBefore>0.0</SpBefore>
+			<SpAfter>0.0</SpAfter>
+			<HorzAlign>-1</HorzAlign>
+			<Bullet>0</Bullet>
+		    </Para>
+		    <Connection IX="0">
+			<X F="Width*0.0">0.0</X>
+			<Y F="Height*0.5">0.1875</Y>
+		    </Connection>
+		    <Connection IX="1">
+			<X F="Width*1.0">0.375</X>
+			<Y F="Height*0.5">0.1875</Y>
+		    </Connection>
+		    <Connection IX="2">
+			<X F="Width*0.5">0.1875</X>
+			<Y F="Height*0.0">0.0</Y>
+		    </Connection>
+		    <Connection IX="3">
+			<X F="Width*0.5">0.1875</X>
+			<Y F="Height*1.0">0.375</Y>
+		    </Connection>
+		    <Shapes>
+			<Shape ID="2001" MasterShape="9" Type="Shape">
+			    <XForm>
+				<Width F="Sheet.61!Width*1">0.375</Width>
+				<Height F="Sheet.61!Height*1">0.375</Height>
+				<PinX F="Sheet.61!Width*0.5">0.1875</PinX>
+				<PinY F="Sheet.61!Height*0.5">0.1875</PinY>
+				<LocPinX F="Width*0.5">0.1875</LocPinX>
+				<LocPinY F="Height*0.5">0.1875</LocPinY>
+				<Angle>0.0</Angle>
+			    </XForm>
+			    <Fill>
+				<FillForegnd F="Sheet.61!FillForegnd">#ffffff</FillForegnd>
+				<FillForegndTrans F="Sheet.61!FillForegndTrans">0.0</FillForegndTrans>
+				<FillBkgndTrans F="Sheet.61!FillBkgndTrans">0.0</FillBkgndTrans>
+				<FillBkgnd F="Sheet.61!FillBkgnd">#000000</FillBkgnd>
+				<FillPattern F="Sheet.61!FillPattern">1</FillPattern>
+			    </Fill>
+			    <Line>
+				<LineWeight>0.0125</LineWeight>
+				<LineColor>#666666</LineColor>
+				<LineColorTrans>0.0</LineColorTrans>
+				<LinePattern>1</LinePattern>
+				<EndArrowSize>2</EndArrowSize>
+				<BeginArrowSize>2</BeginArrowSize>
+				<BeginArrow>0</BeginArrow>
+				<EndArrow>0</EndArrow>
+				<Rounding>0.003125</Rounding>
+			    </Line>
+			    <Protection>
+				<LockHeight>1</LockHeight>
+				<LockWidth>1</LockWidth>
+				<LockMoveX>1</LockMoveX>
+				<LockMoveY>1</LockMoveY>
+				<LockRotate>1</LockRotate>
+				<LockTextEdit>1</LockTextEdit>
+			    </Protection>
+			    <Group />
+			    <Event />
+			</Shape>
+			<Shape ID="2002" MasterShape="7" Type="Shape">
+			    <XForm>
+				<Width F="Sheet.61!Width*1">0.375</Width>
+				<Height F="Sheet.61!Height*1">0.375</Height>
+				<PinX F="Sheet.61!Width*0.5">0.1875</PinX>
+				<PinY F="Sheet.61!Height*0.5">0.1875</PinY>
+				<LocPinX F="Width*0.5">0.1875</LocPinX>
+				<LocPinY F="Height*0.5">0.1875</LocPinY>
+				<Angle>0.0</Angle>
+			    </XForm>
+			    <Fill>
+				<FillForegnd F="Sheet.61!FillForegnd">#ffffff</FillForegnd>
+				<FillForegndTrans F="Sheet.61!FillForegndTrans">0.0</FillForegndTrans>
+				<FillBkgndTrans F="Sheet.61!FillBkgndTrans">0.0</FillBkgndTrans>
+				<FillBkgnd F="Sheet.61!FillBkgnd">#000000</FillBkgnd>
+				<FillPattern F="Sheet.61!FillPattern">1</FillPattern>
+			    </Fill>
+			    <Line>
+				<LineWeight>0.0125</LineWeight>
+				<LineColor>#666666</LineColor>
+				<LineColorTrans>0.0</LineColorTrans>
+				<LinePattern>1</LinePattern>
+				<EndArrowSize>2</EndArrowSize>
+				<BeginArrowSize>2</BeginArrowSize>
+				<BeginArrow>0</BeginArrow>
+				<EndArrow>0</EndArrow>
+				<Rounding>0.003125</Rounding>
+			    </Line>
+			    <Protection>
+				<LockHeight>1</LockHeight>
+				<LockWidth>1</LockWidth>
+				<LockMoveX>1</LockMoveX>
+				<LockMoveY>1</LockMoveY>
+				<LockRotate>1</LockRotate>
+				<LockTextEdit>1</LockTextEdit>
+			    </Protection>
+			    <Group />
+			    <Event />
+			</Shape>
+			<Shape ID="2003" MasterShape="8" Type="Shape">
+			    <XForm>
+				<Width F="Sheet.61!Width*1">0.375</Width>
+				<Height F="Sheet.61!Height*1">0.375</Height>
+				<PinX F="Sheet.61!Width*0.5">0.1875</PinX>
+				<PinY F="Sheet.61!Height*0.5">0.1875</PinY>
+				<LocPinX F="Width*0.5">0.1875</LocPinX>
+				<LocPinY F="Height*0.5">0.1875</LocPinY>
+				<Angle>0.0</Angle>
+			    </XForm>
+			    <Fill>
+				<FillForegnd F="Sheet.61!FillForegnd">#ffffff</FillForegnd>
+				<FillForegndTrans F="Sheet.61!FillForegndTrans">0.0</FillForegndTrans>
+				<FillBkgndTrans F="Sheet.61!FillBkgndTrans">0.0</FillBkgndTrans>
+				<FillBkgnd F="Sheet.61!FillBkgnd">#000000</FillBkgnd>
+				<FillPattern F="Sheet.61!FillPattern">1</FillPattern>
+			    </Fill>
+			    <Line>
+				<LineWeight>0.0125</LineWeight>
+				<LineColor>#666666</LineColor>
+				<LineColorTrans>0.0</LineColorTrans>
+				<LinePattern>1</LinePattern>
+				<EndArrowSize>2</EndArrowSize>
+				<BeginArrowSize>2</BeginArrowSize>
+				<BeginArrow>0</BeginArrow>
+				<EndArrow>0</EndArrow>
+				<Rounding>0.0</Rounding>
+			    </Line>
+			    <Protection>
+				<LockHeight>1</LockHeight>
+				<LockWidth>1</LockWidth>
+				<LockMoveX>1</LockMoveX>
+				<LockMoveY>1</LockMoveY>
+				<LockRotate>1</LockRotate>
+				<LockTextEdit>1</LockTextEdit>
+			    </Protection>
+			    <Group />
+			    <Event />
+			</Shape>
+			<Shape ID="2004" MasterShape="9" Type="Shape">
+			    <XForm>
+				<Width F="Sheet.61!Width*1">0.375</Width>
+				<Height F="Sheet.61!Height*1">0.375</Height>
+				<PinX F="Sheet.61!Width*0.5">0.1875</PinX>
+				<PinY F="Sheet.61!Height*0.5">0.1875</PinY>
+				<LocPinX F="Width*0.5">0.1875</LocPinX>
+				<LocPinY F="Height*0.5">0.1875</LocPinY>
+				<Angle>0.0</Angle>
+			    </XForm>
+			    <Fill>
+				<FillForegnd F="Sheet.61!FillForegnd">#ffffff</FillForegnd>
+				<FillForegndTrans F="Sheet.61!FillForegndTrans">0.0</FillForegndTrans>
+				<FillBkgndTrans F="Sheet.61!FillBkgndTrans">0.0</FillBkgndTrans>
+				<FillBkgnd F="Sheet.61!FillBkgnd">#000000</FillBkgnd>
+				<FillPattern F="Sheet.61!FillPattern">1</FillPattern>
+			    </Fill>
+			    <Line>
+				<LineWeight>0.0125</LineWeight>
+				<LineColor>#666666</LineColor>
+				<LineColorTrans>0.0</LineColorTrans>
+				<LinePattern>1</LinePattern>
+				<EndArrowSize>2</EndArrowSize>
+				<BeginArrowSize>2</BeginArrowSize>
+				<BeginArrow>0</BeginArrow>
+				<EndArrow>0</EndArrow>
+				<Rounding>0.0</Rounding>
+			    </Line>
+			    <Protection>
+				<LockHeight>1</LockHeight>
+				<LockWidth>1</LockWidth>
+				<LockMoveX>1</LockMoveX>
+				<LockMoveY>1</LockMoveY>
+				<LockRotate>1</LockRotate>
+				<LockTextEdit>1</LockTextEdit>
+			    </Protection>
+			    <Group />
+			    <Event />
+			</Shape>
+		    </Shapes>
+		    <TextBlock>
+			<VerticalAlign>-1</VerticalAlign>
+			<LeftMargin>0.0</LeftMargin>
+			<RightMargin>0.0</RightMargin>
+			<TopMargin>0.0</TopMargin>
+			<BottomMargin>0.0</BottomMargin>
+		    </TextBlock>
+		    <Text>
+			<pp IX="0" />
+			<cp IX="0" />event listener</Text>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="Hyphenate">false</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="ImageFillProps">false</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="RuleList">[]</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="bpmnEventType">1</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="BG">0</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="TextLinks">{}</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="GutterPadding">5</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="IgnoreTheme">{}</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="NoteHint">""</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="Lock">0</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="bpmnDashed">0</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="bpmnInvertedIcon">0</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="InsetMargin">0</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="TRotation">0</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="Hidden">0</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="bpmnEventGroup">1</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="StrokeStyle">"solid"</lc:Property>
+		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="Restrictions">{}</lc:Property>
+</Shape>
+               	<Shape ID="300" Master="8" Name="com.lucidchart.BPMNEvent" NameU="com.lucidchart.BPMNEvent.300" Type="Group">
+    <XForm>
+	<Width>0.375</Width>
+	<Height>0.375</Height>
+	<PinX>3.8</PinX>
+	<PinY>5.3938</PinY>
+	<LocPinX F="Width*0.5">0.1875</LocPinX>
+	<LocPinY F="Height*0.5">0.1875</LocPinY>
+	<Angle>-0.0</Angle>
+    </XForm>
+    <TextXForm>
+	<TxtWidth F="Width*1.0">0.375</TxtWidth>
+	<TxtHeight F="Height*0.3333333333333333">0.125</TxtHeight>
+	<TxtPinX F="Width*0.5">0.1875</TxtPinX>
+	<TxtPinY F="Height*-0.16666666666666666">-0.0625</TxtPinY>
+	<TxtLocPinX F="TxtWidth*0.5">0.1875</TxtLocPinX>
+	<TxtLocPinY F="TxtHeight*0.5">0.0625</TxtLocPinY>
+	<TxtAngle>-0.0</TxtAngle>
+    </TextXForm>
+    <Fill>
+	<FillForegnd>#ffffff</FillForegnd>
+	<FillBkgnd>#000000</FillBkgnd>
+	<FillForegndTrans>0.0</FillForegndTrans>
+	<FillBkgndTrans>0.0</FillBkgndTrans>
+	<FillPattern>1</FillPattern>
+    </Fill>
+    <Line>
+	<LineWeight>0.0125</LineWeight>
+	<LineColor>#666666</LineColor>
+	<LineColorTrans>0.0</LineColorTrans>
+	<LinePattern>1</LinePattern>
+	<EndArrowSize>2</EndArrowSize>
+	<BeginArrowSize>2</BeginArrowSize>
+	<BeginArrow>0</BeginArrow>
+	<EndArrow>0</EndArrow>
+	<Rounding>0.0</Rounding>
+    </Line>
+    <Protection>
+	<LockGroup>1</LockGroup>
+    </Protection>
+    <Group>
+	<DontMoveChildren>0</DontMoveChildren>
+    </Group>
+    <Event>
+	<EventDblClick F="OpenTextWin()" />
+    </Event>
+    <Char IX="0">
+	<Font>4</Font>
+	<ComplexScriptFont>4</ComplexScriptFont>
+	<Color>#333333</Color>
+	<Size>0.1111111111111111</Size>
+	<Style>0</Style>
+	<Case>0</Case>
+	<Pos>0</Pos>
+	<Strikethru>0</Strikethru>
+	<ColorTrans>0.0</ColorTrans>
+    </Char>
+    <Para IX="0">
+	<IndFirst>0.0</IndFirst>
+	<IndLeft>0.0</IndLeft>
+	<IndRight>0.0</IndRight>
+	<SpLine Unit="DT">-1.0</SpLine>
+	<SpBefore>0.0</SpBefore>
+	<SpAfter>0.0</SpAfter>
+	<HorzAlign>-1</HorzAlign>
+	<Bullet>0</Bullet>
+    </Para>
+    <Connection IX="0">
+	<X F="Width*0.0">0.0</X>
+	<Y F="Height*0.5">0.1875</Y>
+    </Connection>
+    <Connection IX="1">
+	<X F="Width*1.0">0.375</X>
+	<Y F="Height*0.5">0.1875</Y>
+    </Connection>
+    <Connection IX="2">
+	<X F="Width*0.5">0.1875</X>
+	<Y F="Height*0.0">0.0</Y>
+    </Connection>
+    <Connection IX="3">
+	<X F="Width*0.5">0.1875</X>
+	<Y F="Height*1.0">0.375</Y>
+    </Connection>
+    <Shapes>
+	<Shape ID="3001" MasterShape="8" Type="Shape">
+	    <XForm>
+		<Width F="Sheet.50!Width*1">0.375</Width>
+		<Height F="Sheet.50!Height*1">0.375</Height>
+		<PinX F="Sheet.50!Width*0.5">0.1875</PinX>
+		<PinY F="Sheet.50!Height*0.5">0.1875</PinY>
+		<LocPinX F="Width*0.5">0.1875</LocPinX>
+		<LocPinY F="Height*0.5">0.1875</LocPinY>
+		<Angle>0.0</Angle>
+	    </XForm>
+	    <Fill>
+		<FillForegnd F="Sheet.50!FillForegnd">#ffffff</FillForegnd>
+		<FillForegndTrans F="Sheet.50!FillForegndTrans">0.0</FillForegndTrans>
+		<FillBkgndTrans F="Sheet.50!FillBkgndTrans">0.0</FillBkgndTrans>
+		<FillBkgnd F="Sheet.50!FillBkgnd">#000000</FillBkgnd>
+		<FillPattern F="Sheet.50!FillPattern">1</FillPattern>
+	    </Fill>
+	    <Line>
+		<LineWeight>0.0125</LineWeight>
+		<LineColor>#666666</LineColor>
+		<LineColorTrans>0.0</LineColorTrans>
+		<LinePattern>1</LinePattern>
+		<EndArrowSize>2</EndArrowSize>
+		<BeginArrowSize>2</BeginArrowSize>
+		<BeginArrow>0</BeginArrow>
+		<EndArrow>0</EndArrow>
+		<Rounding>0.003125</Rounding>
+	    </Line>
+	    <Protection>
+		<LockHeight>1</LockHeight>
+		<LockWidth>1</LockWidth>
+		<LockMoveX>1</LockMoveX>
+		<LockMoveY>1</LockMoveY>
+		<LockRotate>1</LockRotate>
+		<LockTextEdit>1</LockTextEdit>
+	    </Protection>
+	    <Group />
+	    <Event />
+	</Shape>
+	<Shape ID="3002" MasterShape="8" Type="Shape">
+	    <XForm>
+		<Width F="Sheet.50!Width*1">0.375</Width>
+		<Height F="Sheet.50!Height*1">0.375</Height>
+		<PinX F="Sheet.50!Width*0.5">0.1875</PinX>
+		<PinY F="Sheet.50!Height*0.5">0.1875</PinY>
+		<LocPinX F="Width*0.5">0.1875</LocPinX>
+		<LocPinY F="Height*0.5">0.1875</LocPinY>
+		<Angle>0.0</Angle>
+	    </XForm>
+	    <Fill>
+		<FillForegnd F="Sheet.50!FillForegnd">#ffffff</FillForegnd>
+		<FillForegndTrans F="Sheet.50!FillForegndTrans">0.0</FillForegndTrans>
+		<FillBkgndTrans F="Sheet.50!FillBkgndTrans">0.0</FillBkgndTrans>
+		<FillBkgnd F="Sheet.50!FillBkgnd">#000000</FillBkgnd>
+		<FillPattern F="Sheet.50!FillPattern">1</FillPattern>
+	    </Fill>
+	    <Line>
+		<LineWeight>0.0125</LineWeight>
+		<LineColor>#666666</LineColor>
+		<LineColorTrans>0.0</LineColorTrans>
+		<LinePattern>1</LinePattern>
+		<EndArrowSize>2</EndArrowSize>
+		<BeginArrowSize>2</BeginArrowSize>
+		<BeginArrow>0</BeginArrow>
+		<EndArrow>0</EndArrow>
+		<Rounding>0.003125</Rounding>
+	    </Line>
+	    <Protection>
+		<LockHeight>1</LockHeight>
+		<LockWidth>1</LockWidth>
+		<LockMoveX>1</LockMoveX>
+		<LockMoveY>1</LockMoveY>
+		<LockRotate>1</LockRotate>
+		<LockTextEdit>1</LockTextEdit>
+	    </Protection>
+	    <Group />
+	    <Event />
+	</Shape>
+	<Shape ID="3003" MasterShape="8" Type="Shape">
+	    <XForm>
+		<Width F="Sheet.50!Width*1">0.375</Width>
+		<Height F="Sheet.50!Height*1">0.375</Height>
+		<PinX F="Sheet.50!Width*0.5">0.1875</PinX>
+		<PinY F="Sheet.50!Height*0.5">0.1875</PinY>
+		<LocPinX F="Width*0.5">0.1875</LocPinX>
+		<LocPinY F="Height*0.5">0.1875</LocPinY>
+		<Angle>0.0</Angle>
+	    </XForm>
+	    <Fill>
+		<FillForegnd F="Sheet.50!FillForegnd">#ffffff</FillForegnd>
+		<FillForegndTrans F="Sheet.50!FillForegndTrans">0.0</FillForegndTrans>
+		<FillBkgndTrans F="Sheet.50!FillBkgndTrans">0.0</FillBkgndTrans>
+		<FillBkgnd F="Sheet.50!FillBkgnd">#000000</FillBkgnd>
+		<FillPattern F="Sheet.50!FillPattern">1</FillPattern>
+	    </Fill>
+	    <Line>
+		<LineWeight>0.0125</LineWeight>
+		<LineColor>#666666</LineColor>
+		<LineColorTrans>0.0</LineColorTrans>
+		<LinePattern>1</LinePattern>
+		<EndArrowSize>2</EndArrowSize>
+		<BeginArrowSize>2</BeginArrowSize>
+		<BeginArrow>0</BeginArrow>
+		<EndArrow>0</EndArrow>
+		<Rounding>0.003125</Rounding>
+	    </Line>
+	    <Protection>
+		<LockHeight>1</LockHeight>
+		<LockWidth>1</LockWidth>
+		<LockMoveX>1</LockMoveX>
+		<LockMoveY>1</LockMoveY>
+		<LockRotate>1</LockRotate>
+		<LockTextEdit>1</LockTextEdit>
+	    </Protection>
+	    <Group />
+	    <Event />
+	</Shape>
+    </Shapes>
+    <TextBlock>
+	<VerticalAlign>-1</VerticalAlign>
+	<LeftMargin>0.0</LeftMargin>
+	<RightMargin>0.0</RightMargin>
+	<TopMargin>0.0</TopMargin>
+	<BottomMargin>0.0</BottomMargin>
+    </TextBlock>
+    <Text>
+	<pp IX="0" />
+	<cp IX="0" />7 minutes</Text>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="Hyphenate">false</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="ImageFillProps">false</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="RuleList">[]</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="bpmnEventType">2</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="BG">0</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="TextLinks">{}</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="GutterPadding">5</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="IgnoreTheme">{}</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="NoteHint">""</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="Lock">0</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="bpmnDashed">0</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="bpmnInvertedIcon">0</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="InsetMargin">0</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="TRotation">0</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="Hidden">0</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="bpmnEventGroup">1</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="StrokeStyle">"solid"</lc:Property>
+    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="Restrictions">{}</lc:Property>
+</Shape>
                 <Shape ID="21" Master="5" Name="com.CapBPM.DefaultTextBlockNew" NameU="com.CapBPM.DefaultTextBlockNew.21" Type="Group">
                     <XForm>
                         <Width>5.3</Width>

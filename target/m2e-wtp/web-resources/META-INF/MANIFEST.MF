@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Implementation-Title: Cap BPM Visio API
 Implementation-Version: 0.0.1-SNAPSHOT
-Built-By: CapDemo02
+Built-By: max
 Implementation-Vendor-Id: com.capbpm
-Build-Jdk: 1.8.0_162
+Build-Jdk: 1.8.0_101
 Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
  ot-starter-parent/VisioExporter
 Created-By: Maven Integration for Eclipse

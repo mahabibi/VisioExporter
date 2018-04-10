@@ -1,6 +1,7 @@
 package com.capbpm.util.visio;
 
 
+
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
@@ -16,28 +17,33 @@ import java.util.ArrayList;
 public class VisioUtil {
 
 	  public static void main(String args[]) {
-	    	String template = "C:\\_citi\\sandbox\\template4.vdx";
+		  
+		  	String FOLDER_PATH="C:\\Users\\max\\Documents\\GitHub\\VisioExporter\\src\\main\\resources\\";
+	    	
+		  	String template =FOLDER_PATH+ "template5_w_event_and_timer.vdx";
 	    	//fragments
 	    //	String pool_fragment="C:\\_citi\\sandbox\\fragments\\pool.vdx";
 	    //	String end_fragment="C:\\_citi\\sandbox\\fragments\\end.vdx";
-	    	String act_fragment="C:\\_citi\\sandbox\\fragments\\activity_fragment.vdx";
-	    	String gateway_fragment="C:\\_citi\\sandbox\\fragments\\gateway_fragment.vdx";
-	    	String swimlane_fragment ="C:\\_citi\\sandbox\\fragments\\swimlane_fragment.vdx";
-	    	String line_fragment ="C:\\_citi\\sandbox\\fragments\\line_fragment.vdx";
+	    	String act_fragment=FOLDER_PATH+ "fragments\\activity_fragment.vdx";
+	    	String gateway_fragment=FOLDER_PATH+ "fragments\\gateway_fragment.vdx";
+	    	String swimlane_fragment =FOLDER_PATH+ "fragments\\swimlane_fragment.vdx";
+	    	String line_fragment =FOLDER_PATH+ "fragments\\line_fragment.vdx";
+	    	String event_fragment =FOLDER_PATH+ "fragments\\event_fragment.vdx";
+	    	String timer_fragment = FOLDER_PATH +"fragments\\timer_fragment.vdx";
 	    	
 	    	
-	    	String target = "C:\\_citi\\sandbox\\new.vdx";
+	    	String target = FOLDER_PATH+ "new.vdx";
 	    	new File(target).delete();
 	    	
 	    	
-	    	String src = getFileContent(template);//"C:\\_citi\\sandbox\\template1.vdx";
+	    	String src = getFileContent(template);
 	    	
 	    	
 	    	//heading
 	    	src = createHeading("Vacation Request","Max Young", "4/8/2018",src);	
 	    	//src = makePool(src);
 	    	
-	    	
+	    	//start
 	    	src=makeStart(src);
 	    	
 	  
@@ -54,27 +60,44 @@ public class VisioUtil {
 	    	String a3=makeActivity(aClean,"Approve Vacation","5.875","3.375","97");
 
 	    	
+	    	
+	
+	    	//make events
+	    	String eClean = getFileContent(event_fragment);
+	    	String e1=makeEvent(eClean,"event listener","5.8","5.3938","200");
+	    	//String e2=makeGateway(eClean,"check2","5.5938","3.0219","210");
+	    	//String e3=makeGateway(eClean,"check3","7.5938","5.0219","220");  
+	
+	    	//make timers
+	    	String tClean = getFileContent(timer_fragment);
+	    	String t1=makeTimer(tClean,"7 minutes","3.8","5.3938","300");
+	    	//String t2=makeTimer(tClean,"3 minutes","1.5938","3.0219","210");
+	    	//String e3=makeTimer(tClean,"9 minutes","9.5938","5.0219","220");  
+	
 	    	//make gateways
 	    	String gClean = getFileContent(gateway_fragment);
 	    	String g1=makeGateway(gClean,"check1","4.2344","5.0118","34");
 	    	String g2=makeGateway(gClean,"check2","5.5938","3.0219","36");
-	    	String g3=makeGateway(gClean,"check3","7.5938","5.0219","197");    	
+	    	String g3=makeGateway(gClean,"check3","7.5938","5.0219","197");  
+	    	
 	  
 	    	//make lines
 	    	String lClean = getFileContent(line_fragment);
 	    	String l1=makeConnection(lClean,"check or cash",3.4844f,5.2531f,5.25f,6.0938f,"3");
 	    	String l2=makeConnection(lClean,"Credit Card",3.4844f,4.7844f,5.375f,3.375f,"4");
 
-	 
-	  
-	    	src = makeEnd(src);
+	    	
 	    	src =src.replaceAll("@ACT_TEMPLATE", a1+a2+a3);
 	    	src =src.replaceAll("@GATEWAY_TEMPLATE", g1+g2+g3);
+	    	src =src.replaceAll("@EVENT_TEMPLATE", e1 /* +e2+e3*/);
+	    	src =src.replaceAll("@TIMER_TEMPLATE", t1 /* +t2+t3*/);
 	    	src =src.replaceAll("@SWIM_AND_POOL", s1);
 	    	src =src.replaceAll("@LINE", l1+l2);
-	    
-	    	
+	        	
 	    	src =src.replaceAll("@@POOL_NAME@@", "Da Pool");
+	     	 
+	    	//make end
+	    	src = makeEnd(src);
 	    	
 	    	
 	    	
@@ -167,7 +190,24 @@ public class VisioUtil {
     	return content;
 	}
     
-
+    private static String makeTimer(String content, String n, String x, String y, String id) {
+  		////
+    	
+  		content =content.replaceAll("@@TIMER_NAME@@", n);
+      	content =content.replaceAll("@@TIMER_X@@", x);
+      	content =content.replaceAll("@@TIMER_Y@@", y);
+      	content =content.replaceAll("@@TIMER_ID@@", id);
+      	return content;
+  	}
+    private static String makeEvent(String content, String n, String x, String y, String id) {
+  		////
+    	
+  		content =content.replaceAll("@@EVENT_NAME@@", n);
+      	content =content.replaceAll("@@EVENT_X@@", x);
+      	content =content.replaceAll("@@EVENT_Y@@", y);
+      	content =content.replaceAll("@@EVENT_ID@@", id);
+      	return content;
+  	}
     
     private static String makeGateway(String content, String n, String x, String y, String id) {
 		////
@@ -211,7 +251,7 @@ public class VisioUtil {
 		content =content.replaceAll("@@START_X@@", "1.1875");
 		content =content.replaceAll("@@START_Y@@", "5.0219");
 
-     
+
     	return content;
 	}	
 
