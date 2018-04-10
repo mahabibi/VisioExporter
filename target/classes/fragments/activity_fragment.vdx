@@ -1,20 +1,20 @@
 <Shape ID="@@ACTIVITY_ID@@" Master="6" Name="com.CapBPM.BPMNActivity" NameU="com.CapBPM.BPMNActivity.@@ACTIVITY_ID@@" Type="Group">
                     <XForm>
-                        <Width>1.0</Width>
-                        <Height>0.75</Height>
+                        <Width>@@DEFAULT_ACTIVITY_WIDTH@@</Width>
+                        <Height>@@DEFAULT_ACTIVITY_HEIGHT@@</Height>
                         <PinX>@@ACTIVITY_X@@</PinX>
                         <PinY>@@ACTIVITY_Y@@</PinY>
-                        <LocPinX F="Width*0.5">0.5</LocPinX>
-                        <LocPinY F="Height*0.5">0.375</LocPinY>
+                        <LocPinX F="Width*0.5">@@DEFAULT_ACTIVITY_HALF_WIDTH@@</LocPinX>
+                        <LocPinY F="Height*0.5">@@DEFAULT_ACTIVITY_HALF_HEIGHT@@</LocPinY>
                         <Angle>-0.0</Angle>
                     </XForm>
                     <TextXForm>
-                        <TxtWidth F="Width*1.0">1.0</TxtWidth>
-                        <TxtHeight F="Height*1.0">0.75</TxtHeight>
-                        <TxtPinX F="Width*0.5">0.5</TxtPinX>
-                        <TxtPinY F="Height*0.5">0.375</TxtPinY>
-                        <TxtLocPinX F="TxtWidth*0.5">0.5</TxtLocPinX>
-                        <TxtLocPinY F="TxtHeight*0.5">0.375</TxtLocPinY>
+                        <TxtWidth F="Width*1.0">@@DEFAULT_ACTIVITY_WIDTH@@</TxtWidth>
+                        <TxtHeight F="Height*1.0">@@DEFAULT_ACTIVITY_HEIGHT@@</TxtHeight>
+                        <TxtPinX F="Width*0.5">@@DEFAULT_ACTIVITY_HALF_WIDTH@@</TxtPinX>
+                        <TxtPinY F="Height*0.5">@@DEFAULT_ACTIVITY_HALF_HEIGHT@@</TxtPinY>
+                        <TxtLocPinX F="TxtWidth*0.5">@@DEFAULT_ACTIVITY_HALF_WIDTH@@</TxtLocPinX>
+                        <TxtLocPinY F="TxtHeight*0.5">@@DEFAULT_ACTIVITY_HALF_HEIGHT@@</TxtLocPinY>
                         <TxtAngle>-0.0</TxtAngle>
                     </TextXForm>
                     <Fill>
@@ -59,7 +59,7 @@
                         <IndFirst>0.0</IndFirst>
                         <IndLeft>0.0</IndLeft>
                         <IndRight>0.0</IndRight>
-                        <SpLine Unit="DT">-1.0</SpLine>
+                        <SpLine Unit="DT">-@@DEFAULT_ACTIVITY_WIDTH@@</SpLine>
                         <SpBefore>0.0</SpBefore>
                         <SpAfter>0.0</SpAfter>
                         <HorzAlign>1</HorzAlign>
@@ -67,29 +67,29 @@
                     </Para>
                     <Connection IX="0">
                         <X F="Width*0.0">0.0</X>
-                        <Y F="Height*0.5">0.375</Y>
+                        <Y F="Height*0.5">@@DEFAULT_ACTIVITY_HALF_HEIGHT@@</Y>
                     </Connection>
                     <Connection IX="1">
-                        <X F="Width*1.0">1.0</X>
-                        <Y F="Height*0.5">0.375</Y>
+                        <X F="Width*1.0">@@DEFAULT_ACTIVITY_WIDTH@@</X>
+                        <Y F="Height*0.5">@@DEFAULT_ACTIVITY_HALF_HEIGHT@@</Y>
                     </Connection>
                     <Connection IX="2">
-                        <X F="Width*0.5">0.5</X>
+                        <X F="Width*0.5">@@DEFAULT_ACTIVITY_HALF_WIDTH@@</X>
                         <Y F="Height*0.0">0.0</Y>
                     </Connection>
                     <Connection IX="3">
-                        <X F="Width*0.5">0.5</X>
-                        <Y F="Height*1.0">0.75</Y>
+                        <X F="Width*0.5">@@DEFAULT_ACTIVITY_HALF_WIDTH@@</X>
+                        <Y F="Height*1.0">@@DEFAULT_ACTIVITY_HEIGHT@@</Y>
                     </Connection>
                     <Shapes>
                         <Shape ID="@@ACTIVITY_ID@@1" MasterShape="6" Type="Shape">
                             <XForm>
-                                <Width F="Sheet.@@ACTIVITY_ID@@!Width*1">1.0</Width>
-                                <Height F="Sheet.@@ACTIVITY_ID@@!Height*1">0.75</Height>
-                                <PinX F="Sheet.@@ACTIVITY_ID@@!Width*0.5">0.5</PinX>
-                                <PinY F="Sheet.@@ACTIVITY_ID@@!Height*0.5">0.375</PinY>
-                                <LocPinX F="Width*0.5">0.5</LocPinX>
-                                <LocPinY F="Height*0.5">0.375</LocPinY>
+                                <Width F="Sheet.@@ACTIVITY_ID@@!Width*1">@@DEFAULT_ACTIVITY_WIDTH@@</Width>
+                                <Height F="Sheet.@@ACTIVITY_ID@@!Height*1">@@DEFAULT_ACTIVITY_HEIGHT@@</Height>
+                                <PinX F="Sheet.@@ACTIVITY_ID@@!Width*0.5">@@DEFAULT_ACTIVITY_HALF_WIDTH@@</PinX>
+                                <PinY F="Sheet.@@ACTIVITY_ID@@!Height*0.5">@@DEFAULT_ACTIVITY_HALF_HEIGHT@@</PinY>
+                                <LocPinX F="Width*0.5">@@DEFAULT_ACTIVITY_HALF_WIDTH@@</LocPinX>
+                                <LocPinY F="Height*0.5">@@DEFAULT_ACTIVITY_HALF_HEIGHT@@</LocPinY>
                                 <Angle>0.0</Angle>
                             </XForm>
                             <Fill>

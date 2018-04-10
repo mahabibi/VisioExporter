@@ -2991,10 +2991,7 @@
                     <lc:Property xmlns:lc="http://www.CapBPM.com" Name="StrokeStyle">"solid"</lc:Property>
                     <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Restrictions">{}</lc:Property>
                 </Shape>
-                @ACT_TEMPLATE
-               	@GATEWAY_TEMPLATE
-               	@EVENT_TEMPLATE
-               	@TIMER_TEMPLATE
+                @@SHAPES@@
                 <Shape ID="21" Master="5" Name="com.CapBPM.DefaultTextBlockNew" NameU="com.CapBPM.DefaultTextBlockNew.21" Type="Group">
                     <XForm>
                         <Width>5.3</Width>

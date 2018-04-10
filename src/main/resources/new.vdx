@@ -2991,52 +2991,65 @@
                     <lc:Property xmlns:lc="http://www.CapBPM.com" Name="StrokeStyle">"solid"</lc:Property>
                     <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Restrictions">{}</lc:Property>
                 </Shape>
-                <Shape ID="77" Master="6" Name="com.CapBPM.BPMNActivity" NameU="com.CapBPM.BPMNActivity.77" Type="Group">
+                <Shape ID="77" Master="6" Name="com.CapBPM.BPMNActivity" NameU="com.CapBPM.BPMNActivity.77" Type="Group">                    <XForm>                        <Width>1.0</Width>                        <Height>0.75</Height>                        <PinX>2.5938</PinX>                        <PinY>5.0219</PinY>                        <LocPinX F="Width*0.5">0.5</LocPinX>                        <LocPinY F="Height*0.5">0.375</LocPinY>                        <Angle>-0.0</Angle>                    </XForm>                    <TextXForm>                        <TxtWidth F="Width*1.0">1.0</TxtWidth>                        <TxtHeight F="Height*1.0">0.75</TxtHeight>                        <TxtPinX F="Width*0.5">0.5</TxtPinX>                        <TxtPinY F="Height*0.5">0.375</TxtPinY>                        <TxtLocPinX F="TxtWidth*0.5">0.5</TxtLocPinX>                        <TxtLocPinY F="TxtHeight*0.5">0.375</TxtLocPinY>                        <TxtAngle>-0.0</TxtAngle>                    </TextXForm>                    <Fill>                        <FillForegnd>#ffffff</FillForegnd>                        <FillBkgnd>#000000</FillBkgnd>                        <FillForegndTrans>0.0</FillForegndTrans>                        <FillBkgndTrans>0.0</FillBkgndTrans>                        <FillPattern>1</FillPattern>                    </Fill>                    <Line>                        <LineWeight>0.0125</LineWeight>                        <LineColor>#666666</LineColor>                        <LineColorTrans>0.0</LineColorTrans>                        <LinePattern>1</LinePattern>                        <EndArrowSize>2</EndArrowSize>                        <BeginArrowSize>2</BeginArrowSize>                        <BeginArrow>0</BeginArrow>                        <EndArrow>0</EndArrow>                        <Rounding>0.03125</Rounding>                    </Line>                    <Protection>                        <LockGroup>1</LockGroup>                    </Protection>                    <Group>                        <DontMoveChildren>0</DontMoveChildren>                    </Group>                    <Event>                        <EventDblClick F="OpenTextWin()" />                    </Event>                    <Char IX="0">                        <Font>4</Font>                        <ComplexScriptFont>4</ComplexScriptFont>                        <Color>#333333</Color>                        <Size>0.1111111111111111</Size>                        <Style>17</Style>                        <Case>0</Case>                        <Pos>0</Pos>                        <Strikethru>0</Strikethru>                        <ColorTrans>0.0</ColorTrans>                    </Char>                    <Para IX="0">                        <IndFirst>0.0</IndFirst>                        <IndLeft>0.0</IndLeft>                        <IndRight>0.0</IndRight>                        <SpLine Unit="DT">-1.0</SpLine>                        <SpBefore>0.0</SpBefore>                        <SpAfter>0.0</SpAfter>                        <HorzAlign>1</HorzAlign>                        <Bullet>0</Bullet>                    </Para>                    <Connection IX="0">                        <X F="Width*0.0">0.0</X>                        <Y F="Height*0.5">0.375</Y>                    </Connection>                    <Connection IX="1">                        <X F="Width*1.0">1.0</X>                        <Y F="Height*0.5">0.375</Y>                    </Connection>                    <Connection IX="2">                        <X F="Width*0.5">0.5</X>                        <Y F="Height*0.0">0.0</Y>                    </Connection>                    <Connection IX="3">                        <X F="Width*0.5">0.5</X>                        <Y F="Height*1.0">0.75</Y>                    </Connection>                    <Shapes>                        <Shape ID="771" MasterShape="6" Type="Shape">                            <XForm>                                <Width F="Sheet.77!Width*1">1.0</Width>                                <Height F="Sheet.77!Height*1">0.75</Height>                                <PinX F="Sheet.77!Width*0.5">0.5</PinX>                                <PinY F="Sheet.77!Height*0.5">0.375</PinY>                                <LocPinX F="Width*0.5">0.5</LocPinX>                                <LocPinY F="Height*0.5">0.375</LocPinY>                                <Angle>0.0</Angle>                            </XForm>                            <Fill>                                <FillForegnd F="Sheet.77!FillForegnd">#ffffff</FillForegnd>                                <FillForegndTrans F="Sheet.77!FillForegndTrans">0.0</FillForegndTrans>                                <FillBkgndTrans F="Sheet.77!FillBkgndTrans">0.0</FillBkgndTrans>                                <FillBkgnd F="Sheet.77!FillBkgnd">#000000</FillBkgnd>                                <FillPattern F="Sheet.77!FillPattern">1</FillPattern>                            </Fill>                            <Line>                                <LineWeight>0.0125</LineWeight>                                <LineColor>#666666</LineColor>                                <LineColorTrans>0.0</LineColorTrans>                                <LinePattern>1</LinePattern>                                <EndArrowSize>2</EndArrowSize>                                <BeginArrowSize>2</BeginArrowSize>                                <BeginArrow>0</BeginArrow>                                <EndArrow>0</EndArrow>                                <Rounding>0.003125</Rounding>                            </Line>                            <Protection>                                <LockHeight>1</LockHeight>                                <LockWidth>1</LockWidth>                                <LockMoveX>1</LockMoveX>                                <LockMoveY>1</LockMoveY>                                <LockRotate>1</LockRotate>                                <LockTextEdit>1</LockTextEdit>                            </Protection>                            <Group />                            <Event />                        </Shape>                    </Shapes>                    <TextBlock>                        <VerticalAlign>1</VerticalAlign>                        <LeftMargin>0.0</LeftMargin>                        <RightMargin>0.0</RightMargin>                        <TopMargin>0.0</TopMargin>                        <BottomMargin>0.0</BottomMargin>                    </TextBlock>                    <Text>                        <pp IX="0" />                        <cp IX="0" />XRequest Vacation</Text>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="ImageFillProps">false</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hyphenate">false</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="BG">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityMarker1">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextLinks">[]</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityMarker2">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="GutterPadding">5</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="IgnoreTheme">{}</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityType">1</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnTaskType">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="NoteHint">""</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Lock">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="InsetMargin">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TRotation">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hidden">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Opacity">100</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="StrokeStyle">"solid"</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Restrictions">{}</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextWrap">"fit"</lc:Property>                </Shape><Shape ID="87" Master="6" Name="com.CapBPM.BPMNActivity" NameU="com.CapBPM.BPMNActivity.87" Type="Group">                    <XForm>                        <Width>1.0</Width>                        <Height>0.75</Height>                        <PinX>5.75</PinX>                        <PinY>6.0938</PinY>                        <LocPinX F="Width*0.5">0.5</LocPinX>                        <LocPinY F="Height*0.5">0.375</LocPinY>                        <Angle>-0.0</Angle>                    </XForm>                    <TextXForm>                        <TxtWidth F="Width*1.0">1.0</TxtWidth>                        <TxtHeight F="Height*1.0">0.75</TxtHeight>                        <TxtPinX F="Width*0.5">0.5</TxtPinX>                        <TxtPinY F="Height*0.5">0.375</TxtPinY>                        <TxtLocPinX F="TxtWidth*0.5">0.5</TxtLocPinX>                        <TxtLocPinY F="TxtHeight*0.5">0.375</TxtLocPinY>                        <TxtAngle>-0.0</TxtAngle>                    </TextXForm>                    <Fill>                        <FillForegnd>#ffffff</FillForegnd>                        <FillBkgnd>#000000</FillBkgnd>                        <FillForegndTrans>0.0</FillForegndTrans>                        <FillBkgndTrans>0.0</FillBkgndTrans>                        <FillPattern>1</FillPattern>                    </Fill>                    <Line>                        <LineWeight>0.0125</LineWeight>                        <LineColor>#666666</LineColor>                        <LineColorTrans>0.0</LineColorTrans>                        <LinePattern>1</LinePattern>                        <EndArrowSize>2</EndArrowSize>                        <BeginArrowSize>2</BeginArrowSize>                        <BeginArrow>0</BeginArrow>                        <EndArrow>0</EndArrow>                        <Rounding>0.03125</Rounding>                    </Line>                    <Protection>                        <LockGroup>1</LockGroup>                    </Protection>                    <Group>                        <DontMoveChildren>0</DontMoveChildren>                    </Group>                    <Event>                        <EventDblClick F="OpenTextWin()" />                    </Event>                    <Char IX="0">                        <Font>4</Font>                        <ComplexScriptFont>4</ComplexScriptFont>                        <Color>#333333</Color>                        <Size>0.1111111111111111</Size>                        <Style>17</Style>                        <Case>0</Case>                        <Pos>0</Pos>                        <Strikethru>0</Strikethru>                        <ColorTrans>0.0</ColorTrans>                    </Char>                    <Para IX="0">                        <IndFirst>0.0</IndFirst>                        <IndLeft>0.0</IndLeft>                        <IndRight>0.0</IndRight>                        <SpLine Unit="DT">-1.0</SpLine>                        <SpBefore>0.0</SpBefore>                        <SpAfter>0.0</SpAfter>                        <HorzAlign>1</HorzAlign>                        <Bullet>0</Bullet>                    </Para>                    <Connection IX="0">                        <X F="Width*0.0">0.0</X>                        <Y F="Height*0.5">0.375</Y>                    </Connection>                    <Connection IX="1">                        <X F="Width*1.0">1.0</X>                        <Y F="Height*0.5">0.375</Y>                    </Connection>                    <Connection IX="2">                        <X F="Width*0.5">0.5</X>                        <Y F="Height*0.0">0.0</Y>                    </Connection>                    <Connection IX="3">                        <X F="Width*0.5">0.5</X>                        <Y F="Height*1.0">0.75</Y>                    </Connection>                    <Shapes>                        <Shape ID="871" MasterShape="6" Type="Shape">                            <XForm>                                <Width F="Sheet.87!Width*1">1.0</Width>                                <Height F="Sheet.87!Height*1">0.75</Height>                                <PinX F="Sheet.87!Width*0.5">0.5</PinX>                                <PinY F="Sheet.87!Height*0.5">0.375</PinY>                                <LocPinX F="Width*0.5">0.5</LocPinX>                                <LocPinY F="Height*0.5">0.375</LocPinY>                                <Angle>0.0</Angle>                            </XForm>                            <Fill>                                <FillForegnd F="Sheet.87!FillForegnd">#ffffff</FillForegnd>                                <FillForegndTrans F="Sheet.87!FillForegndTrans">0.0</FillForegndTrans>                                <FillBkgndTrans F="Sheet.87!FillBkgndTrans">0.0</FillBkgndTrans>                                <FillBkgnd F="Sheet.87!FillBkgnd">#000000</FillBkgnd>                                <FillPattern F="Sheet.87!FillPattern">1</FillPattern>                            </Fill>                            <Line>                                <LineWeight>0.0125</LineWeight>                                <LineColor>#666666</LineColor>                                <LineColorTrans>0.0</LineColorTrans>                                <LinePattern>1</LinePattern>                                <EndArrowSize>2</EndArrowSize>                                <BeginArrowSize>2</BeginArrowSize>                                <BeginArrow>0</BeginArrow>                                <EndArrow>0</EndArrow>                                <Rounding>0.003125</Rounding>                            </Line>                            <Protection>                                <LockHeight>1</LockHeight>                                <LockWidth>1</LockWidth>                                <LockMoveX>1</LockMoveX>                                <LockMoveY>1</LockMoveY>                                <LockRotate>1</LockRotate>                                <LockTextEdit>1</LockTextEdit>                            </Protection>                            <Group />                            <Event />                        </Shape>                    </Shapes>                    <TextBlock>                        <VerticalAlign>1</VerticalAlign>                        <LeftMargin>0.0</LeftMargin>                        <RightMargin>0.0</RightMargin>                        <TopMargin>0.0</TopMargin>                        <BottomMargin>0.0</BottomMargin>                    </TextBlock>                    <Text>                        <pp IX="0" />                        <cp IX="0" />XReview Vacation</Text>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="ImageFillProps">false</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hyphenate">false</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="BG">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityMarker1">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextLinks">[]</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityMarker2">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="GutterPadding">5</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="IgnoreTheme">{}</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityType">1</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnTaskType">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="NoteHint">""</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Lock">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="InsetMargin">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TRotation">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hidden">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Opacity">100</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="StrokeStyle">"solid"</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Restrictions">{}</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextWrap">"fit"</lc:Property>                </Shape><Shape ID="97" Master="6" Name="com.CapBPM.BPMNActivity" NameU="com.CapBPM.BPMNActivity.97" Type="Group">                    <XForm>                        <Width>1.0</Width>                        <Height>0.75</Height>                        <PinX>5.875</PinX>                        <PinY>3.375</PinY>                        <LocPinX F="Width*0.5">0.5</LocPinX>                        <LocPinY F="Height*0.5">0.375</LocPinY>                        <Angle>-0.0</Angle>                    </XForm>                    <TextXForm>                        <TxtWidth F="Width*1.0">1.0</TxtWidth>                        <TxtHeight F="Height*1.0">0.75</TxtHeight>                        <TxtPinX F="Width*0.5">0.5</TxtPinX>                        <TxtPinY F="Height*0.5">0.375</TxtPinY>                        <TxtLocPinX F="TxtWidth*0.5">0.5</TxtLocPinX>                        <TxtLocPinY F="TxtHeight*0.5">0.375</TxtLocPinY>                        <TxtAngle>-0.0</TxtAngle>                    </TextXForm>                    <Fill>                        <FillForegnd>#ffffff</FillForegnd>                        <FillBkgnd>#000000</FillBkgnd>                        <FillForegndTrans>0.0</FillForegndTrans>                        <FillBkgndTrans>0.0</FillBkgndTrans>                        <FillPattern>1</FillPattern>                    </Fill>                    <Line>                        <LineWeight>0.0125</LineWeight>                        <LineColor>#666666</LineColor>                        <LineColorTrans>0.0</LineColorTrans>                        <LinePattern>1</LinePattern>                        <EndArrowSize>2</EndArrowSize>                        <BeginArrowSize>2</BeginArrowSize>                        <BeginArrow>0</BeginArrow>                        <EndArrow>0</EndArrow>                        <Rounding>0.03125</Rounding>                    </Line>                    <Protection>                        <LockGroup>1</LockGroup>                    </Protection>                    <Group>                        <DontMoveChildren>0</DontMoveChildren>                    </Group>                    <Event>                        <EventDblClick F="OpenTextWin()" />                    </Event>                    <Char IX="0">                        <Font>4</Font>                        <ComplexScriptFont>4</ComplexScriptFont>                        <Color>#333333</Color>                        <Size>0.1111111111111111</Size>                        <Style>17</Style>                        <Case>0</Case>                        <Pos>0</Pos>                        <Strikethru>0</Strikethru>                        <ColorTrans>0.0</ColorTrans>                    </Char>                    <Para IX="0">                        <IndFirst>0.0</IndFirst>                        <IndLeft>0.0</IndLeft>                        <IndRight>0.0</IndRight>                        <SpLine Unit="DT">-1.0</SpLine>                        <SpBefore>0.0</SpBefore>                        <SpAfter>0.0</SpAfter>                        <HorzAlign>1</HorzAlign>                        <Bullet>0</Bullet>                    </Para>                    <Connection IX="0">                        <X F="Width*0.0">0.0</X>                        <Y F="Height*0.5">0.375</Y>                    </Connection>                    <Connection IX="1">                        <X F="Width*1.0">1.0</X>                        <Y F="Height*0.5">0.375</Y>                    </Connection>                    <Connection IX="2">                        <X F="Width*0.5">0.5</X>                        <Y F="Height*0.0">0.0</Y>                    </Connection>                    <Connection IX="3">                        <X F="Width*0.5">0.5</X>                        <Y F="Height*1.0">0.75</Y>                    </Connection>                    <Shapes>                        <Shape ID="971" MasterShape="6" Type="Shape">                            <XForm>                                <Width F="Sheet.97!Width*1">1.0</Width>                                <Height F="Sheet.97!Height*1">0.75</Height>                                <PinX F="Sheet.97!Width*0.5">0.5</PinX>                                <PinY F="Sheet.97!Height*0.5">0.375</PinY>                                <LocPinX F="Width*0.5">0.5</LocPinX>                                <LocPinY F="Height*0.5">0.375</LocPinY>                                <Angle>0.0</Angle>                            </XForm>                            <Fill>                                <FillForegnd F="Sheet.97!FillForegnd">#ffffff</FillForegnd>                                <FillForegndTrans F="Sheet.97!FillForegndTrans">0.0</FillForegndTrans>                                <FillBkgndTrans F="Sheet.97!FillBkgndTrans">0.0</FillBkgndTrans>                                <FillBkgnd F="Sheet.97!FillBkgnd">#000000</FillBkgnd>                                <FillPattern F="Sheet.97!FillPattern">1</FillPattern>                            </Fill>                            <Line>                                <LineWeight>0.0125</LineWeight>                                <LineColor>#666666</LineColor>                                <LineColorTrans>0.0</LineColorTrans>                                <LinePattern>1</LinePattern>                                <EndArrowSize>2</EndArrowSize>                                <BeginArrowSize>2</BeginArrowSize>                                <BeginArrow>0</BeginArrow>                                <EndArrow>0</EndArrow>                                <Rounding>0.003125</Rounding>                            </Line>                            <Protection>                                <LockHeight>1</LockHeight>                                <LockWidth>1</LockWidth>                                <LockMoveX>1</LockMoveX>                                <LockMoveY>1</LockMoveY>                                <LockRotate>1</LockRotate>                                <LockTextEdit>1</LockTextEdit>                            </Protection>                            <Group />                            <Event />                        </Shape>                    </Shapes>                    <TextBlock>                        <VerticalAlign>1</VerticalAlign>                        <LeftMargin>0.0</LeftMargin>                        <RightMargin>0.0</RightMargin>                        <TopMargin>0.0</TopMargin>                        <BottomMargin>0.0</BottomMargin>                    </TextBlock>                    <Text>                        <pp IX="0" />                        <cp IX="0" />XApprove Vacation</Text>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="ImageFillProps">false</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hyphenate">false</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="BG">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityMarker1">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextLinks">[]</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityMarker2">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="GutterPadding">5</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="IgnoreTheme">{}</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityType">1</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnTaskType">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="NoteHint">""</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Lock">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="InsetMargin">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TRotation">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hidden">0</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Opacity">100</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="StrokeStyle">"solid"</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Restrictions">{}</lc:Property>                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextWrap">"fit"</lc:Property>                </Shape><Shape ID="34" Master="4" Name="com.CapBPM.BPMNGateway" NameU="com.CapBPM.BPMNGateway.34" Type="Group">		                    <XForm>		                        <Width>0.4688</Width>		                        <Height>0.4688</Height>		                        <PinX>4.2344</PinX>		                        <PinY>5.0118</PinY>		                        <LocPinX F="Width*0.5">0.2344</LocPinX>		                        <LocPinY F="Height*0.5">0.2344</LocPinY>		                        <Angle>-0.0</Angle>		                    </XForm>		                    <TextXForm>		                        <TxtWidth F="Width*1.0">0.4688</TxtWidth>		                        <TxtHeight F="Height*0.2666382252559727">0.125</TxtHeight>		                        <TxtPinX F="Width*0.5">0.2344</TxtPinX>		                        <TxtPinY F="Height*-0.13331911262798635">-0.0625</TxtPinY>		                        <TxtLocPinX F="TxtWidth*0.5">0.2344</TxtLocPinX>		                        <TxtLocPinY F="TxtHeight*0.5">0.0625</TxtLocPinY>		                        <TxtAngle>-0.0</TxtAngle>		                    </TextXForm>		                    <Fill>		                        <FillForegnd>#ffffff</FillForegnd>		                        <FillBkgnd>#000000</FillBkgnd>		                        <FillForegndTrans>0.0</FillForegndTrans>		                        <FillBkgndTrans>0.0</FillBkgndTrans>		                        <FillPattern>1</FillPattern>		                    </Fill>		                    <Line>		                        <LineWeight>0.0125</LineWeight>		                        <LineColor>#666666</LineColor>		                        <LineColorTrans>0.0</LineColorTrans>		                        <LinePattern>1</LinePattern>		                        <EndArrowSize>2</EndArrowSize>		                        <BeginArrowSize>2</BeginArrowSize>		                        <BeginArrow>0</BeginArrow>		                        <EndArrow>0</EndArrow>		                        <Rounding>0.0</Rounding>		                    </Line>		                    <Protection>		                        <LockGroup>1</LockGroup>		                    </Protection>		                    <Group>		                        <DontMoveChildren>0</DontMoveChildren>		                    </Group>		                    <Event>		                        <EventDblClick F="OpenTextWin()" />		                    </Event>		                    <Char IX="0">		                        <Font>4</Font>		                        <ComplexScriptFont>4</ComplexScriptFont>		                        <Color>#333333</Color>		                        <Size>0.1111111111111111</Size>		                        <Style>0</Style>		                        <Case>0</Case>		                        <Pos>0</Pos>		                        <Strikethru>0</Strikethru>		                        <ColorTrans>0.0</ColorTrans>		                    </Char>		                    <Para IX="0">		                        <IndFirst>0.0</IndFirst>		                        <IndLeft>0.0</IndLeft>		                        <IndRight>0.0</IndRight>		                        <SpLine Unit="DT">-1.0</SpLine>		                        <SpBefore>0.0</SpBefore>		                        <SpAfter>0.0</SpAfter>		                        <HorzAlign>1</HorzAlign>		                        <Bullet>0</Bullet>		                    </Para>		                    <Connection IX="0">		                        <X F="Width*0.0">0.0</X>		                        <Y F="Height*0.5">0.234444</Y>		                    </Connection>		                    <Connection IX="1">		                        <X F="Width*1.0">0.4688</X>		                        <Y F="Height*0.5">0.234444</Y>		                    </Connection>		                    <Connection IX="2">		                        <X F="Width*0.5">0.2344</X>		                        <Y F="Height*0.0">0.0</Y>		                    </Connection>		                    <Connection IX="3">		                        <X F="Width*0.5">0.2344</X>		                        <Y F="Height*1.0">0.4688</Y>		                    </Connection>		                    <Shapes>		                        <Shape ID="341" MasterShape="6" Type="Shape">		                            <XForm>		                                <Width F="Sheet.34!Width*1">0.4688</Width>		                                <Height F="Sheet.34!Height*1">0.4688</Height>		                                <PinX F="Sheet.34!Width*0.5">0.2344</PinX>		                                <PinY F="Sheet.34!Height*0.5">0.2344</PinY>		                                <LocPinX F="Width*0.5">0.2344</LocPinX>		                                <LocPinY F="Height*0.5">0.2344</LocPinY>		                                <Angle>0.0</Angle>		                            </XForm>		                            <Fill>		                                <FillForegnd F="Sheet.34!FillForegnd">#ffffff</FillForegnd>		                                <FillForegndTrans F="Sheet.34!FillForegndTrans">0.0</FillForegndTrans>		                                <FillBkgndTrans F="Sheet.34!FillBkgndTrans">0.0</FillBkgndTrans>		                                <FillBkgnd F="Sheet.34!FillBkgnd">#000000</FillBkgnd>		                                <FillPattern F="Sheet.34!FillPattern">1</FillPattern>		                            </Fill>		                            <Line>		                                <LineWeight>0.0125</LineWeight>		                                <LineColor>#666666</LineColor>		                                <LineColorTrans>0.0</LineColorTrans>		                                <LinePattern>1</LinePattern>		                                <EndArrowSize>2</EndArrowSize>		                                <BeginArrowSize>2</BeginArrowSize>		                                <BeginArrow>0</BeginArrow>		                                <EndArrow>0</EndArrow>		                                <Rounding>0.0</Rounding>		                            </Line>		                            <Protection>		                                <LockHeight>1</LockHeight>		                                <LockWidth>1</LockWidth>		                                <LockMoveX>1</LockMoveX>		                                <LockMoveY>1</LockMoveY>		                                <LockRotate>1</LockRotate>		                                <LockTextEdit>1</LockTextEdit>		                            </Protection>		                            <Group />		                            <Event />		                        </Shape>		                    </Shapes>		                    <TextBlock>		                        <VerticalAlign>1</VerticalAlign>		                        <LeftMargin>0.0</LeftMargin>		                        <RightMargin>0.0</RightMargin>		                        <TopMargin>0.0</TopMargin>		                        <BottomMargin>0.0</BottomMargin>		                    </TextBlock>		                    <Text>		                        <pp IX="0" />		                        <cp IX="0" />check1</Text>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hyphenate">false</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="ImageFillProps">false</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="RuleList">[]</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="BG">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextLinks">{}</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="GutterPadding">5</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="IgnoreTheme">{}</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="NoteHint">""</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Lock">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnGatewayType">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="InsetMargin">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TRotation">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hidden">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Opacity">100</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="StrokeStyle">"solid"</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Restrictions">{}</lc:Property>                </Shape><Shape ID="36" Master="4" Name="com.CapBPM.BPMNGateway" NameU="com.CapBPM.BPMNGateway.36" Type="Group">		                    <XForm>		                        <Width>0.4688</Width>		                        <Height>0.4688</Height>		                        <PinX>4.2344</PinX>		                        <PinY>3.0219</PinY>		                        <LocPinX F="Width*0.5">0.2344</LocPinX>		                        <LocPinY F="Height*0.5">0.2344</LocPinY>		                        <Angle>-0.0</Angle>		                    </XForm>		                    <TextXForm>		                        <TxtWidth F="Width*1.0">0.4688</TxtWidth>		                        <TxtHeight F="Height*0.2666382252559727">0.125</TxtHeight>		                        <TxtPinX F="Width*0.5">0.2344</TxtPinX>		                        <TxtPinY F="Height*-0.13331911262798635">-0.0625</TxtPinY>		                        <TxtLocPinX F="TxtWidth*0.5">0.2344</TxtLocPinX>		                        <TxtLocPinY F="TxtHeight*0.5">0.0625</TxtLocPinY>		                        <TxtAngle>-0.0</TxtAngle>		                    </TextXForm>		                    <Fill>		                        <FillForegnd>#ffffff</FillForegnd>		                        <FillBkgnd>#000000</FillBkgnd>		                        <FillForegndTrans>0.0</FillForegndTrans>		                        <FillBkgndTrans>0.0</FillBkgndTrans>		                        <FillPattern>1</FillPattern>		                    </Fill>		                    <Line>		                        <LineWeight>0.0125</LineWeight>		                        <LineColor>#666666</LineColor>		                        <LineColorTrans>0.0</LineColorTrans>		                        <LinePattern>1</LinePattern>		                        <EndArrowSize>2</EndArrowSize>		                        <BeginArrowSize>2</BeginArrowSize>		                        <BeginArrow>0</BeginArrow>		                        <EndArrow>0</EndArrow>		                        <Rounding>0.0</Rounding>		                    </Line>		                    <Protection>		                        <LockGroup>1</LockGroup>		                    </Protection>		                    <Group>		                        <DontMoveChildren>0</DontMoveChildren>		                    </Group>		                    <Event>		                        <EventDblClick F="OpenTextWin()" />		                    </Event>		                    <Char IX="0">		                        <Font>4</Font>		                        <ComplexScriptFont>4</ComplexScriptFont>		                        <Color>#333333</Color>		                        <Size>0.1111111111111111</Size>		                        <Style>0</Style>		                        <Case>0</Case>		                        <Pos>0</Pos>		                        <Strikethru>0</Strikethru>		                        <ColorTrans>0.0</ColorTrans>		                    </Char>		                    <Para IX="0">		                        <IndFirst>0.0</IndFirst>		                        <IndLeft>0.0</IndLeft>		                        <IndRight>0.0</IndRight>		                        <SpLine Unit="DT">-1.0</SpLine>		                        <SpBefore>0.0</SpBefore>		                        <SpAfter>0.0</SpAfter>		                        <HorzAlign>1</HorzAlign>		                        <Bullet>0</Bullet>		                    </Para>		                    <Connection IX="0">		                        <X F="Width*0.0">0.0</X>		                        <Y F="Height*0.5">0.234444</Y>		                    </Connection>		                    <Connection IX="1">		                        <X F="Width*1.0">0.4688</X>		                        <Y F="Height*0.5">0.234444</Y>		                    </Connection>		                    <Connection IX="2">		                        <X F="Width*0.5">0.2344</X>		                        <Y F="Height*0.0">0.0</Y>		                    </Connection>		                    <Connection IX="3">		                        <X F="Width*0.5">0.2344</X>		                        <Y F="Height*1.0">0.4688</Y>		                    </Connection>		                    <Shapes>		                        <Shape ID="361" MasterShape="6" Type="Shape">		                            <XForm>		                                <Width F="Sheet.36!Width*1">0.4688</Width>		                                <Height F="Sheet.36!Height*1">0.4688</Height>		                                <PinX F="Sheet.36!Width*0.5">0.2344</PinX>		                                <PinY F="Sheet.36!Height*0.5">0.2344</PinY>		                                <LocPinX F="Width*0.5">0.2344</LocPinX>		                                <LocPinY F="Height*0.5">0.2344</LocPinY>		                                <Angle>0.0</Angle>		                            </XForm>		                            <Fill>		                                <FillForegnd F="Sheet.36!FillForegnd">#ffffff</FillForegnd>		                                <FillForegndTrans F="Sheet.36!FillForegndTrans">0.0</FillForegndTrans>		                                <FillBkgndTrans F="Sheet.36!FillBkgndTrans">0.0</FillBkgndTrans>		                                <FillBkgnd F="Sheet.36!FillBkgnd">#000000</FillBkgnd>		                                <FillPattern F="Sheet.36!FillPattern">1</FillPattern>		                            </Fill>		                            <Line>		                                <LineWeight>0.0125</LineWeight>		                                <LineColor>#666666</LineColor>		                                <LineColorTrans>0.0</LineColorTrans>		                                <LinePattern>1</LinePattern>		                                <EndArrowSize>2</EndArrowSize>		                                <BeginArrowSize>2</BeginArrowSize>		                                <BeginArrow>0</BeginArrow>		                                <EndArrow>0</EndArrow>		                                <Rounding>0.0</Rounding>		                            </Line>		                            <Protection>		                                <LockHeight>1</LockHeight>		                                <LockWidth>1</LockWidth>		                                <LockMoveX>1</LockMoveX>		                                <LockMoveY>1</LockMoveY>		                                <LockRotate>1</LockRotate>		                                <LockTextEdit>1</LockTextEdit>		                            </Protection>		                            <Group />		                            <Event />		                        </Shape>		                    </Shapes>		                    <TextBlock>		                        <VerticalAlign>1</VerticalAlign>		                        <LeftMargin>0.0</LeftMargin>		                        <RightMargin>0.0</RightMargin>		                        <TopMargin>0.0</TopMargin>		                        <BottomMargin>0.0</BottomMargin>		                    </TextBlock>		                    <Text>		                        <pp IX="0" />		                        <cp IX="0" />check2</Text>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hyphenate">false</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="ImageFillProps">false</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="RuleList">[]</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="BG">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextLinks">{}</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="GutterPadding">5</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="IgnoreTheme">{}</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="NoteHint">""</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Lock">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnGatewayType">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="InsetMargin">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TRotation">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hidden">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Opacity">100</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="StrokeStyle">"solid"</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Restrictions">{}</lc:Property>                </Shape><Shape ID="197" Master="4" Name="com.CapBPM.BPMNGateway" NameU="com.CapBPM.BPMNGateway.197" Type="Group">		                    <XForm>		                        <Width>0.4688</Width>		                        <Height>0.4688</Height>		                        <PinX>7.5938</PinX>		                        <PinY>5.0219</PinY>		                        <LocPinX F="Width*0.5">0.2344</LocPinX>		                        <LocPinY F="Height*0.5">0.2344</LocPinY>		                        <Angle>-0.0</Angle>		                    </XForm>		                    <TextXForm>		                        <TxtWidth F="Width*1.0">0.4688</TxtWidth>		                        <TxtHeight F="Height*0.2666382252559727">0.125</TxtHeight>		                        <TxtPinX F="Width*0.5">0.2344</TxtPinX>		                        <TxtPinY F="Height*-0.13331911262798635">-0.0625</TxtPinY>		                        <TxtLocPinX F="TxtWidth*0.5">0.2344</TxtLocPinX>		                        <TxtLocPinY F="TxtHeight*0.5">0.0625</TxtLocPinY>		                        <TxtAngle>-0.0</TxtAngle>		                    </TextXForm>		                    <Fill>		                        <FillForegnd>#ffffff</FillForegnd>		                        <FillBkgnd>#000000</FillBkgnd>		                        <FillForegndTrans>0.0</FillForegndTrans>		                        <FillBkgndTrans>0.0</FillBkgndTrans>		                        <FillPattern>1</FillPattern>		                    </Fill>		                    <Line>		                        <LineWeight>0.0125</LineWeight>		                        <LineColor>#666666</LineColor>		                        <LineColorTrans>0.0</LineColorTrans>		                        <LinePattern>1</LinePattern>		                        <EndArrowSize>2</EndArrowSize>		                        <BeginArrowSize>2</BeginArrowSize>		                        <BeginArrow>0</BeginArrow>		                        <EndArrow>0</EndArrow>		                        <Rounding>0.0</Rounding>		                    </Line>		                    <Protection>		                        <LockGroup>1</LockGroup>		                    </Protection>		                    <Group>		                        <DontMoveChildren>0</DontMoveChildren>		                    </Group>		                    <Event>		                        <EventDblClick F="OpenTextWin()" />		                    </Event>		                    <Char IX="0">		                        <Font>4</Font>		                        <ComplexScriptFont>4</ComplexScriptFont>		                        <Color>#333333</Color>		                        <Size>0.1111111111111111</Size>		                        <Style>0</Style>		                        <Case>0</Case>		                        <Pos>0</Pos>		                        <Strikethru>0</Strikethru>		                        <ColorTrans>0.0</ColorTrans>		                    </Char>		                    <Para IX="0">		                        <IndFirst>0.0</IndFirst>		                        <IndLeft>0.0</IndLeft>		                        <IndRight>0.0</IndRight>		                        <SpLine Unit="DT">-1.0</SpLine>		                        <SpBefore>0.0</SpBefore>		                        <SpAfter>0.0</SpAfter>		                        <HorzAlign>1</HorzAlign>		                        <Bullet>0</Bullet>		                    </Para>		                    <Connection IX="0">		                        <X F="Width*0.0">0.0</X>		                        <Y F="Height*0.5">0.234444</Y>		                    </Connection>		                    <Connection IX="1">		                        <X F="Width*1.0">0.4688</X>		                        <Y F="Height*0.5">0.234444</Y>		                    </Connection>		                    <Connection IX="2">		                        <X F="Width*0.5">0.2344</X>		                        <Y F="Height*0.0">0.0</Y>		                    </Connection>		                    <Connection IX="3">		                        <X F="Width*0.5">0.2344</X>		                        <Y F="Height*1.0">0.4688</Y>		                    </Connection>		                    <Shapes>		                        <Shape ID="1971" MasterShape="6" Type="Shape">		                            <XForm>		                                <Width F="Sheet.197!Width*1">0.4688</Width>		                                <Height F="Sheet.197!Height*1">0.4688</Height>		                                <PinX F="Sheet.197!Width*0.5">0.2344</PinX>		                                <PinY F="Sheet.197!Height*0.5">0.2344</PinY>		                                <LocPinX F="Width*0.5">0.2344</LocPinX>		                                <LocPinY F="Height*0.5">0.2344</LocPinY>		                                <Angle>0.0</Angle>		                            </XForm>		                            <Fill>		                                <FillForegnd F="Sheet.197!FillForegnd">#ffffff</FillForegnd>		                                <FillForegndTrans F="Sheet.197!FillForegndTrans">0.0</FillForegndTrans>		                                <FillBkgndTrans F="Sheet.197!FillBkgndTrans">0.0</FillBkgndTrans>		                                <FillBkgnd F="Sheet.197!FillBkgnd">#000000</FillBkgnd>		                                <FillPattern F="Sheet.197!FillPattern">1</FillPattern>		                            </Fill>		                            <Line>		                                <LineWeight>0.0125</LineWeight>		                                <LineColor>#666666</LineColor>		                                <LineColorTrans>0.0</LineColorTrans>		                                <LinePattern>1</LinePattern>		                                <EndArrowSize>2</EndArrowSize>		                                <BeginArrowSize>2</BeginArrowSize>		                                <BeginArrow>0</BeginArrow>		                                <EndArrow>0</EndArrow>		                                <Rounding>0.0</Rounding>		                            </Line>		                            <Protection>		                                <LockHeight>1</LockHeight>		                                <LockWidth>1</LockWidth>		                                <LockMoveX>1</LockMoveX>		                                <LockMoveY>1</LockMoveY>		                                <LockRotate>1</LockRotate>		                                <LockTextEdit>1</LockTextEdit>		                            </Protection>		                            <Group />		                            <Event />		                        </Shape>		                    </Shapes>		                    <TextBlock>		                        <VerticalAlign>1</VerticalAlign>		                        <LeftMargin>0.0</LeftMargin>		                        <RightMargin>0.0</RightMargin>		                        <TopMargin>0.0</TopMargin>		                        <BottomMargin>0.0</BottomMargin>		                    </TextBlock>		                    <Text>		                        <pp IX="0" />		                        <cp IX="0" />check3</Text>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hyphenate">false</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="ImageFillProps">false</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="RuleList">[]</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="BG">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextLinks">{}</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="GutterPadding">5</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="IgnoreTheme">{}</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="NoteHint">""</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Lock">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnGatewayType">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="InsetMargin">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TRotation">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hidden">0</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Opacity">100</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="StrokeStyle">"solid"</lc:Property>		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Restrictions">{}</lc:Property>                </Shape>                <Shape ID="3" Name="com.CapBPM.Line" NameU="com.CapBPM.Line.3" Type="Shape">
+                    <XForm1D>
+                        <BeginX>3.0938</BeginX>
+                        <BeginY>5.0219</BeginY>
+                        <EndX>3.9999998</EndX>
+                        <EndY>5.0118</EndY>
+                    </XForm1D>
                     <XForm>
-                        <Width>1.0</Width>
-                        <Height>0.75</Height>
-                        <PinX>2.5938</PinX>
-                        <PinY>5.0219</PinY>
-                        <LocPinX F="Width*0.5">0.5</LocPinX>
-                        <LocPinY F="Height*0.5">0.375</LocPinY>
+                        <Width>0.9061997</Width>
+                        <Height>0.010100365</Height>
+                        <PinX>3.5468998</PinX>
+                        <PinY>5.01685</PinY>
+                        <LocPinX F="Width*0.5">0.45309973</LocPinX>
+                        <LocPinY F="Height*0.5">-0.0050501823</LocPinY>
                         <Angle>-0.0</Angle>
                     </XForm>
                     <TextXForm>
-                        <TxtWidth F="Width*1.0">1.0</TxtWidth>
-                        <TxtHeight F="Height*1.0">0.75</TxtHeight>
-                        <TxtPinX F="Width*0.5">0.5</TxtPinX>
-                        <TxtPinY F="Height*0.5">0.375</TxtPinY>
-                        <TxtLocPinX F="TxtWidth*0.5">0.5</TxtLocPinX>
-                        <TxtLocPinY F="TxtHeight*0.5">0.375</TxtLocPinY>
+                        <TxtWidth F="TEXTWIDTH(TheText)" />
+                        <TxtHeight F="TEXTHEIGHT(TheText,TxtWidth)">0.135</TxtHeight>
+                        <TxtPinX F="SETATREF(Controls.TextPosition)">0.75</TxtPinX>
+                        <TxtPinY F="SETATREF(Controls.TextPosition.Y)">-0.3456</TxtPinY>
+                        <TxtLocPinX F="TxtWidth*0.5">0.393</TxtLocPinX>
+                        <TxtLocPinY F="TxtHeight*0.5">0.393</TxtLocPinY>
                         <TxtAngle>-0.0</TxtAngle>
                     </TextXForm>
-                    <Fill>
-                        <FillForegnd>#ffffff</FillForegnd>
-                        <FillBkgnd>#000000</FillBkgnd>
-                        <FillForegndTrans>0.0</FillForegndTrans>
-                        <FillBkgndTrans>0.0</FillBkgndTrans>
-                        <FillPattern>1</FillPattern>
-                    </Fill>
                     <Line>
                         <LineWeight>0.0125</LineWeight>
-                        <LineColor>#666666</LineColor>
+                        <LineColor>#999999</LineColor>
                         <LineColorTrans>0.0</LineColorTrans>
                         <LinePattern>1</LinePattern>
                         <EndArrowSize>2</EndArrowSize>
                         <BeginArrowSize>2</BeginArrowSize>
                         <BeginArrow>0</BeginArrow>
-                        <EndArrow>0</EndArrow>
-                        <Rounding>0.03125</Rounding>
+                        <EndArrow>4</EndArrow>
+                        <Rounding>0.003125</Rounding>
                     </Line>
-                    <Protection>
-                        <LockGroup>1</LockGroup>
-                    </Protection>
-                    <Group>
-                        <DontMoveChildren>0</DontMoveChildren>
-                    </Group>
-                    <Event>
-                        <EventDblClick F="OpenTextWin()" />
-                    </Event>
+                    <Misc>
+                        <ObjType>2</ObjType>
+                        <DynFeedback>2</DynFeedback>
+                        <NoLiveDynamics>1</NoLiveDynamics>
+                        <NoAlignBox>1</NoAlignBox>
+                    </Misc>
+                    <Layout>
+                        <ConFixedCode>1</ConFixedCode>
+                        <ShapeRouteStyle>0</ShapeRouteStyle>
+                        <ConLineRouteExt>0</ConLineRouteExt>
+                        <ConLineJumpCode>0</ConLineJumpCode>
+                    </Layout>
+                    <Group />
+                    <Event />
+                    <Control ID="0" NameU="TextPosition">
+                        <X>0.75</X>
+                        <Y>-0.3456</Y>
+                        <ConX>0.0</ConX>
+                        <ConY>0.0</ConY>
+                        <DynX F="TextPosition">0.75</DynX>
+                        <DynY F="TextPosition.Y">-0.3456</DynY>
+                        <Prompt>Reposition Text</Prompt>
+                    </Control>
                     <Char IX="0">
                         <Font>4</Font>
                         <ComplexScriptFont>4</ComplexScriptFont>
@@ -3058,65 +3071,26 @@
                         <HorzAlign>1</HorzAlign>
                         <Bullet>0</Bullet>
                     </Para>
-                    <Connection IX="0">
-                        <X F="Width*0.0">0.0</X>
-                        <Y F="Height*0.5">0.375</Y>
-                    </Connection>
-                    <Connection IX="1">
-                        <X F="Width*1.0">1.0</X>
-                        <Y F="Height*0.5">0.375</Y>
-                    </Connection>
-                    <Connection IX="2">
-                        <X F="Width*0.5">0.5</X>
-                        <Y F="Height*0.0">0.0</Y>
-                    </Connection>
-                    <Connection IX="3">
-                        <X F="Width*0.5">0.5</X>
-                        <Y F="Height*1.0">0.75</Y>
-                    </Connection>
-                    <Shapes>
-                        <Shape ID="771" MasterShape="6" Type="Shape">
-                            <XForm>
-                                <Width F="Sheet.77!Width*1">1.0</Width>
-                                <Height F="Sheet.77!Height*1">0.75</Height>
-                                <PinX F="Sheet.77!Width*0.5">0.5</PinX>
-                                <PinY F="Sheet.77!Height*0.5">0.375</PinY>
-                                <LocPinX F="Width*0.5">0.5</LocPinX>
-                                <LocPinY F="Height*0.5">0.375</LocPinY>
-                                <Angle>0.0</Angle>
-                            </XForm>
-                            <Fill>
-                                <FillForegnd F="Sheet.77!FillForegnd">#ffffff</FillForegnd>
-                                <FillForegndTrans F="Sheet.77!FillForegndTrans">0.0</FillForegndTrans>
-                                <FillBkgndTrans F="Sheet.77!FillBkgndTrans">0.0</FillBkgndTrans>
-                                <FillBkgnd F="Sheet.77!FillBkgnd">#000000</FillBkgnd>
-                                <FillPattern F="Sheet.77!FillPattern">1</FillPattern>
-                            </Fill>
-                            <Line>
-                                <LineWeight>0.0125</LineWeight>
-                                <LineColor>#666666</LineColor>
-                                <LineColorTrans>0.0</LineColorTrans>
-                                <LinePattern>1</LinePattern>
-                                <EndArrowSize>2</EndArrowSize>
-                                <BeginArrowSize>2</BeginArrowSize>
-                                <BeginArrow>0</BeginArrow>
-                                <EndArrow>0</EndArrow>
-                                <Rounding>0.003125</Rounding>
-                            </Line>
-                            <Protection>
-                                <LockHeight>1</LockHeight>
-                                <LockWidth>1</LockWidth>
-                                <LockMoveX>1</LockMoveX>
-                                <LockMoveY>1</LockMoveY>
-                                <LockRotate>1</LockRotate>
-                                <LockTextEdit>1</LockTextEdit>
-                            </Protection>
-                            <Group />
-                            <Event />
-                        </Shape>
-                    </Shapes>
+                    <Geom IX="0">
+                        <NoFill>1</NoFill>
+                        <NoLine>0</NoLine>
+                        <NoShow>0</NoShow>
+                        <MoveTo IX="1">
+                            <X F="Width*0.42478477571363843">0.75</X>
+                            <Y F="Height*1.0">0.010100365</Y>
+                        </MoveTo>
+                        <LineTo IX="2">
+                            <X F="Width*0.42478477571363843">0.75</X>
+                            <Y F="Height*-0.0">0.0</Y>
+                        </LineTo>
+                        <LineTo IX="3">
+                            <X F="Width*1.0">0.9061997</X>
+                            <Y F="Height*-0.0">0.0</Y>
+                        </LineTo>
+                    </Geom>
                     <TextBlock>
                         <VerticalAlign>1</VerticalAlign>
+                        <TextBkgnd>#ffffff</TextBkgnd>
                         <LeftMargin>0.0</LeftMargin>
                         <RightMargin>0.0</RightMargin>
                         <TopMargin>0.0</TopMargin>
@@ -3124,72 +3098,66 @@
                     </TextBlock>
                     <Text>
                         <pp IX="0" />
-                        <cp IX="0" />Request Vacation</Text>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="ImageFillProps">false</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hyphenate">false</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="BG">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityMarker1">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextLinks">[]</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityMarker2">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="GutterPadding">5</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="IgnoreTheme">{}</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityType">1</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnTaskType">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="NoteHint">""</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Lock">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="InsetMargin">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TRotation">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hidden">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Opacity">100</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="StrokeStyle">"solid"</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Restrictions">{}</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextWrap">"fit"</lc:Property>
-                </Shape><Shape ID="87" Master="6" Name="com.CapBPM.BPMNActivity" NameU="com.CapBPM.BPMNActivity.87" Type="Group">
+                        <cp IX="0" /></Text>
+                </Shape>                <Shape ID="4" Name="com.CapBPM.Line" NameU="com.CapBPM.Line.4" Type="Shape">
+                    <XForm1D>
+                        <BeginX>4.2344</BeginX>
+                        <BeginY>5.2461996</BeginY>
+                        <EndX>5.25</EndX>
+                        <EndY>6.0938</EndY>
+                    </XForm1D>
                     <XForm>
-                        <Width>1.0</Width>
-                        <Height>0.75</Height>
-                        <PinX>5.75</PinX>
-                        <PinY>6.0938</PinY>
-                        <LocPinX F="Width*0.5">0.5</LocPinX>
-                        <LocPinY F="Height*0.5">0.375</LocPinY>
+                        <Width>1.0156002</Width>
+                        <Height>-0.84760046</Height>
+                        <PinX>4.7422</PinX>
+                        <PinY>5.67</PinY>
+                        <LocPinX F="Width*0.5">0.5078001</LocPinX>
+                        <LocPinY F="Height*0.5">-0.4238</LocPinY>
                         <Angle>-0.0</Angle>
                     </XForm>
                     <TextXForm>
-                        <TxtWidth F="Width*1.0">1.0</TxtWidth>
-                        <TxtHeight F="Height*1.0">0.75</TxtHeight>
-                        <TxtPinX F="Width*0.5">0.5</TxtPinX>
-                        <TxtPinY F="Height*0.5">0.375</TxtPinY>
-                        <TxtLocPinX F="TxtWidth*0.5">0.5</TxtLocPinX>
-                        <TxtLocPinY F="TxtHeight*0.5">0.375</TxtLocPinY>
+                        <TxtWidth F="TEXTWIDTH(TheText)" />
+                        <TxtHeight F="TEXTHEIGHT(TheText,TxtWidth)">0.135</TxtHeight>
+                        <TxtPinX F="SETATREF(Controls.TextPosition)">0.75</TxtPinX>
+                        <TxtPinY F="SETATREF(Controls.TextPosition.Y)">-0.3456</TxtPinY>
+                        <TxtLocPinX F="TxtWidth*0.5">0.393</TxtLocPinX>
+                        <TxtLocPinY F="TxtHeight*0.5">0.393</TxtLocPinY>
                         <TxtAngle>-0.0</TxtAngle>
                     </TextXForm>
-                    <Fill>
-                        <FillForegnd>#ffffff</FillForegnd>
-                        <FillBkgnd>#000000</FillBkgnd>
-                        <FillForegndTrans>0.0</FillForegndTrans>
-                        <FillBkgndTrans>0.0</FillBkgndTrans>
-                        <FillPattern>1</FillPattern>
-                    </Fill>
                     <Line>
                         <LineWeight>0.0125</LineWeight>
-                        <LineColor>#666666</LineColor>
+                        <LineColor>#999999</LineColor>
                         <LineColorTrans>0.0</LineColorTrans>
                         <LinePattern>1</LinePattern>
                         <EndArrowSize>2</EndArrowSize>
                         <BeginArrowSize>2</BeginArrowSize>
                         <BeginArrow>0</BeginArrow>
-                        <EndArrow>0</EndArrow>
-                        <Rounding>0.03125</Rounding>
+                        <EndArrow>4</EndArrow>
+                        <Rounding>0.003125</Rounding>
                     </Line>
-                    <Protection>
-                        <LockGroup>1</LockGroup>
-                    </Protection>
-                    <Group>
-                        <DontMoveChildren>0</DontMoveChildren>
-                    </Group>
-                    <Event>
-                        <EventDblClick F="OpenTextWin()" />
-                    </Event>
+                    <Misc>
+                        <ObjType>2</ObjType>
+                        <DynFeedback>2</DynFeedback>
+                        <NoLiveDynamics>1</NoLiveDynamics>
+                        <NoAlignBox>1</NoAlignBox>
+                    </Misc>
+                    <Layout>
+                        <ConFixedCode>1</ConFixedCode>
+                        <ShapeRouteStyle>0</ShapeRouteStyle>
+                        <ConLineRouteExt>0</ConLineRouteExt>
+                        <ConLineJumpCode>0</ConLineJumpCode>
+                    </Layout>
+                    <Group />
+                    <Event />
+                    <Control ID="0" NameU="TextPosition">
+                        <X>0.75</X>
+                        <Y>-0.3456</Y>
+                        <ConX>0.0</ConX>
+                        <ConY>0.0</ConY>
+                        <DynX F="TextPosition">0.75</DynX>
+                        <DynY F="TextPosition.Y">-0.3456</DynY>
+                        <Prompt>Reposition Text</Prompt>
+                    </Control>
                     <Char IX="0">
                         <Font>4</Font>
                         <ComplexScriptFont>4</ComplexScriptFont>
@@ -3211,65 +3179,26 @@
                         <HorzAlign>1</HorzAlign>
                         <Bullet>0</Bullet>
                     </Para>
-                    <Connection IX="0">
-                        <X F="Width*0.0">0.0</X>
-                        <Y F="Height*0.5">0.375</Y>
-                    </Connection>
-                    <Connection IX="1">
-                        <X F="Width*1.0">1.0</X>
-                        <Y F="Height*0.5">0.375</Y>
-                    </Connection>
-                    <Connection IX="2">
-                        <X F="Width*0.5">0.5</X>
-                        <Y F="Height*0.0">0.0</Y>
-                    </Connection>
-                    <Connection IX="3">
-                        <X F="Width*0.5">0.5</X>
-                        <Y F="Height*1.0">0.75</Y>
-                    </Connection>
-                    <Shapes>
-                        <Shape ID="871" MasterShape="6" Type="Shape">
-                            <XForm>
-                                <Width F="Sheet.87!Width*1">1.0</Width>
-                                <Height F="Sheet.87!Height*1">0.75</Height>
-                                <PinX F="Sheet.87!Width*0.5">0.5</PinX>
-                                <PinY F="Sheet.87!Height*0.5">0.375</PinY>
-                                <LocPinX F="Width*0.5">0.5</LocPinX>
-                                <LocPinY F="Height*0.5">0.375</LocPinY>
-                                <Angle>0.0</Angle>
-                            </XForm>
-                            <Fill>
-                                <FillForegnd F="Sheet.87!FillForegnd">#ffffff</FillForegnd>
-                                <FillForegndTrans F="Sheet.87!FillForegndTrans">0.0</FillForegndTrans>
-                                <FillBkgndTrans F="Sheet.87!FillBkgndTrans">0.0</FillBkgndTrans>
-                                <FillBkgnd F="Sheet.87!FillBkgnd">#000000</FillBkgnd>
-                                <FillPattern F="Sheet.87!FillPattern">1</FillPattern>
-                            </Fill>
-                            <Line>
-                                <LineWeight>0.0125</LineWeight>
-                                <LineColor>#666666</LineColor>
-                                <LineColorTrans>0.0</LineColorTrans>
-                                <LinePattern>1</LinePattern>
-                                <EndArrowSize>2</EndArrowSize>
-                                <BeginArrowSize>2</BeginArrowSize>
-                                <BeginArrow>0</BeginArrow>
-                                <EndArrow>0</EndArrow>
-                                <Rounding>0.003125</Rounding>
-                            </Line>
-                            <Protection>
-                                <LockHeight>1</LockHeight>
-                                <LockWidth>1</LockWidth>
-                                <LockMoveX>1</LockMoveX>
-                                <LockMoveY>1</LockMoveY>
-                                <LockRotate>1</LockRotate>
-                                <LockTextEdit>1</LockTextEdit>
-                            </Protection>
-                            <Group />
-                            <Event />
-                        </Shape>
-                    </Shapes>
+                    <Geom IX="0">
+                        <NoFill>1</NoFill>
+                        <NoLine>0</NoLine>
+                        <NoShow>0</NoShow>
+                        <MoveTo IX="1">
+                            <X F="Width*0.42478477571363843">0.75</X>
+                            <Y F="Height*1.0">-0.84760046</Y>
+                        </MoveTo>
+                        <LineTo IX="2">
+                            <X F="Width*0.42478477571363843">0.75</X>
+                            <Y F="Height*-0.0">0.0</Y>
+                        </LineTo>
+                        <LineTo IX="3">
+                            <X F="Width*1.0">1.0156002</X>
+                            <Y F="Height*-0.0">0.0</Y>
+                        </LineTo>
+                    </Geom>
                     <TextBlock>
                         <VerticalAlign>1</VerticalAlign>
+                        <TextBkgnd>#ffffff</TextBkgnd>
                         <LeftMargin>0.0</LeftMargin>
                         <RightMargin>0.0</RightMargin>
                         <TopMargin>0.0</TopMargin>
@@ -3277,72 +3206,66 @@
                     </TextBlock>
                     <Text>
                         <pp IX="0" />
-                        <cp IX="0" />Review Vacation</Text>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="ImageFillProps">false</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hyphenate">false</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="BG">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityMarker1">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextLinks">[]</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityMarker2">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="GutterPadding">5</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="IgnoreTheme">{}</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityType">1</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnTaskType">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="NoteHint">""</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Lock">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="InsetMargin">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TRotation">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hidden">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Opacity">100</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="StrokeStyle">"solid"</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Restrictions">{}</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextWrap">"fit"</lc:Property>
-                </Shape><Shape ID="97" Master="6" Name="com.CapBPM.BPMNActivity" NameU="com.CapBPM.BPMNActivity.97" Type="Group">
+                        <cp IX="0" />check or cash</Text>
+                </Shape>                <Shape ID="5" Name="com.CapBPM.Line" NameU="com.CapBPM.Line.5" Type="Shape">
+                    <XForm1D>
+                        <BeginX>4.2344</BeginX>
+                        <BeginY>4.7774</BeginY>
+                        <EndX>5.375</EndX>
+                        <EndY>3.375</EndY>
+                    </XForm1D>
                     <XForm>
-                        <Width>1.0</Width>
-                        <Height>0.75</Height>
-                        <PinX>5.875</PinX>
-                        <PinY>3.375</PinY>
-                        <LocPinX F="Width*0.5">0.5</LocPinX>
-                        <LocPinY F="Height*0.5">0.375</LocPinY>
+                        <Width>1.1406002</Width>
+                        <Height>1.4024</Height>
+                        <PinX>4.8047</PinX>
+                        <PinY>4.0762</PinY>
+                        <LocPinX F="Width*0.5">0.5703001</LocPinX>
+                        <LocPinY F="Height*0.5">-0.7012</LocPinY>
                         <Angle>-0.0</Angle>
                     </XForm>
                     <TextXForm>
-                        <TxtWidth F="Width*1.0">1.0</TxtWidth>
-                        <TxtHeight F="Height*1.0">0.75</TxtHeight>
-                        <TxtPinX F="Width*0.5">0.5</TxtPinX>
-                        <TxtPinY F="Height*0.5">0.375</TxtPinY>
-                        <TxtLocPinX F="TxtWidth*0.5">0.5</TxtLocPinX>
-                        <TxtLocPinY F="TxtHeight*0.5">0.375</TxtLocPinY>
+                        <TxtWidth F="TEXTWIDTH(TheText)" />
+                        <TxtHeight F="TEXTHEIGHT(TheText,TxtWidth)">0.135</TxtHeight>
+                        <TxtPinX F="SETATREF(Controls.TextPosition)">0.75</TxtPinX>
+                        <TxtPinY F="SETATREF(Controls.TextPosition.Y)">-0.3456</TxtPinY>
+                        <TxtLocPinX F="TxtWidth*0.5">0.393</TxtLocPinX>
+                        <TxtLocPinY F="TxtHeight*0.5">0.393</TxtLocPinY>
                         <TxtAngle>-0.0</TxtAngle>
                     </TextXForm>
-                    <Fill>
-                        <FillForegnd>#ffffff</FillForegnd>
-                        <FillBkgnd>#000000</FillBkgnd>
-                        <FillForegndTrans>0.0</FillForegndTrans>
-                        <FillBkgndTrans>0.0</FillBkgndTrans>
-                        <FillPattern>1</FillPattern>
-                    </Fill>
                     <Line>
                         <LineWeight>0.0125</LineWeight>
-                        <LineColor>#666666</LineColor>
+                        <LineColor>#999999</LineColor>
                         <LineColorTrans>0.0</LineColorTrans>
                         <LinePattern>1</LinePattern>
                         <EndArrowSize>2</EndArrowSize>
                         <BeginArrowSize>2</BeginArrowSize>
                         <BeginArrow>0</BeginArrow>
-                        <EndArrow>0</EndArrow>
-                        <Rounding>0.03125</Rounding>
+                        <EndArrow>4</EndArrow>
+                        <Rounding>0.003125</Rounding>
                     </Line>
-                    <Protection>
-                        <LockGroup>1</LockGroup>
-                    </Protection>
-                    <Group>
-                        <DontMoveChildren>0</DontMoveChildren>
-                    </Group>
-                    <Event>
-                        <EventDblClick F="OpenTextWin()" />
-                    </Event>
+                    <Misc>
+                        <ObjType>2</ObjType>
+                        <DynFeedback>2</DynFeedback>
+                        <NoLiveDynamics>1</NoLiveDynamics>
+                        <NoAlignBox>1</NoAlignBox>
+                    </Misc>
+                    <Layout>
+                        <ConFixedCode>1</ConFixedCode>
+                        <ShapeRouteStyle>0</ShapeRouteStyle>
+                        <ConLineRouteExt>0</ConLineRouteExt>
+                        <ConLineJumpCode>0</ConLineJumpCode>
+                    </Layout>
+                    <Group />
+                    <Event />
+                    <Control ID="0" NameU="TextPosition">
+                        <X>0.75</X>
+                        <Y>-0.3456</Y>
+                        <ConX>0.0</ConX>
+                        <ConY>0.0</ConY>
+                        <DynX F="TextPosition">0.75</DynX>
+                        <DynY F="TextPosition.Y">-0.3456</DynY>
+                        <Prompt>Reposition Text</Prompt>
+                    </Control>
                     <Char IX="0">
                         <Font>4</Font>
                         <ComplexScriptFont>4</ComplexScriptFont>
@@ -3364,65 +3287,26 @@
                         <HorzAlign>1</HorzAlign>
                         <Bullet>0</Bullet>
                     </Para>
-                    <Connection IX="0">
-                        <X F="Width*0.0">0.0</X>
-                        <Y F="Height*0.5">0.375</Y>
-                    </Connection>
-                    <Connection IX="1">
-                        <X F="Width*1.0">1.0</X>
-                        <Y F="Height*0.5">0.375</Y>
-                    </Connection>
-                    <Connection IX="2">
-                        <X F="Width*0.5">0.5</X>
-                        <Y F="Height*0.0">0.0</Y>
-                    </Connection>
-                    <Connection IX="3">
-                        <X F="Width*0.5">0.5</X>
-                        <Y F="Height*1.0">0.75</Y>
-                    </Connection>
-                    <Shapes>
-                        <Shape ID="971" MasterShape="6" Type="Shape">
-                            <XForm>
-                                <Width F="Sheet.97!Width*1">1.0</Width>
-                                <Height F="Sheet.97!Height*1">0.75</Height>
-                                <PinX F="Sheet.97!Width*0.5">0.5</PinX>
-                                <PinY F="Sheet.97!Height*0.5">0.375</PinY>
-                                <LocPinX F="Width*0.5">0.5</LocPinX>
-                                <LocPinY F="Height*0.5">0.375</LocPinY>
-                                <Angle>0.0</Angle>
-                            </XForm>
-                            <Fill>
-                                <FillForegnd F="Sheet.97!FillForegnd">#ffffff</FillForegnd>
-                                <FillForegndTrans F="Sheet.97!FillForegndTrans">0.0</FillForegndTrans>
-                                <FillBkgndTrans F="Sheet.97!FillBkgndTrans">0.0</FillBkgndTrans>
-                                <FillBkgnd F="Sheet.97!FillBkgnd">#000000</FillBkgnd>
-                                <FillPattern F="Sheet.97!FillPattern">1</FillPattern>
-                            </Fill>
-                            <Line>
-                                <LineWeight>0.0125</LineWeight>
-                                <LineColor>#666666</LineColor>
-                                <LineColorTrans>0.0</LineColorTrans>
-                                <LinePattern>1</LinePattern>
-                                <EndArrowSize>2</EndArrowSize>
-                                <BeginArrowSize>2</BeginArrowSize>
-                                <BeginArrow>0</BeginArrow>
-                                <EndArrow>0</EndArrow>
-                                <Rounding>0.003125</Rounding>
-                            </Line>
-                            <Protection>
-                                <LockHeight>1</LockHeight>
-                                <LockWidth>1</LockWidth>
-                                <LockMoveX>1</LockMoveX>
-                                <LockMoveY>1</LockMoveY>
-                                <LockRotate>1</LockRotate>
-                                <LockTextEdit>1</LockTextEdit>
-                            </Protection>
-                            <Group />
-                            <Event />
-                        </Shape>
-                    </Shapes>
+                    <Geom IX="0">
+                        <NoFill>1</NoFill>
+                        <NoLine>0</NoLine>
+                        <NoShow>0</NoShow>
+                        <MoveTo IX="1">
+                            <X F="Width*0.42478477571363843">0.75</X>
+                            <Y F="Height*1.0">1.4024</Y>
+                        </MoveTo>
+                        <LineTo IX="2">
+                            <X F="Width*0.42478477571363843">0.75</X>
+                            <Y F="Height*-0.0">0.0</Y>
+                        </LineTo>
+                        <LineTo IX="3">
+                            <X F="Width*1.0">1.1406002</X>
+                            <Y F="Height*-0.0">0.0</Y>
+                        </LineTo>
+                    </Geom>
                     <TextBlock>
                         <VerticalAlign>1</VerticalAlign>
+                        <TextBkgnd>#ffffff</TextBkgnd>
                         <LeftMargin>0.0</LeftMargin>
                         <RightMargin>0.0</RightMargin>
                         <TopMargin>0.0</TopMargin>
@@ -3430,979 +3314,224 @@
                     </TextBlock>
                     <Text>
                         <pp IX="0" />
-                        <cp IX="0" />Approve Vacation</Text>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="ImageFillProps">false</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hyphenate">false</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="BG">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityMarker1">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextLinks">[]</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityMarker2">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="GutterPadding">5</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="IgnoreTheme">{}</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnActivityType">1</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnTaskType">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="NoteHint">""</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Lock">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="InsetMargin">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TRotation">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hidden">0</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Opacity">100</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="StrokeStyle">"solid"</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Restrictions">{}</lc:Property>
-                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextWrap">"fit"</lc:Property>
+                        <cp IX="0" />credit</Text>
+                </Shape>                <Shape ID="6" Name="com.CapBPM.Line" NameU="com.CapBPM.Line.6" Type="Shape">
+                    <XForm1D>
+                        <BeginX>6.25</BeginX>
+                        <BeginY>6.0938</BeginY>
+                        <EndX>7.5938</EndX>
+                        <EndY>5.2563</EndY>
+                    </XForm1D>
+                    <XForm>
+                        <Width>1.3438001</Width>
+                        <Height>0.8375001</Height>
+                        <PinX>6.9219</PinX>
+                        <PinY>5.67505</PinY>
+                        <LocPinX F="Width*0.5">0.6718998</LocPinX>
+                        <LocPinY F="Height*0.5">-0.4187503</LocPinY>
+                        <Angle>-0.0</Angle>
+                    </XForm>
+                    <TextXForm>
+                        <TxtWidth F="TEXTWIDTH(TheText)" />
+                        <TxtHeight F="TEXTHEIGHT(TheText,TxtWidth)">0.135</TxtHeight>
+                        <TxtPinX F="SETATREF(Controls.TextPosition)">0.75</TxtPinX>
+                        <TxtPinY F="SETATREF(Controls.TextPosition.Y)">-0.3456</TxtPinY>
+                        <TxtLocPinX F="TxtWidth*0.5">0.393</TxtLocPinX>
+                        <TxtLocPinY F="TxtHeight*0.5">0.393</TxtLocPinY>
+                        <TxtAngle>-0.0</TxtAngle>
+                    </TextXForm>
+                    <Line>
+                        <LineWeight>0.0125</LineWeight>
+                        <LineColor>#999999</LineColor>
+                        <LineColorTrans>0.0</LineColorTrans>
+                        <LinePattern>1</LinePattern>
+                        <EndArrowSize>2</EndArrowSize>
+                        <BeginArrowSize>2</BeginArrowSize>
+                        <BeginArrow>0</BeginArrow>
+                        <EndArrow>4</EndArrow>
+                        <Rounding>0.003125</Rounding>
+                    </Line>
+                    <Misc>
+                        <ObjType>2</ObjType>
+                        <DynFeedback>2</DynFeedback>
+                        <NoLiveDynamics>1</NoLiveDynamics>
+                        <NoAlignBox>1</NoAlignBox>
+                    </Misc>
+                    <Layout>
+                        <ConFixedCode>1</ConFixedCode>
+                        <ShapeRouteStyle>0</ShapeRouteStyle>
+                        <ConLineRouteExt>0</ConLineRouteExt>
+                        <ConLineJumpCode>0</ConLineJumpCode>
+                    </Layout>
+                    <Group />
+                    <Event />
+                    <Control ID="0" NameU="TextPosition">
+                        <X>0.75</X>
+                        <Y>-0.3456</Y>
+                        <ConX>0.0</ConX>
+                        <ConY>0.0</ConY>
+                        <DynX F="TextPosition">0.75</DynX>
+                        <DynY F="TextPosition.Y">-0.3456</DynY>
+                        <Prompt>Reposition Text</Prompt>
+                    </Control>
+                    <Char IX="0">
+                        <Font>4</Font>
+                        <ComplexScriptFont>4</ComplexScriptFont>
+                        <Color>#333333</Color>
+                        <Size>0.1111111111111111</Size>
+                        <Style>17</Style>
+                        <Case>0</Case>
+                        <Pos>0</Pos>
+                        <Strikethru>0</Strikethru>
+                        <ColorTrans>0.0</ColorTrans>
+                    </Char>
+                    <Para IX="0">
+                        <IndFirst>0.0</IndFirst>
+                        <IndLeft>0.0</IndLeft>
+                        <IndRight>0.0</IndRight>
+                        <SpLine Unit="DT">-1.0</SpLine>
+                        <SpBefore>0.0</SpBefore>
+                        <SpAfter>0.0</SpAfter>
+                        <HorzAlign>1</HorzAlign>
+                        <Bullet>0</Bullet>
+                    </Para>
+                    <Geom IX="0">
+                        <NoFill>1</NoFill>
+                        <NoLine>0</NoLine>
+                        <NoShow>0</NoShow>
+                        <MoveTo IX="1">
+                            <X F="Width*0.42478477571363843">0.75</X>
+                            <Y F="Height*1.0">0.8375001</Y>
+                        </MoveTo>
+                        <LineTo IX="2">
+                            <X F="Width*0.42478477571363843">0.75</X>
+                            <Y F="Height*-0.0">0.0</Y>
+                        </LineTo>
+                        <LineTo IX="3">
+                            <X F="Width*1.0">1.3438001</X>
+                            <Y F="Height*-0.0">0.0</Y>
+                        </LineTo>
+                    </Geom>
+                    <TextBlock>
+                        <VerticalAlign>1</VerticalAlign>
+                        <TextBkgnd>#ffffff</TextBkgnd>
+                        <LeftMargin>0.0</LeftMargin>
+                        <RightMargin>0.0</RightMargin>
+                        <TopMargin>0.0</TopMargin>
+                        <BottomMargin>0.0</BottomMargin>
+                    </TextBlock>
+                    <Text>
+                        <pp IX="0" />
+                        <cp IX="0" />credit</Text>
+                </Shape>                <Shape ID="7" Name="com.CapBPM.Line" NameU="com.CapBPM.Line.7" Type="Shape">
+                    <XForm1D>
+                        <BeginX>6.375</BeginX>
+                        <BeginY>3.375</BeginY>
+                        <EndX>7.5938</EndX>
+                        <EndY>4.7875004</EndY>
+                    </XForm1D>
+                    <XForm>
+                        <Width>1.2188001</Width>
+                        <Height>-1.4125004</Height>
+                        <PinX>6.9844</PinX>
+                        <PinY>4.08125</PinY>
+                        <LocPinX F="Width*0.5">0.6093998</LocPinX>
+                        <LocPinY F="Height*0.5">-0.7062502</LocPinY>
+                        <Angle>-0.0</Angle>
+                    </XForm>
+                    <TextXForm>
+                        <TxtWidth F="TEXTWIDTH(TheText)" />
+                        <TxtHeight F="TEXTHEIGHT(TheText,TxtWidth)">0.135</TxtHeight>
+                        <TxtPinX F="SETATREF(Controls.TextPosition)">0.75</TxtPinX>
+                        <TxtPinY F="SETATREF(Controls.TextPosition.Y)">-0.3456</TxtPinY>
+                        <TxtLocPinX F="TxtWidth*0.5">0.393</TxtLocPinX>
+                        <TxtLocPinY F="TxtHeight*0.5">0.393</TxtLocPinY>
+                        <TxtAngle>-0.0</TxtAngle>
+                    </TextXForm>
+                    <Line>
+                        <LineWeight>0.0125</LineWeight>
+                        <LineColor>#999999</LineColor>
+                        <LineColorTrans>0.0</LineColorTrans>
+                        <LinePattern>1</LinePattern>
+                        <EndArrowSize>2</EndArrowSize>
+                        <BeginArrowSize>2</BeginArrowSize>
+                        <BeginArrow>0</BeginArrow>
+                        <EndArrow>4</EndArrow>
+                        <Rounding>0.003125</Rounding>
+                    </Line>
+                    <Misc>
+                        <ObjType>2</ObjType>
+                        <DynFeedback>2</DynFeedback>
+                        <NoLiveDynamics>1</NoLiveDynamics>
+                        <NoAlignBox>1</NoAlignBox>
+                    </Misc>
+                    <Layout>
+                        <ConFixedCode>1</ConFixedCode>
+                        <ShapeRouteStyle>0</ShapeRouteStyle>
+                        <ConLineRouteExt>0</ConLineRouteExt>
+                        <ConLineJumpCode>0</ConLineJumpCode>
+                    </Layout>
+                    <Group />
+                    <Event />
+                    <Control ID="0" NameU="TextPosition">
+                        <X>0.75</X>
+                        <Y>-0.3456</Y>
+                        <ConX>0.0</ConX>
+                        <ConY>0.0</ConY>
+                        <DynX F="TextPosition">0.75</DynX>
+                        <DynY F="TextPosition.Y">-0.3456</DynY>
+                        <Prompt>Reposition Text</Prompt>
+                    </Control>
+                    <Char IX="0">
+                        <Font>4</Font>
+                        <ComplexScriptFont>4</ComplexScriptFont>
+                        <Color>#333333</Color>
+                        <Size>0.1111111111111111</Size>
+                        <Style>17</Style>
+                        <Case>0</Case>
+                        <Pos>0</Pos>
+                        <Strikethru>0</Strikethru>
+                        <ColorTrans>0.0</ColorTrans>
+                    </Char>
+                    <Para IX="0">
+                        <IndFirst>0.0</IndFirst>
+                        <IndLeft>0.0</IndLeft>
+                        <IndRight>0.0</IndRight>
+                        <SpLine Unit="DT">-1.0</SpLine>
+                        <SpBefore>0.0</SpBefore>
+                        <SpAfter>0.0</SpAfter>
+                        <HorzAlign>1</HorzAlign>
+                        <Bullet>0</Bullet>
+                    </Para>
+                    <Geom IX="0">
+                        <NoFill>1</NoFill>
+                        <NoLine>0</NoLine>
+                        <NoShow>0</NoShow>
+                        <MoveTo IX="1">
+                            <X F="Width*0.42478477571363843">0.75</X>
+                            <Y F="Height*1.0">-1.4125004</Y>
+                        </MoveTo>
+                        <LineTo IX="2">
+                            <X F="Width*0.42478477571363843">0.75</X>
+                            <Y F="Height*-0.0">0.0</Y>
+                        </LineTo>
+                        <LineTo IX="3">
+                            <X F="Width*1.0">1.2188001</X>
+                            <Y F="Height*-0.0">0.0</Y>
+                        </LineTo>
+                    </Geom>
+                    <TextBlock>
+                        <VerticalAlign>1</VerticalAlign>
+                        <TextBkgnd>#ffffff</TextBkgnd>
+                        <LeftMargin>0.0</LeftMargin>
+                        <RightMargin>0.0</RightMargin>
+                        <TopMargin>0.0</TopMargin>
+                        <BottomMargin>0.0</BottomMargin>
+                    </TextBlock>
+                    <Text>
+                        <pp IX="0" />
+                        <cp IX="0" />credit</Text>
                 </Shape>
-               	<Shape ID="34" Master="4" Name="com.CapBPM.BPMNGateway" NameU="com.CapBPM.BPMNGateway.34" Type="Group">
-		                    <XForm>
-		                        <Width>0.4688</Width>
-		                        <Height>0.4688</Height>
-		                        <PinX>4.2344</PinX>
-		                        <PinY>5.0118</PinY>
-		                        <LocPinX F="Width*0.5">0.2344</LocPinX>
-		                        <LocPinY F="Height*0.5">0.2344</LocPinY>
-		                        <Angle>-0.0</Angle>
-		                    </XForm>
-		                    <TextXForm>
-		                        <TxtWidth F="Width*1.0">0.4688</TxtWidth>
-		                        <TxtHeight F="Height*0.2666382252559727">0.125</TxtHeight>
-		                        <TxtPinX F="Width*0.5">0.2344</TxtPinX>
-		                        <TxtPinY F="Height*-0.13331911262798635">-0.0625</TxtPinY>
-		                        <TxtLocPinX F="TxtWidth*0.5">0.2344</TxtLocPinX>
-		                        <TxtLocPinY F="TxtHeight*0.5">0.0625</TxtLocPinY>
-		                        <TxtAngle>-0.0</TxtAngle>
-		                    </TextXForm>
-		                    <Fill>
-		                        <FillForegnd>#ffffff</FillForegnd>
-		                        <FillBkgnd>#000000</FillBkgnd>
-		                        <FillForegndTrans>0.0</FillForegndTrans>
-		                        <FillBkgndTrans>0.0</FillBkgndTrans>
-		                        <FillPattern>1</FillPattern>
-		                    </Fill>
-		                    <Line>
-		                        <LineWeight>0.0125</LineWeight>
-		                        <LineColor>#666666</LineColor>
-		                        <LineColorTrans>0.0</LineColorTrans>
-		                        <LinePattern>1</LinePattern>
-		                        <EndArrowSize>2</EndArrowSize>
-		                        <BeginArrowSize>2</BeginArrowSize>
-		                        <BeginArrow>0</BeginArrow>
-		                        <EndArrow>0</EndArrow>
-		                        <Rounding>0.0</Rounding>
-		                    </Line>
-		                    <Protection>
-		                        <LockGroup>1</LockGroup>
-		                    </Protection>
-		                    <Group>
-		                        <DontMoveChildren>0</DontMoveChildren>
-		                    </Group>
-		                    <Event>
-		                        <EventDblClick F="OpenTextWin()" />
-		                    </Event>
-		                    <Char IX="0">
-		                        <Font>4</Font>
-		                        <ComplexScriptFont>4</ComplexScriptFont>
-		                        <Color>#333333</Color>
-		                        <Size>0.1111111111111111</Size>
-		                        <Style>0</Style>
-		                        <Case>0</Case>
-		                        <Pos>0</Pos>
-		                        <Strikethru>0</Strikethru>
-		                        <ColorTrans>0.0</ColorTrans>
-		                    </Char>
-		                    <Para IX="0">
-		                        <IndFirst>0.0</IndFirst>
-		                        <IndLeft>0.0</IndLeft>
-		                        <IndRight>0.0</IndRight>
-		                        <SpLine Unit="DT">-1.0</SpLine>
-		                        <SpBefore>0.0</SpBefore>
-		                        <SpAfter>0.0</SpAfter>
-		                        <HorzAlign>1</HorzAlign>
-		                        <Bullet>0</Bullet>
-		                    </Para>
-		                    <Connection IX="0">
-		                        <X F="Width*0.0">0.0</X>
-		                        <Y F="Height*0.5">0.2344</Y>
-		                    </Connection>
-		                    <Connection IX="1">
-		                        <X F="Width*1.0">0.4688</X>
-		                        <Y F="Height*0.5">0.2344</Y>
-		                    </Connection>
-		                    <Connection IX="2">
-		                        <X F="Width*0.5">0.2344</X>
-		                        <Y F="Height*0.0">0.0</Y>
-		                    </Connection>
-		                    <Connection IX="3">
-		                        <X F="Width*0.5">0.2344</X>
-		                        <Y F="Height*1.0">0.4688</Y>
-		                    </Connection>
-		                    <Shapes>
-		                        <Shape ID="341" MasterShape="6" Type="Shape">
-		                            <XForm>
-		                                <Width F="Sheet.34!Width*1">0.4688</Width>
-		                                <Height F="Sheet.34!Height*1">0.4688</Height>
-		                                <PinX F="Sheet.34!Width*0.5">0.2344</PinX>
-		                                <PinY F="Sheet.34!Height*0.5">0.2344</PinY>
-		                                <LocPinX F="Width*0.5">0.2344</LocPinX>
-		                                <LocPinY F="Height*0.5">0.2344</LocPinY>
-		                                <Angle>0.0</Angle>
-		                            </XForm>
-		                            <Fill>
-		                                <FillForegnd F="Sheet.34!FillForegnd">#ffffff</FillForegnd>
-		                                <FillForegndTrans F="Sheet.34!FillForegndTrans">0.0</FillForegndTrans>
-		                                <FillBkgndTrans F="Sheet.34!FillBkgndTrans">0.0</FillBkgndTrans>
-		                                <FillBkgnd F="Sheet.34!FillBkgnd">#000000</FillBkgnd>
-		                                <FillPattern F="Sheet.34!FillPattern">1</FillPattern>
-		                            </Fill>
-		                            <Line>
-		                                <LineWeight>0.0125</LineWeight>
-		                                <LineColor>#666666</LineColor>
-		                                <LineColorTrans>0.0</LineColorTrans>
-		                                <LinePattern>1</LinePattern>
-		                                <EndArrowSize>2</EndArrowSize>
-		                                <BeginArrowSize>2</BeginArrowSize>
-		                                <BeginArrow>0</BeginArrow>
-		                                <EndArrow>0</EndArrow>
-		                                <Rounding>0.0</Rounding>
-		                            </Line>
-		                            <Protection>
-		                                <LockHeight>1</LockHeight>
-		                                <LockWidth>1</LockWidth>
-		                                <LockMoveX>1</LockMoveX>
-		                                <LockMoveY>1</LockMoveY>
-		                                <LockRotate>1</LockRotate>
-		                                <LockTextEdit>1</LockTextEdit>
-		                            </Protection>
-		                            <Group />
-		                            <Event />
-		                        </Shape>
-		                    </Shapes>
-		                    <TextBlock>
-		                        <VerticalAlign>1</VerticalAlign>
-		                        <LeftMargin>0.0</LeftMargin>
-		                        <RightMargin>0.0</RightMargin>
-		                        <TopMargin>0.0</TopMargin>
-		                        <BottomMargin>0.0</BottomMargin>
-		                    </TextBlock>
-		                    <Text>
-		                        <pp IX="0" />
-		                        <cp IX="0" />check1</Text>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hyphenate">false</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="ImageFillProps">false</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="RuleList">[]</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="BG">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextLinks">{}</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="GutterPadding">5</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="IgnoreTheme">{}</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="NoteHint">""</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Lock">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnGatewayType">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="InsetMargin">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TRotation">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hidden">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Opacity">100</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="StrokeStyle">"solid"</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Restrictions">{}</lc:Property>
-                </Shape><Shape ID="36" Master="4" Name="com.CapBPM.BPMNGateway" NameU="com.CapBPM.BPMNGateway.36" Type="Group">
-		                    <XForm>
-		                        <Width>0.4688</Width>
-		                        <Height>0.4688</Height>
-		                        <PinX>5.5938</PinX>
-		                        <PinY>3.0219</PinY>
-		                        <LocPinX F="Width*0.5">0.2344</LocPinX>
-		                        <LocPinY F="Height*0.5">0.2344</LocPinY>
-		                        <Angle>-0.0</Angle>
-		                    </XForm>
-		                    <TextXForm>
-		                        <TxtWidth F="Width*1.0">0.4688</TxtWidth>
-		                        <TxtHeight F="Height*0.2666382252559727">0.125</TxtHeight>
-		                        <TxtPinX F="Width*0.5">0.2344</TxtPinX>
-		                        <TxtPinY F="Height*-0.13331911262798635">-0.0625</TxtPinY>
-		                        <TxtLocPinX F="TxtWidth*0.5">0.2344</TxtLocPinX>
-		                        <TxtLocPinY F="TxtHeight*0.5">0.0625</TxtLocPinY>
-		                        <TxtAngle>-0.0</TxtAngle>
-		                    </TextXForm>
-		                    <Fill>
-		                        <FillForegnd>#ffffff</FillForegnd>
-		                        <FillBkgnd>#000000</FillBkgnd>
-		                        <FillForegndTrans>0.0</FillForegndTrans>
-		                        <FillBkgndTrans>0.0</FillBkgndTrans>
-		                        <FillPattern>1</FillPattern>
-		                    </Fill>
-		                    <Line>
-		                        <LineWeight>0.0125</LineWeight>
-		                        <LineColor>#666666</LineColor>
-		                        <LineColorTrans>0.0</LineColorTrans>
-		                        <LinePattern>1</LinePattern>
-		                        <EndArrowSize>2</EndArrowSize>
-		                        <BeginArrowSize>2</BeginArrowSize>
-		                        <BeginArrow>0</BeginArrow>
-		                        <EndArrow>0</EndArrow>
-		                        <Rounding>0.0</Rounding>
-		                    </Line>
-		                    <Protection>
-		                        <LockGroup>1</LockGroup>
-		                    </Protection>
-		                    <Group>
-		                        <DontMoveChildren>0</DontMoveChildren>
-		                    </Group>
-		                    <Event>
-		                        <EventDblClick F="OpenTextWin()" />
-		                    </Event>
-		                    <Char IX="0">
-		                        <Font>4</Font>
-		                        <ComplexScriptFont>4</ComplexScriptFont>
-		                        <Color>#333333</Color>
-		                        <Size>0.1111111111111111</Size>
-		                        <Style>0</Style>
-		                        <Case>0</Case>
-		                        <Pos>0</Pos>
-		                        <Strikethru>0</Strikethru>
-		                        <ColorTrans>0.0</ColorTrans>
-		                    </Char>
-		                    <Para IX="0">
-		                        <IndFirst>0.0</IndFirst>
-		                        <IndLeft>0.0</IndLeft>
-		                        <IndRight>0.0</IndRight>
-		                        <SpLine Unit="DT">-1.0</SpLine>
-		                        <SpBefore>0.0</SpBefore>
-		                        <SpAfter>0.0</SpAfter>
-		                        <HorzAlign>1</HorzAlign>
-		                        <Bullet>0</Bullet>
-		                    </Para>
-		                    <Connection IX="0">
-		                        <X F="Width*0.0">0.0</X>
-		                        <Y F="Height*0.5">0.2344</Y>
-		                    </Connection>
-		                    <Connection IX="1">
-		                        <X F="Width*1.0">0.4688</X>
-		                        <Y F="Height*0.5">0.2344</Y>
-		                    </Connection>
-		                    <Connection IX="2">
-		                        <X F="Width*0.5">0.2344</X>
-		                        <Y F="Height*0.0">0.0</Y>
-		                    </Connection>
-		                    <Connection IX="3">
-		                        <X F="Width*0.5">0.2344</X>
-		                        <Y F="Height*1.0">0.4688</Y>
-		                    </Connection>
-		                    <Shapes>
-		                        <Shape ID="361" MasterShape="6" Type="Shape">
-		                            <XForm>
-		                                <Width F="Sheet.36!Width*1">0.4688</Width>
-		                                <Height F="Sheet.36!Height*1">0.4688</Height>
-		                                <PinX F="Sheet.36!Width*0.5">0.2344</PinX>
-		                                <PinY F="Sheet.36!Height*0.5">0.2344</PinY>
-		                                <LocPinX F="Width*0.5">0.2344</LocPinX>
-		                                <LocPinY F="Height*0.5">0.2344</LocPinY>
-		                                <Angle>0.0</Angle>
-		                            </XForm>
-		                            <Fill>
-		                                <FillForegnd F="Sheet.36!FillForegnd">#ffffff</FillForegnd>
-		                                <FillForegndTrans F="Sheet.36!FillForegndTrans">0.0</FillForegndTrans>
-		                                <FillBkgndTrans F="Sheet.36!FillBkgndTrans">0.0</FillBkgndTrans>
-		                                <FillBkgnd F="Sheet.36!FillBkgnd">#000000</FillBkgnd>
-		                                <FillPattern F="Sheet.36!FillPattern">1</FillPattern>
-		                            </Fill>
-		                            <Line>
-		                                <LineWeight>0.0125</LineWeight>
-		                                <LineColor>#666666</LineColor>
-		                                <LineColorTrans>0.0</LineColorTrans>
-		                                <LinePattern>1</LinePattern>
-		                                <EndArrowSize>2</EndArrowSize>
-		                                <BeginArrowSize>2</BeginArrowSize>
-		                                <BeginArrow>0</BeginArrow>
-		                                <EndArrow>0</EndArrow>
-		                                <Rounding>0.0</Rounding>
-		                            </Line>
-		                            <Protection>
-		                                <LockHeight>1</LockHeight>
-		                                <LockWidth>1</LockWidth>
-		                                <LockMoveX>1</LockMoveX>
-		                                <LockMoveY>1</LockMoveY>
-		                                <LockRotate>1</LockRotate>
-		                                <LockTextEdit>1</LockTextEdit>
-		                            </Protection>
-		                            <Group />
-		                            <Event />
-		                        </Shape>
-		                    </Shapes>
-		                    <TextBlock>
-		                        <VerticalAlign>1</VerticalAlign>
-		                        <LeftMargin>0.0</LeftMargin>
-		                        <RightMargin>0.0</RightMargin>
-		                        <TopMargin>0.0</TopMargin>
-		                        <BottomMargin>0.0</BottomMargin>
-		                    </TextBlock>
-		                    <Text>
-		                        <pp IX="0" />
-		                        <cp IX="0" />check2</Text>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hyphenate">false</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="ImageFillProps">false</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="RuleList">[]</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="BG">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextLinks">{}</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="GutterPadding">5</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="IgnoreTheme">{}</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="NoteHint">""</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Lock">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnGatewayType">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="InsetMargin">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TRotation">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hidden">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Opacity">100</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="StrokeStyle">"solid"</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Restrictions">{}</lc:Property>
-                </Shape><Shape ID="197" Master="4" Name="com.CapBPM.BPMNGateway" NameU="com.CapBPM.BPMNGateway.197" Type="Group">
-		                    <XForm>
-		                        <Width>0.4688</Width>
-		                        <Height>0.4688</Height>
-		                        <PinX>7.5938</PinX>
-		                        <PinY>5.0219</PinY>
-		                        <LocPinX F="Width*0.5">0.2344</LocPinX>
-		                        <LocPinY F="Height*0.5">0.2344</LocPinY>
-		                        <Angle>-0.0</Angle>
-		                    </XForm>
-		                    <TextXForm>
-		                        <TxtWidth F="Width*1.0">0.4688</TxtWidth>
-		                        <TxtHeight F="Height*0.2666382252559727">0.125</TxtHeight>
-		                        <TxtPinX F="Width*0.5">0.2344</TxtPinX>
-		                        <TxtPinY F="Height*-0.13331911262798635">-0.0625</TxtPinY>
-		                        <TxtLocPinX F="TxtWidth*0.5">0.2344</TxtLocPinX>
-		                        <TxtLocPinY F="TxtHeight*0.5">0.0625</TxtLocPinY>
-		                        <TxtAngle>-0.0</TxtAngle>
-		                    </TextXForm>
-		                    <Fill>
-		                        <FillForegnd>#ffffff</FillForegnd>
-		                        <FillBkgnd>#000000</FillBkgnd>
-		                        <FillForegndTrans>0.0</FillForegndTrans>
-		                        <FillBkgndTrans>0.0</FillBkgndTrans>
-		                        <FillPattern>1</FillPattern>
-		                    </Fill>
-		                    <Line>
-		                        <LineWeight>0.0125</LineWeight>
-		                        <LineColor>#666666</LineColor>
-		                        <LineColorTrans>0.0</LineColorTrans>
-		                        <LinePattern>1</LinePattern>
-		                        <EndArrowSize>2</EndArrowSize>
-		                        <BeginArrowSize>2</BeginArrowSize>
-		                        <BeginArrow>0</BeginArrow>
-		                        <EndArrow>0</EndArrow>
-		                        <Rounding>0.0</Rounding>
-		                    </Line>
-		                    <Protection>
-		                        <LockGroup>1</LockGroup>
-		                    </Protection>
-		                    <Group>
-		                        <DontMoveChildren>0</DontMoveChildren>
-		                    </Group>
-		                    <Event>
-		                        <EventDblClick F="OpenTextWin()" />
-		                    </Event>
-		                    <Char IX="0">
-		                        <Font>4</Font>
-		                        <ComplexScriptFont>4</ComplexScriptFont>
-		                        <Color>#333333</Color>
-		                        <Size>0.1111111111111111</Size>
-		                        <Style>0</Style>
-		                        <Case>0</Case>
-		                        <Pos>0</Pos>
-		                        <Strikethru>0</Strikethru>
-		                        <ColorTrans>0.0</ColorTrans>
-		                    </Char>
-		                    <Para IX="0">
-		                        <IndFirst>0.0</IndFirst>
-		                        <IndLeft>0.0</IndLeft>
-		                        <IndRight>0.0</IndRight>
-		                        <SpLine Unit="DT">-1.0</SpLine>
-		                        <SpBefore>0.0</SpBefore>
-		                        <SpAfter>0.0</SpAfter>
-		                        <HorzAlign>1</HorzAlign>
-		                        <Bullet>0</Bullet>
-		                    </Para>
-		                    <Connection IX="0">
-		                        <X F="Width*0.0">0.0</X>
-		                        <Y F="Height*0.5">0.2344</Y>
-		                    </Connection>
-		                    <Connection IX="1">
-		                        <X F="Width*1.0">0.4688</X>
-		                        <Y F="Height*0.5">0.2344</Y>
-		                    </Connection>
-		                    <Connection IX="2">
-		                        <X F="Width*0.5">0.2344</X>
-		                        <Y F="Height*0.0">0.0</Y>
-		                    </Connection>
-		                    <Connection IX="3">
-		                        <X F="Width*0.5">0.2344</X>
-		                        <Y F="Height*1.0">0.4688</Y>
-		                    </Connection>
-		                    <Shapes>
-		                        <Shape ID="1971" MasterShape="6" Type="Shape">
-		                            <XForm>
-		                                <Width F="Sheet.197!Width*1">0.4688</Width>
-		                                <Height F="Sheet.197!Height*1">0.4688</Height>
-		                                <PinX F="Sheet.197!Width*0.5">0.2344</PinX>
-		                                <PinY F="Sheet.197!Height*0.5">0.2344</PinY>
-		                                <LocPinX F="Width*0.5">0.2344</LocPinX>
-		                                <LocPinY F="Height*0.5">0.2344</LocPinY>
-		                                <Angle>0.0</Angle>
-		                            </XForm>
-		                            <Fill>
-		                                <FillForegnd F="Sheet.197!FillForegnd">#ffffff</FillForegnd>
-		                                <FillForegndTrans F="Sheet.197!FillForegndTrans">0.0</FillForegndTrans>
-		                                <FillBkgndTrans F="Sheet.197!FillBkgndTrans">0.0</FillBkgndTrans>
-		                                <FillBkgnd F="Sheet.197!FillBkgnd">#000000</FillBkgnd>
-		                                <FillPattern F="Sheet.197!FillPattern">1</FillPattern>
-		                            </Fill>
-		                            <Line>
-		                                <LineWeight>0.0125</LineWeight>
-		                                <LineColor>#666666</LineColor>
-		                                <LineColorTrans>0.0</LineColorTrans>
-		                                <LinePattern>1</LinePattern>
-		                                <EndArrowSize>2</EndArrowSize>
-		                                <BeginArrowSize>2</BeginArrowSize>
-		                                <BeginArrow>0</BeginArrow>
-		                                <EndArrow>0</EndArrow>
-		                                <Rounding>0.0</Rounding>
-		                            </Line>
-		                            <Protection>
-		                                <LockHeight>1</LockHeight>
-		                                <LockWidth>1</LockWidth>
-		                                <LockMoveX>1</LockMoveX>
-		                                <LockMoveY>1</LockMoveY>
-		                                <LockRotate>1</LockRotate>
-		                                <LockTextEdit>1</LockTextEdit>
-		                            </Protection>
-		                            <Group />
-		                            <Event />
-		                        </Shape>
-		                    </Shapes>
-		                    <TextBlock>
-		                        <VerticalAlign>1</VerticalAlign>
-		                        <LeftMargin>0.0</LeftMargin>
-		                        <RightMargin>0.0</RightMargin>
-		                        <TopMargin>0.0</TopMargin>
-		                        <BottomMargin>0.0</BottomMargin>
-		                    </TextBlock>
-		                    <Text>
-		                        <pp IX="0" />
-		                        <cp IX="0" />check3</Text>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hyphenate">false</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="ImageFillProps">false</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="RuleList">[]</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="BG">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TextLinks">{}</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="GutterPadding">5</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="IgnoreTheme">{}</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="NoteHint">""</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Lock">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="bpmnGatewayType">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="InsetMargin">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="TRotation">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Hidden">0</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Opacity">100</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="StrokeStyle">"solid"</lc:Property>
-		                    <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Restrictions">{}</lc:Property>
-                </Shape>
-               	<Shape ID="200" Master="9" Name="com.CapBPM.BPMNEvent" NameU="com.CapBPM.BPMNEvent.200" Type="Group">
-		    <XForm>
-			<Width>0.375</Width>
-			<Height>0.375</Height>
-			<PinX>5.8</PinX>
-			<PinY>5.3938</PinY>
-			<LocPinX F="Width*0.5">0.1875</LocPinX>
-			<LocPinY F="Height*0.5">0.1875</LocPinY>
-			<Angle>-0.0</Angle>
-		    </XForm>
-		    <TextXForm>
-			<TxtWidth F="Width*1.0">0.375</TxtWidth>
-			<TxtHeight F="Height*0.3333333333333333">0.125</TxtHeight>
-			<TxtPinX F="Width*0.5">0.1875</TxtPinX>
-			<TxtPinY F="Height*-0.16666666666666666">-0.0625</TxtPinY>
-			<TxtLocPinX F="TxtWidth*0.5">0.1875</TxtLocPinX>
-			<TxtLocPinY F="TxtHeight*0.5">0.0625</TxtLocPinY>
-			<TxtAngle>-0.0</TxtAngle>
-		    </TextXForm>
-		    <Fill>
-			<FillForegnd>#ffffff</FillForegnd>
-			<FillBkgnd>#000000</FillBkgnd>
-			<FillForegndTrans>0.0</FillForegndTrans>
-			<FillBkgndTrans>0.0</FillBkgndTrans>
-			<FillPattern>1</FillPattern>
-		    </Fill>
-		    <Line>
-			<LineWeight>0.0125</LineWeight>
-			<LineColor>#666666</LineColor>
-			<LineColorTrans>0.0</LineColorTrans>
-			<LinePattern>1</LinePattern>
-			<EndArrowSize>2</EndArrowSize>
-			<BeginArrowSize>2</BeginArrowSize>
-			<BeginArrow>0</BeginArrow>
-			<EndArrow>0</EndArrow>
-			<Rounding>0.0</Rounding>
-		    </Line>
-		    <Protection>
-			<LockGroup>1</LockGroup>
-		    </Protection>
-		    <Group>
-			<DontMoveChildren>0</DontMoveChildren>
-		    </Group>
-		    <Event>
-			<EventDblClick F="OpenTextWin()" />
-		    </Event>
-		    <Char IX="0">
-			<Font>4</Font>
-			<ComplexScriptFont>4</ComplexScriptFont>
-			<Color>#333333</Color>
-			<Size>0.1111111111111111</Size>
-			<Style>0</Style>
-			<Case>0</Case>
-			<Pos>0</Pos>
-			<Strikethru>0</Strikethru>
-			<ColorTrans>0.0</ColorTrans>
-		    </Char>
-		    <Para IX="0">
-			<IndFirst>0.0</IndFirst>
-			<IndLeft>0.0</IndLeft>
-			<IndRight>0.0</IndRight>
-			<SpLine Unit="DT">-1.0</SpLine>
-			<SpBefore>0.0</SpBefore>
-			<SpAfter>0.0</SpAfter>
-			<HorzAlign>-1</HorzAlign>
-			<Bullet>0</Bullet>
-		    </Para>
-		    <Connection IX="0">
-			<X F="Width*0.0">0.0</X>
-			<Y F="Height*0.5">0.1875</Y>
-		    </Connection>
-		    <Connection IX="1">
-			<X F="Width*1.0">0.375</X>
-			<Y F="Height*0.5">0.1875</Y>
-		    </Connection>
-		    <Connection IX="2">
-			<X F="Width*0.5">0.1875</X>
-			<Y F="Height*0.0">0.0</Y>
-		    </Connection>
-		    <Connection IX="3">
-			<X F="Width*0.5">0.1875</X>
-			<Y F="Height*1.0">0.375</Y>
-		    </Connection>
-		    <Shapes>
-			<Shape ID="2001" MasterShape="9" Type="Shape">
-			    <XForm>
-				<Width F="Sheet.61!Width*1">0.375</Width>
-				<Height F="Sheet.61!Height*1">0.375</Height>
-				<PinX F="Sheet.61!Width*0.5">0.1875</PinX>
-				<PinY F="Sheet.61!Height*0.5">0.1875</PinY>
-				<LocPinX F="Width*0.5">0.1875</LocPinX>
-				<LocPinY F="Height*0.5">0.1875</LocPinY>
-				<Angle>0.0</Angle>
-			    </XForm>
-			    <Fill>
-				<FillForegnd F="Sheet.61!FillForegnd">#ffffff</FillForegnd>
-				<FillForegndTrans F="Sheet.61!FillForegndTrans">0.0</FillForegndTrans>
-				<FillBkgndTrans F="Sheet.61!FillBkgndTrans">0.0</FillBkgndTrans>
-				<FillBkgnd F="Sheet.61!FillBkgnd">#000000</FillBkgnd>
-				<FillPattern F="Sheet.61!FillPattern">1</FillPattern>
-			    </Fill>
-			    <Line>
-				<LineWeight>0.0125</LineWeight>
-				<LineColor>#666666</LineColor>
-				<LineColorTrans>0.0</LineColorTrans>
-				<LinePattern>1</LinePattern>
-				<EndArrowSize>2</EndArrowSize>
-				<BeginArrowSize>2</BeginArrowSize>
-				<BeginArrow>0</BeginArrow>
-				<EndArrow>0</EndArrow>
-				<Rounding>0.003125</Rounding>
-			    </Line>
-			    <Protection>
-				<LockHeight>1</LockHeight>
-				<LockWidth>1</LockWidth>
-				<LockMoveX>1</LockMoveX>
-				<LockMoveY>1</LockMoveY>
-				<LockRotate>1</LockRotate>
-				<LockTextEdit>1</LockTextEdit>
-			    </Protection>
-			    <Group />
-			    <Event />
-			</Shape>
-			<Shape ID="2002" MasterShape="7" Type="Shape">
-			    <XForm>
-				<Width F="Sheet.61!Width*1">0.375</Width>
-				<Height F="Sheet.61!Height*1">0.375</Height>
-				<PinX F="Sheet.61!Width*0.5">0.1875</PinX>
-				<PinY F="Sheet.61!Height*0.5">0.1875</PinY>
-				<LocPinX F="Width*0.5">0.1875</LocPinX>
-				<LocPinY F="Height*0.5">0.1875</LocPinY>
-				<Angle>0.0</Angle>
-			    </XForm>
-			    <Fill>
-				<FillForegnd F="Sheet.61!FillForegnd">#ffffff</FillForegnd>
-				<FillForegndTrans F="Sheet.61!FillForegndTrans">0.0</FillForegndTrans>
-				<FillBkgndTrans F="Sheet.61!FillBkgndTrans">0.0</FillBkgndTrans>
-				<FillBkgnd F="Sheet.61!FillBkgnd">#000000</FillBkgnd>
-				<FillPattern F="Sheet.61!FillPattern">1</FillPattern>
-			    </Fill>
-			    <Line>
-				<LineWeight>0.0125</LineWeight>
-				<LineColor>#666666</LineColor>
-				<LineColorTrans>0.0</LineColorTrans>
-				<LinePattern>1</LinePattern>
-				<EndArrowSize>2</EndArrowSize>
-				<BeginArrowSize>2</BeginArrowSize>
-				<BeginArrow>0</BeginArrow>
-				<EndArrow>0</EndArrow>
-				<Rounding>0.003125</Rounding>
-			    </Line>
-			    <Protection>
-				<LockHeight>1</LockHeight>
-				<LockWidth>1</LockWidth>
-				<LockMoveX>1</LockMoveX>
-				<LockMoveY>1</LockMoveY>
-				<LockRotate>1</LockRotate>
-				<LockTextEdit>1</LockTextEdit>
-			    </Protection>
-			    <Group />
-			    <Event />
-			</Shape>
-			<Shape ID="2003" MasterShape="8" Type="Shape">
-			    <XForm>
-				<Width F="Sheet.61!Width*1">0.375</Width>
-				<Height F="Sheet.61!Height*1">0.375</Height>
-				<PinX F="Sheet.61!Width*0.5">0.1875</PinX>
-				<PinY F="Sheet.61!Height*0.5">0.1875</PinY>
-				<LocPinX F="Width*0.5">0.1875</LocPinX>
-				<LocPinY F="Height*0.5">0.1875</LocPinY>
-				<Angle>0.0</Angle>
-			    </XForm>
-			    <Fill>
-				<FillForegnd F="Sheet.61!FillForegnd">#ffffff</FillForegnd>
-				<FillForegndTrans F="Sheet.61!FillForegndTrans">0.0</FillForegndTrans>
-				<FillBkgndTrans F="Sheet.61!FillBkgndTrans">0.0</FillBkgndTrans>
-				<FillBkgnd F="Sheet.61!FillBkgnd">#000000</FillBkgnd>
-				<FillPattern F="Sheet.61!FillPattern">1</FillPattern>
-			    </Fill>
-			    <Line>
-				<LineWeight>0.0125</LineWeight>
-				<LineColor>#666666</LineColor>
-				<LineColorTrans>0.0</LineColorTrans>
-				<LinePattern>1</LinePattern>
-				<EndArrowSize>2</EndArrowSize>
-				<BeginArrowSize>2</BeginArrowSize>
-				<BeginArrow>0</BeginArrow>
-				<EndArrow>0</EndArrow>
-				<Rounding>0.0</Rounding>
-			    </Line>
-			    <Protection>
-				<LockHeight>1</LockHeight>
-				<LockWidth>1</LockWidth>
-				<LockMoveX>1</LockMoveX>
-				<LockMoveY>1</LockMoveY>
-				<LockRotate>1</LockRotate>
-				<LockTextEdit>1</LockTextEdit>
-			    </Protection>
-			    <Group />
-			    <Event />
-			</Shape>
-			<Shape ID="2004" MasterShape="9" Type="Shape">
-			    <XForm>
-				<Width F="Sheet.61!Width*1">0.375</Width>
-				<Height F="Sheet.61!Height*1">0.375</Height>
-				<PinX F="Sheet.61!Width*0.5">0.1875</PinX>
-				<PinY F="Sheet.61!Height*0.5">0.1875</PinY>
-				<LocPinX F="Width*0.5">0.1875</LocPinX>
-				<LocPinY F="Height*0.5">0.1875</LocPinY>
-				<Angle>0.0</Angle>
-			    </XForm>
-			    <Fill>
-				<FillForegnd F="Sheet.61!FillForegnd">#ffffff</FillForegnd>
-				<FillForegndTrans F="Sheet.61!FillForegndTrans">0.0</FillForegndTrans>
-				<FillBkgndTrans F="Sheet.61!FillBkgndTrans">0.0</FillBkgndTrans>
-				<FillBkgnd F="Sheet.61!FillBkgnd">#000000</FillBkgnd>
-				<FillPattern F="Sheet.61!FillPattern">1</FillPattern>
-			    </Fill>
-			    <Line>
-				<LineWeight>0.0125</LineWeight>
-				<LineColor>#666666</LineColor>
-				<LineColorTrans>0.0</LineColorTrans>
-				<LinePattern>1</LinePattern>
-				<EndArrowSize>2</EndArrowSize>
-				<BeginArrowSize>2</BeginArrowSize>
-				<BeginArrow>0</BeginArrow>
-				<EndArrow>0</EndArrow>
-				<Rounding>0.0</Rounding>
-			    </Line>
-			    <Protection>
-				<LockHeight>1</LockHeight>
-				<LockWidth>1</LockWidth>
-				<LockMoveX>1</LockMoveX>
-				<LockMoveY>1</LockMoveY>
-				<LockRotate>1</LockRotate>
-				<LockTextEdit>1</LockTextEdit>
-			    </Protection>
-			    <Group />
-			    <Event />
-			</Shape>
-		    </Shapes>
-		    <TextBlock>
-			<VerticalAlign>-1</VerticalAlign>
-			<LeftMargin>0.0</LeftMargin>
-			<RightMargin>0.0</RightMargin>
-			<TopMargin>0.0</TopMargin>
-			<BottomMargin>0.0</BottomMargin>
-		    </TextBlock>
-		    <Text>
-			<pp IX="0" />
-			<cp IX="0" />event listener</Text>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="Hyphenate">false</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="ImageFillProps">false</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="RuleList">[]</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="bpmnEventType">1</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="BG">0</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="TextLinks">{}</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="GutterPadding">5</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="IgnoreTheme">{}</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="NoteHint">""</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="Lock">0</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="bpmnDashed">0</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="bpmnInvertedIcon">0</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="InsetMargin">0</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="TRotation">0</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="Hidden">0</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="bpmnEventGroup">1</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="StrokeStyle">"solid"</lc:Property>
-		    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="Restrictions">{}</lc:Property>
-</Shape>
-               	<Shape ID="300" Master="8" Name="com.lucidchart.BPMNEvent" NameU="com.lucidchart.BPMNEvent.300" Type="Group">
-    <XForm>
-	<Width>0.375</Width>
-	<Height>0.375</Height>
-	<PinX>3.8</PinX>
-	<PinY>5.3938</PinY>
-	<LocPinX F="Width*0.5">0.1875</LocPinX>
-	<LocPinY F="Height*0.5">0.1875</LocPinY>
-	<Angle>-0.0</Angle>
-    </XForm>
-    <TextXForm>
-	<TxtWidth F="Width*1.0">0.375</TxtWidth>
-	<TxtHeight F="Height*0.3333333333333333">0.125</TxtHeight>
-	<TxtPinX F="Width*0.5">0.1875</TxtPinX>
-	<TxtPinY F="Height*-0.16666666666666666">-0.0625</TxtPinY>
-	<TxtLocPinX F="TxtWidth*0.5">0.1875</TxtLocPinX>
-	<TxtLocPinY F="TxtHeight*0.5">0.0625</TxtLocPinY>
-	<TxtAngle>-0.0</TxtAngle>
-    </TextXForm>
-    <Fill>
-	<FillForegnd>#ffffff</FillForegnd>
-	<FillBkgnd>#000000</FillBkgnd>
-	<FillForegndTrans>0.0</FillForegndTrans>
-	<FillBkgndTrans>0.0</FillBkgndTrans>
-	<FillPattern>1</FillPattern>
-    </Fill>
-    <Line>
-	<LineWeight>0.0125</LineWeight>
-	<LineColor>#666666</LineColor>
-	<LineColorTrans>0.0</LineColorTrans>
-	<LinePattern>1</LinePattern>
-	<EndArrowSize>2</EndArrowSize>
-	<BeginArrowSize>2</BeginArrowSize>
-	<BeginArrow>0</BeginArrow>
-	<EndArrow>0</EndArrow>
-	<Rounding>0.0</Rounding>
-    </Line>
-    <Protection>
-	<LockGroup>1</LockGroup>
-    </Protection>
-    <Group>
-	<DontMoveChildren>0</DontMoveChildren>
-    </Group>
-    <Event>
-	<EventDblClick F="OpenTextWin()" />
-    </Event>
-    <Char IX="0">
-	<Font>4</Font>
-	<ComplexScriptFont>4</ComplexScriptFont>
-	<Color>#333333</Color>
-	<Size>0.1111111111111111</Size>
-	<Style>0</Style>
-	<Case>0</Case>
-	<Pos>0</Pos>
-	<Strikethru>0</Strikethru>
-	<ColorTrans>0.0</ColorTrans>
-    </Char>
-    <Para IX="0">
-	<IndFirst>0.0</IndFirst>
-	<IndLeft>0.0</IndLeft>
-	<IndRight>0.0</IndRight>
-	<SpLine Unit="DT">-1.0</SpLine>
-	<SpBefore>0.0</SpBefore>
-	<SpAfter>0.0</SpAfter>
-	<HorzAlign>-1</HorzAlign>
-	<Bullet>0</Bullet>
-    </Para>
-    <Connection IX="0">
-	<X F="Width*0.0">0.0</X>
-	<Y F="Height*0.5">0.1875</Y>
-    </Connection>
-    <Connection IX="1">
-	<X F="Width*1.0">0.375</X>
-	<Y F="Height*0.5">0.1875</Y>
-    </Connection>
-    <Connection IX="2">
-	<X F="Width*0.5">0.1875</X>
-	<Y F="Height*0.0">0.0</Y>
-    </Connection>
-    <Connection IX="3">
-	<X F="Width*0.5">0.1875</X>
-	<Y F="Height*1.0">0.375</Y>
-    </Connection>
-    <Shapes>
-	<Shape ID="3001" MasterShape="8" Type="Shape">
-	    <XForm>
-		<Width F="Sheet.50!Width*1">0.375</Width>
-		<Height F="Sheet.50!Height*1">0.375</Height>
-		<PinX F="Sheet.50!Width*0.5">0.1875</PinX>
-		<PinY F="Sheet.50!Height*0.5">0.1875</PinY>
-		<LocPinX F="Width*0.5">0.1875</LocPinX>
-		<LocPinY F="Height*0.5">0.1875</LocPinY>
-		<Angle>0.0</Angle>
-	    </XForm>
-	    <Fill>
-		<FillForegnd F="Sheet.50!FillForegnd">#ffffff</FillForegnd>
-		<FillForegndTrans F="Sheet.50!FillForegndTrans">0.0</FillForegndTrans>
-		<FillBkgndTrans F="Sheet.50!FillBkgndTrans">0.0</FillBkgndTrans>
-		<FillBkgnd F="Sheet.50!FillBkgnd">#000000</FillBkgnd>
-		<FillPattern F="Sheet.50!FillPattern">1</FillPattern>
-	    </Fill>
-	    <Line>
-		<LineWeight>0.0125</LineWeight>
-		<LineColor>#666666</LineColor>
-		<LineColorTrans>0.0</LineColorTrans>
-		<LinePattern>1</LinePattern>
-		<EndArrowSize>2</EndArrowSize>
-		<BeginArrowSize>2</BeginArrowSize>
-		<BeginArrow>0</BeginArrow>
-		<EndArrow>0</EndArrow>
-		<Rounding>0.003125</Rounding>
-	    </Line>
-	    <Protection>
-		<LockHeight>1</LockHeight>
-		<LockWidth>1</LockWidth>
-		<LockMoveX>1</LockMoveX>
-		<LockMoveY>1</LockMoveY>
-		<LockRotate>1</LockRotate>
-		<LockTextEdit>1</LockTextEdit>
-	    </Protection>
-	    <Group />
-	    <Event />
-	</Shape>
-	<Shape ID="3002" MasterShape="8" Type="Shape">
-	    <XForm>
-		<Width F="Sheet.50!Width*1">0.375</Width>
-		<Height F="Sheet.50!Height*1">0.375</Height>
-		<PinX F="Sheet.50!Width*0.5">0.1875</PinX>
-		<PinY F="Sheet.50!Height*0.5">0.1875</PinY>
-		<LocPinX F="Width*0.5">0.1875</LocPinX>
-		<LocPinY F="Height*0.5">0.1875</LocPinY>
-		<Angle>0.0</Angle>
-	    </XForm>
-	    <Fill>
-		<FillForegnd F="Sheet.50!FillForegnd">#ffffff</FillForegnd>
-		<FillForegndTrans F="Sheet.50!FillForegndTrans">0.0</FillForegndTrans>
-		<FillBkgndTrans F="Sheet.50!FillBkgndTrans">0.0</FillBkgndTrans>
-		<FillBkgnd F="Sheet.50!FillBkgnd">#000000</FillBkgnd>
-		<FillPattern F="Sheet.50!FillPattern">1</FillPattern>
-	    </Fill>
-	    <Line>
-		<LineWeight>0.0125</LineWeight>
-		<LineColor>#666666</LineColor>
-		<LineColorTrans>0.0</LineColorTrans>
-		<LinePattern>1</LinePattern>
-		<EndArrowSize>2</EndArrowSize>
-		<BeginArrowSize>2</BeginArrowSize>
-		<BeginArrow>0</BeginArrow>
-		<EndArrow>0</EndArrow>
-		<Rounding>0.003125</Rounding>
-	    </Line>
-	    <Protection>
-		<LockHeight>1</LockHeight>
-		<LockWidth>1</LockWidth>
-		<LockMoveX>1</LockMoveX>
-		<LockMoveY>1</LockMoveY>
-		<LockRotate>1</LockRotate>
-		<LockTextEdit>1</LockTextEdit>
-	    </Protection>
-	    <Group />
-	    <Event />
-	</Shape>
-	<Shape ID="3003" MasterShape="8" Type="Shape">
-	    <XForm>
-		<Width F="Sheet.50!Width*1">0.375</Width>
-		<Height F="Sheet.50!Height*1">0.375</Height>
-		<PinX F="Sheet.50!Width*0.5">0.1875</PinX>
-		<PinY F="Sheet.50!Height*0.5">0.1875</PinY>
-		<LocPinX F="Width*0.5">0.1875</LocPinX>
-		<LocPinY F="Height*0.5">0.1875</LocPinY>
-		<Angle>0.0</Angle>
-	    </XForm>
-	    <Fill>
-		<FillForegnd F="Sheet.50!FillForegnd">#ffffff</FillForegnd>
-		<FillForegndTrans F="Sheet.50!FillForegndTrans">0.0</FillForegndTrans>
-		<FillBkgndTrans F="Sheet.50!FillBkgndTrans">0.0</FillBkgndTrans>
-		<FillBkgnd F="Sheet.50!FillBkgnd">#000000</FillBkgnd>
-		<FillPattern F="Sheet.50!FillPattern">1</FillPattern>
-	    </Fill>
-	    <Line>
-		<LineWeight>0.0125</LineWeight>
-		<LineColor>#666666</LineColor>
-		<LineColorTrans>0.0</LineColorTrans>
-		<LinePattern>1</LinePattern>
-		<EndArrowSize>2</EndArrowSize>
-		<BeginArrowSize>2</BeginArrowSize>
-		<BeginArrow>0</BeginArrow>
-		<EndArrow>0</EndArrow>
-		<Rounding>0.003125</Rounding>
-	    </Line>
-	    <Protection>
-		<LockHeight>1</LockHeight>
-		<LockWidth>1</LockWidth>
-		<LockMoveX>1</LockMoveX>
-		<LockMoveY>1</LockMoveY>
-		<LockRotate>1</LockRotate>
-		<LockTextEdit>1</LockTextEdit>
-	    </Protection>
-	    <Group />
-	    <Event />
-	</Shape>
-    </Shapes>
-    <TextBlock>
-	<VerticalAlign>-1</VerticalAlign>
-	<LeftMargin>0.0</LeftMargin>
-	<RightMargin>0.0</RightMargin>
-	<TopMargin>0.0</TopMargin>
-	<BottomMargin>0.0</BottomMargin>
-    </TextBlock>
-    <Text>
-	<pp IX="0" />
-	<cp IX="0" />7 minutes</Text>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="Hyphenate">false</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="ImageFillProps">false</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="RuleList">[]</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="bpmnEventType">2</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="BG">0</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="TextLinks">{}</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="GutterPadding">5</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="IgnoreTheme">{}</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="NoteHint">""</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="Lock">0</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="bpmnDashed">0</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="bpmnInvertedIcon">0</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="InsetMargin">0</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="TRotation">0</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="Hidden">0</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="bpmnEventGroup">1</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="StrokeStyle">"solid"</lc:Property>
-    <lc:Property xmlns:lc="http://www.lucidchart.com" Name="Restrictions">{}</lc:Property>
-</Shape>
                 <Shape ID="21" Master="5" Name="com.CapBPM.DefaultTextBlockNew" NameU="com.CapBPM.DefaultTextBlockNew.21" Type="Group">
                     <XForm>
                         <Width>5.3</Width>
@@ -5045,223 +4174,7 @@
                     <lc:Property xmlns:lc="http://www.CapBPM.com" Name="Restrictions">{}</lc:Property>
                 
                 </Shape>
-                                <Shape ID="3" Name="com.CapBPM.Line" NameU="com.CapBPM.Line.3" Type="Shape">
-                    <XForm1D>
-                        <BeginX>3.4844</BeginX>
-                        <BeginY>5.2531</BeginY>
-                        <EndX>5.25</EndX>
-                        <EndY>6.0938</EndY>
-                    </XForm1D>
-                    <XForm>
-                        <Width>1.7656</Width>
-                        <Height>-0.84070015</Height>
-                        <PinX>4.3672</PinX>
-                        <PinY>5.67345</PinY>
-                        <LocPinX F="Width*0.5">0.88279986</LocPinX>
-                        <LocPinY F="Height*0.5">-0.42035007</LocPinY>
-                        <Angle>-0.0</Angle>
-                    </XForm>
-                    <TextXForm>
-                        <TxtWidth F="TEXTWIDTH(TheText)" />
-                        <TxtHeight F="TEXTHEIGHT(TheText,TxtWidth)">0.135</TxtHeight>
-                        <TxtPinX F="SETATREF(Controls.TextPosition)">0.75</TxtPinX>
-                        <TxtPinY F="SETATREF(Controls.TextPosition.Y)">-0.3456</TxtPinY>
-                        <TxtLocPinX F="TxtWidth*0.5">0.393</TxtLocPinX>
-                        <TxtLocPinY F="TxtHeight*0.5">0.393</TxtLocPinY>
-                        <TxtAngle>-0.0</TxtAngle>
-                    </TextXForm>
-                    <Line>
-                        <LineWeight>0.0125</LineWeight>
-                        <LineColor>#999999</LineColor>
-                        <LineColorTrans>0.0</LineColorTrans>
-                        <LinePattern>1</LinePattern>
-                        <EndArrowSize>2</EndArrowSize>
-                        <BeginArrowSize>2</BeginArrowSize>
-                        <BeginArrow>0</BeginArrow>
-                        <EndArrow>4</EndArrow>
-                        <Rounding>0.003125</Rounding>
-                    </Line>
-                    <Misc>
-                        <ObjType>2</ObjType>
-                        <DynFeedback>2</DynFeedback>
-                        <NoLiveDynamics>1</NoLiveDynamics>
-                        <NoAlignBox>1</NoAlignBox>
-                    </Misc>
-                    <Layout>
-                        <ConFixedCode>1</ConFixedCode>
-                        <ShapeRouteStyle>0</ShapeRouteStyle>
-                        <ConLineRouteExt>0</ConLineRouteExt>
-                        <ConLineJumpCode>0</ConLineJumpCode>
-                    </Layout>
-                    <Group />
-                    <Event />
-                    <Control ID="0" NameU="TextPosition">
-                        <X>0.75</X>
-                        <Y>-0.3456</Y>
-                        <ConX>0.0</ConX>
-                        <ConY>0.0</ConY>
-                        <DynX F="TextPosition">0.75</DynX>
-                        <DynY F="TextPosition.Y">-0.3456</DynY>
-                        <Prompt>Reposition Text</Prompt>
-                    </Control>
-                    <Char IX="0">
-                        <Font>4</Font>
-                        <ComplexScriptFont>4</ComplexScriptFont>
-                        <Color>#333333</Color>
-                        <Size>0.1111111111111111</Size>
-                        <Style>17</Style>
-                        <Case>0</Case>
-                        <Pos>0</Pos>
-                        <Strikethru>0</Strikethru>
-                        <ColorTrans>0.0</ColorTrans>
-                    </Char>
-                    <Para IX="0">
-                        <IndFirst>0.0</IndFirst>
-                        <IndLeft>0.0</IndLeft>
-                        <IndRight>0.0</IndRight>
-                        <SpLine Unit="DT">-1.0</SpLine>
-                        <SpBefore>0.0</SpBefore>
-                        <SpAfter>0.0</SpAfter>
-                        <HorzAlign>1</HorzAlign>
-                        <Bullet>0</Bullet>
-                    </Para>
-                    <Geom IX="0">
-                        <NoFill>1</NoFill>
-                        <NoLine>0</NoLine>
-                        <NoShow>0</NoShow>
-                        <MoveTo IX="1">
-                            <X F="Width*0.42478477571363843">0.75</X>
-                            <Y F="Height*1.0">-0.84070015</Y>
-                        </MoveTo>
-                        <LineTo IX="2">
-                            <X F="Width*0.42478477571363843">0.75</X>
-                            <Y F="Height*-0.0">0.0</Y>
-                        </LineTo>
-                        <LineTo IX="3">
-                            <X F="Width*1.0">1.7656</X>
-                            <Y F="Height*-0.0">0.0</Y>
-                        </LineTo>
-                    </Geom>
-                    <TextBlock>
-                        <VerticalAlign>1</VerticalAlign>
-                        <TextBkgnd>#ffffff</TextBkgnd>
-                        <LeftMargin>0.0</LeftMargin>
-                        <RightMargin>0.0</RightMargin>
-                        <TopMargin>0.0</TopMargin>
-                        <BottomMargin>0.0</BottomMargin>
-                    </TextBlock>
-                    <Text>
-                        <pp IX="0" />
-                        <cp IX="0" />check or cash</Text>
-                </Shape>                <Shape ID="4" Name="com.CapBPM.Line" NameU="com.CapBPM.Line.4" Type="Shape">
-                    <XForm1D>
-                        <BeginX>3.4844</BeginX>
-                        <BeginY>4.7844</BeginY>
-                        <EndX>5.375</EndX>
-                        <EndY>3.375</EndY>
-                    </XForm1D>
-                    <XForm>
-                        <Width>1.8906</Width>
-                        <Height>1.4094</Height>
-                        <PinX>4.4297</PinX>
-                        <PinY>4.0797</PinY>
-                        <LocPinX F="Width*0.5">0.94529986</LocPinX>
-                        <LocPinY F="Height*0.5">-0.7047</LocPinY>
-                        <Angle>-0.0</Angle>
-                    </XForm>
-                    <TextXForm>
-                        <TxtWidth F="TEXTWIDTH(TheText)" />
-                        <TxtHeight F="TEXTHEIGHT(TheText,TxtWidth)">0.135</TxtHeight>
-                        <TxtPinX F="SETATREF(Controls.TextPosition)">0.75</TxtPinX>
-                        <TxtPinY F="SETATREF(Controls.TextPosition.Y)">-0.3456</TxtPinY>
-                        <TxtLocPinX F="TxtWidth*0.5">0.393</TxtLocPinX>
-                        <TxtLocPinY F="TxtHeight*0.5">0.393</TxtLocPinY>
-                        <TxtAngle>-0.0</TxtAngle>
-                    </TextXForm>
-                    <Line>
-                        <LineWeight>0.0125</LineWeight>
-                        <LineColor>#999999</LineColor>
-                        <LineColorTrans>0.0</LineColorTrans>
-                        <LinePattern>1</LinePattern>
-                        <EndArrowSize>2</EndArrowSize>
-                        <BeginArrowSize>2</BeginArrowSize>
-                        <BeginArrow>0</BeginArrow>
-                        <EndArrow>4</EndArrow>
-                        <Rounding>0.003125</Rounding>
-                    </Line>
-                    <Misc>
-                        <ObjType>2</ObjType>
-                        <DynFeedback>2</DynFeedback>
-                        <NoLiveDynamics>1</NoLiveDynamics>
-                        <NoAlignBox>1</NoAlignBox>
-                    </Misc>
-                    <Layout>
-                        <ConFixedCode>1</ConFixedCode>
-                        <ShapeRouteStyle>0</ShapeRouteStyle>
-                        <ConLineRouteExt>0</ConLineRouteExt>
-                        <ConLineJumpCode>0</ConLineJumpCode>
-                    </Layout>
-                    <Group />
-                    <Event />
-                    <Control ID="0" NameU="TextPosition">
-                        <X>0.75</X>
-                        <Y>-0.3456</Y>
-                        <ConX>0.0</ConX>
-                        <ConY>0.0</ConY>
-                        <DynX F="TextPosition">0.75</DynX>
-                        <DynY F="TextPosition.Y">-0.3456</DynY>
-                        <Prompt>Reposition Text</Prompt>
-                    </Control>
-                    <Char IX="0">
-                        <Font>4</Font>
-                        <ComplexScriptFont>4</ComplexScriptFont>
-                        <Color>#333333</Color>
-                        <Size>0.1111111111111111</Size>
-                        <Style>17</Style>
-                        <Case>0</Case>
-                        <Pos>0</Pos>
-                        <Strikethru>0</Strikethru>
-                        <ColorTrans>0.0</ColorTrans>
-                    </Char>
-                    <Para IX="0">
-                        <IndFirst>0.0</IndFirst>
-                        <IndLeft>0.0</IndLeft>
-                        <IndRight>0.0</IndRight>
-                        <SpLine Unit="DT">-1.0</SpLine>
-                        <SpBefore>0.0</SpBefore>
-                        <SpAfter>0.0</SpAfter>
-                        <HorzAlign>1</HorzAlign>
-                        <Bullet>0</Bullet>
-                    </Para>
-                    <Geom IX="0">
-                        <NoFill>1</NoFill>
-                        <NoLine>0</NoLine>
-                        <NoShow>0</NoShow>
-                        <MoveTo IX="1">
-                            <X F="Width*0.42478477571363843">0.75</X>
-                            <Y F="Height*1.0">1.4094</Y>
-                        </MoveTo>
-                        <LineTo IX="2">
-                            <X F="Width*0.42478477571363843">0.75</X>
-                            <Y F="Height*-0.0">0.0</Y>
-                        </LineTo>
-                        <LineTo IX="3">
-                            <X F="Width*1.0">1.8906</X>
-                            <Y F="Height*-0.0">0.0</Y>
-                        </LineTo>
-                    </Geom>
-                    <TextBlock>
-                        <VerticalAlign>1</VerticalAlign>
-                        <TextBkgnd>#ffffff</TextBkgnd>
-                        <LeftMargin>0.0</LeftMargin>
-                        <RightMargin>0.0</RightMargin>
-                        <TopMargin>0.0</TopMargin>
-                        <BottomMargin>0.0</BottomMargin>
-                    </TextBlock>
-                    <Text>
-                        <pp IX="0" />
-                        <cp IX="0" />Credit Card</Text>
-                </Shape>
+                @LINE
             </Shapes>
             <Connects>
                 <Connect FromPart="9" FromSheet="1" ToPart="101" ToSheet="8" />

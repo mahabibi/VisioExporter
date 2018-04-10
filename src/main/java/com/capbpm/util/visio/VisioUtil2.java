@@ -12,7 +12,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
-public class VisioUtil implements ISHAPE_CONSTANTS {
+public class VisioUtil2 implements ISHAPE_CONSTANTS {
 
 
 
@@ -24,7 +24,7 @@ public class VisioUtil implements ISHAPE_CONSTANTS {
 
 		float defActivityHalfWidth =defActivityWidthScaled/2f;
 		float defActivityHalfHeight =defActivityHeightScaled/2f;
-		
+	
 		float defTimerWidthScaled =DEFAULT_TIMER_WIDTH * IMAGE_SCALING;
 		float defTimerHeightScaled =DEFAULT_TIMER_HEIGHT * IMAGE_SCALING;
 
@@ -62,54 +62,36 @@ public class VisioUtil implements ISHAPE_CONSTANTS {
 		// make swimlanes
 		String sClean = getFileContent(swimlane_fragment);
 		String s1 = makeSwimlane(sClean, "Request Vacation", "5.4531", "4.5", "26", 10.0938f, 6.0f);
-		// String s2=makeSwimlane(sClean,"Review
-		// Vacation","4.5938","5.0219","87");
-		// String s3=makeSwimlane(sClean,"Approve
-		// Vacation","6.5938","5.0219","97");
 
 		// make activities
-		String aClean = getFileContent(act_fragment);
-		aClean = aClean.replaceAll("@@DEFAULT_ACTIVITY_WIDTH@@", ""+defActivityWidthScaled);
-		aClean = aClean.replaceAll("@@DEFAULT_ACTIVITY_HEIGHT@@", ""+defActivityHeightScaled);
-		aClean = aClean.replaceAll("@@defActivityHalfWidth@@", ""+defActivityHalfWidth);
-		aClean = aClean.replaceAll("@@DEFAULT_ACTIVITY_HALF_HEIGHT@@", ""+defActivityHalfHeight);
-
-
-	
-		String a1 = makeActivity(aClean, "Request Vacation", "2.5938", "5.0219", "77");
-		String a2 = makeActivity(aClean, "Review Vacation", "5.75", "6.0938", "87");
-		String a3 = makeActivity(aClean, "Approve Vacation", "5.875", "3.375", "97");
-
-		// make events
-		String eClean = getFileContent(event_fragment);
-		String e1 = makeEvent(eClean, "event listener", "5.8", "5.3938", "200");
-		// String e2=makeGateway(eClean,"check2","5.5938","3.0219","210");
-		// String e3=makeGateway(eClean,"check3","7.5938","5.0219","220");
-
-		// make timers
-		String tClean = getFileContent(timer_fragment);
-		String t1 = makeTimer(tClean, "7 minutes", "3.8", "5.3938", "300");
-		// String t2=makeTimer(tClean,"3 minutes","1.5938","3.0219","210");
-		// String e3=makeTimer(tClean,"9 minutes","9.5938","5.0219","220");
+		VisioShape vs1 = new VisioShape( "XRequest Vacation", "A", 2.5938f, 5.0219f, "77");
+		VisioShape vs2 = new VisioShape( "XReview Vacation", "A", 5.75f, 6.0938f, "87");
+		VisioShape vs3 = new VisioShape( "XApprove Vacation", "A", 5.875f, 3.375f, "97");
 
 		// make gateways
-		String gClean = getFileContent(gateway_fragment);
-		String g1 = makeGateway(gClean, "check1", "4.2344", "5.0118", "34");
-		String g2 = makeGateway(gClean, "check2", "5.5938", "3.0219", "36");
-		String g3 = makeGateway(gClean, "check3", "7.5938", "5.0219", "197");
+		VisioShape vg1 = new VisioShape( "check1", "G", 4.2344f, 5.0118f, "34");
+		VisioShape vg2 = new VisioShape( "check2", "G", 4.2344f, 3.0219f, "36");
+		VisioShape vg3 = new VisioShape( "check3", "G", 7.5938f, 5.0219f, "197");
+
 
 		// make lines
 		String lClean = getFileContent(line_fragment);
-		String l1 = makeConnection(lClean, "check or cash", 4.2344f, 5.0118f, 5.75f, 6.0938f, "3");
-		String l2 = makeConnection(lClean, "Credit Card", 3.4844f, 4.7844f, 5.375f, 3.375f, "4");
-
-		src = src.replaceAll("@ACT_TEMPLATE", a1 + a2 + a3);
-		src = src.replaceAll("@GATEWAY_TEMPLATE", g1 + g2 + g3);
-		src = src.replaceAll("@EVENT_TEMPLATE", e1 /* +e2+e3 */);
-		src = src.replaceAll("@TIMER_TEMPLATE", t1 /* +t2+t3 */);
+		//String l1 = makeConnection(lClean, "check or cash", vs1.getPosition(2)[0], vs1.getPosition(2)[1], vs2.getPosition(8)[0], vs2.getPosition(8)[1], "3");
+		String l1 = makeConnection(lClean, "", vs1, 4,vg1,8, "3");
+		String l2 = makeConnection(lClean, "check or cash", vg1, 2,vs2,8, "4");
+		String l3 = makeConnection(lClean, "credit", vg1, 6,vs3,8, "5");
+		String l4 = makeConnection(lClean, "credit", vs2, 4,vg3,2, "6");
+		String l5 = makeConnection(lClean, "credit", vs3, 4,vg3,6, "7");
+		//String l2 = makeConnection(lClean, "Credit Card", 3.4844f, 4.7844f, 5.375f, 3.375f, "4");
+		
+		
+		src = src.replaceAll("@@SHAPES@@", 
+				vs1.getXml() + vs2.getXml() + vs3.getXml() +
+				vg1.getXml() + vg2.getXml() + vg3.getXml() +
+				l1 + l2  + l3 + l4 + l5
+				);
+		
 		src = src.replaceAll("@SWIM_AND_POOL", s1);
-		src = src.replaceAll("@LINE", l1 + l2);
-
 		src = src.replaceAll("@@POOL_NAME@@", "Da Pool");
 
 		// make end
@@ -167,6 +149,37 @@ public class VisioUtil implements ISHAPE_CONSTANTS {
 		return content;
 	}
 
+	private static String makeConnection(String content, String n, VisioShape source, int sourceBindPosition, VisioShape target,  int TargetBindPosition, String id) {
+		////
+		source.getPosition(sourceBindPosition);
+		target.getPosition(TargetBindPosition);
+		
+		content = content.replaceAll("@@LINE_LABEL@@", n);
+		content = content.replaceAll("@@LINE_START_X@@", "" + source.getBindx());
+		content = content.replaceAll("@@LINE_START_Y@@", "" + source.getBindy());
+
+		content = content.replaceAll("@@LINE_END_X@@", "" + target.getBindx());
+		content = content.replaceAll("@@LINE_END_Y@@", "" + target.getBindy());
+
+		float floatMidX = (source.getBindx() + target.getBindx()) / 2f;
+		float floatMidY = (source.getBindy() +  target.getBindy()) / 2f;
+
+		float sx1 = floatMidX - Math.min(source.getBindx(),  target.getBindx());
+		float sy1 = floatMidY - Math.max(source.getBindy(), target.getBindy());
+
+		float vx = target.getBindx() - source.getBindx();
+		float vy = source.getBindy() - target.getBindy();
+
+		content = content.replaceAll("@@LINE_VERTIX_X@@", "" + vx);
+		content = content.replaceAll("@@LINE_VERTIX_Y@@", "" + vy);
+		content = content.replaceAll("@@LINE_PINX@@", "" + floatMidX);
+		content = content.replaceAll("@@LINE_PINY@@", "" + floatMidY);
+		content = content.replaceAll("@@LINE_LOC_PINX@@", "" + sx1);
+		content = content.replaceAll("@@LINE_LOC_PINY@@", "" + sy1);
+
+		content = content.replaceAll("@@LINE_ID@@", id);
+		return content;
+	}
 	private static String makeConnection(String content, String n, float x, float y, float ex, float ey, String id) {
 		////
 
