@@ -11,10 +11,31 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import  com.capbpm.scout.exporter.model.process.Node;
 
 public class VisioUtil3 implements ISHAPE_CONSTANTS {
 
 
+	public static VisioShape parseNode(Node n)
+	{
+
+		VisioShape retval = new VisioShape();
+		retval.setType(n.getType().toString());
+		
+		retval.setType(n.getType().toString());
+		retval.setType(n.getType().toString());
+		retval.setType(n.getType().toString());
+		retval.setType(n.getType().toString());
+		
+		retval.setX(n.getX());
+		retval.setY(n.getY());
+		retval.setName(n.getName());
+		retval.setId(n.getUuid());
+		retval.init();
+		
+		return retval;
+		
+	}
 
 	public static void main(String args[]) {
 
