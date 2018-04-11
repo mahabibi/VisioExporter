@@ -244,7 +244,7 @@ public interface IEVENT {
 			"			</Shape>"+
 			"		    </Shapes>"+
 			"		    <TextBlock>"+
-			"			<VerticalAlign>-1</VerticalAlign>"+
+			"			<VerticalAlign>-.3</VerticalAlign>"+
 			"			<LeftMargin>0.0</LeftMargin>"+
 			"			<RightMargin>0.0</RightMargin>"+
 			"			<TopMargin>0.0</TopMargin>"+

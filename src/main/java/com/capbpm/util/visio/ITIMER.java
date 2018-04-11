@@ -3,20 +3,20 @@ package com.capbpm.util.visio;
 public interface ITIMER {
 	public static String template="<Shape ID=\"@@TIMER_ID@@\" Master=\"8\" Name=\"com.lucidchart.BPMNEvent\" NameU=\"com.lucidchart.BPMNEvent.@@TIMER_ID@@\" Type=\"Group\">"+
 "    <XForm>"+
-"	<Width>0.375</Width>"+
-"	<Height>0.375</Height>"+
+"	<Width>@@DEFAULT_TIMER_WIDTH@@</Width>"+
+"	<Height>@@DEFAULT_TIMER_HEIGHT@@</Height>"+
 "	<PinX>@@TIMER_X@@</PinX>"+
 "	<PinY>@@TIMER_Y@@</PinY>"+
-"	<LocPinX F=\"Width*0.5\">0.1875</LocPinX>"+
-"	<LocPinY F=\"Height*0.5\">0.1875</LocPinY>"+
+"	<LocPinX F=\"Width*0.5\">@@DEFAULT_TIMER_HALF_WIDTH@@</LocPinX>"+
+"	<LocPinY F=\"Height*0.5\">@@DEFAULT_TIMER_HALF_HEIGHT@@</LocPinY>"+
 "	<Angle>-0.0</Angle>"+
 "    </XForm>"+
 "    <TextXForm>"+
-"	<TxtWidth F=\"Width*1.0\">0.375</TxtWidth>"+
+"	<TxtWidth F=\"Width*1.0\">@@DEFAULT_TIMER_WIDTH@@</TxtWidth>"+
 "	<TxtHeight F=\"Height*0.3333333333333333\">0.125</TxtHeight>"+
-"	<TxtPinX F=\"Width*0.5\">0.1875</TxtPinX>"+
+"	<TxtPinX F=\"Width*0.5\">@@DEFAULT_TIMER_HALF_WIDTH@@</TxtPinX>"+
 "	<TxtPinY F=\"Height*-0.16666666666666666\">-0.0625</TxtPinY>"+
-"	<TxtLocPinX F=\"TxtWidth*0.5\">0.1875</TxtLocPinX>"+
+"	<TxtLocPinX F=\"TxtWidth*0.5\">@@DEFAULT_TIMER_HALF_WIDTH@@</TxtLocPinX>"+
 "	<TxtLocPinY F=\"TxtHeight*0.5\">0.0625</TxtLocPinY>"+
 "	<TxtAngle>-0.0</TxtAngle>"+
 "    </TextXForm>"+
@@ -70,29 +70,29 @@ public interface ITIMER {
 "    </Para>"+
 "    <Connection IX=\"0\">"+
 "	<X F=\"Width*0.0\">0.0</X>"+
-"	<Y F=\"Height*0.5\">0.1875</Y>"+
+"	<Y F=\"Height*0.5\">@@DEFAULT_TIMER_HALF_HEIGHT@@</Y>"+
 "    </Connection>"+
 "    <Connection IX=\"1\">"+
-"	<X F=\"Width*1.0\">0.375</X>"+
-"	<Y F=\"Height*0.5\">0.1875</Y>"+
+"	<X F=\"Width*1.0\">@@DEFAULT_TIMER_WIDTH@@</X>"+
+"	<Y F=\"Height*0.5\">@@DEFAULT_TIMER_HALF_HEIGHT@@</Y>"+
 "    </Connection>"+
 "    <Connection IX=\"2\">"+
-"	<X F=\"Width*0.5\">0.1875</X>"+
+"	<X F=\"Width*0.5\">@@DEFAULT_TIMER_HALF_WIDTH@@</X>"+
 "	<Y F=\"Height*0.0\">0.0</Y>"+
 "    </Connection>"+
 "    <Connection IX=\"3\">"+
-"	<X F=\"Width*0.5\">0.1875</X>"+
-"	<Y F=\"Height*1.0\">0.375</Y>"+
+"	<X F=\"Width*0.5\">@@DEFAULT_TIMER_HALF_WIDTH@@</X>"+
+"	<Y F=\"Height*1.0\">@@DEFAULT_TIMER_HEIGHT@@</Y>"+
 "    </Connection>"+
 "    <Shapes>"+
 "	<Shape ID=\"@@TIMER_ID@@1\" MasterShape=\"8\" Type=\"Shape\">"+
 "	    <XForm>"+
-"		<Width F=\"Sheet.50!Width*1\">0.375</Width>"+
-"		<Height F=\"Sheet.50!Height*1\">0.375</Height>"+
-"		<PinX F=\"Sheet.50!Width*0.5\">0.1875</PinX>"+
-"		<PinY F=\"Sheet.50!Height*0.5\">0.1875</PinY>"+
-"		<LocPinX F=\"Width*0.5\">0.1875</LocPinX>"+
-"		<LocPinY F=\"Height*0.5\">0.1875</LocPinY>"+
+"		<Width F=\"Sheet.50!Width*1\">@@DEFAULT_TIMER_WIDTH@@</Width>"+
+"		<Height F=\"Sheet.50!Height*1\">@@DEFAULT_TIMER_HEIGHT@@</Height>"+
+"		<PinX F=\"Sheet.50!Width*0.5\">@@DEFAULT_TIMER_HALF_WIDTH@@</PinX>"+
+"		<PinY F=\"Sheet.50!Height*0.5\">@@DEFAULT_TIMER_HALF_HEIGHT@@</PinY>"+
+"		<LocPinX F=\"Width*0.5\">@@DEFAULT_TIMER_HALF_WIDTH@@</LocPinX>"+
+"		<LocPinY F=\"Height*0.5\">@@DEFAULT_TIMER_HALF_HEIGHT@@</LocPinY>"+
 "		<Angle>0.0</Angle>"+
 "	    </XForm>"+
 "	    <Fill>"+
@@ -126,12 +126,12 @@ public interface ITIMER {
 "	</Shape>"+
 "	<Shape ID=\"@@TIMER_ID@@2\" MasterShape=\"8\" Type=\"Shape\">"+
 "	    <XForm>"+
-"		<Width F=\"Sheet.50!Width*1\">0.375</Width>"+
-"		<Height F=\"Sheet.50!Height*1\">0.375</Height>"+
-"		<PinX F=\"Sheet.50!Width*0.5\">0.1875</PinX>"+
-"		<PinY F=\"Sheet.50!Height*0.5\">0.1875</PinY>"+
-"		<LocPinX F=\"Width*0.5\">0.1875</LocPinX>"+
-"		<LocPinY F=\"Height*0.5\">0.1875</LocPinY>"+
+"		<Width F=\"Sheet.50!Width*1\">@@DEFAULT_TIMER_WIDTH@@</Width>"+
+"		<Height F=\"Sheet.50!Height*1\">@@DEFAULT_TIMER_HEIGHT@@</Height>"+
+"		<PinX F=\"Sheet.50!Width*0.5\">@@DEFAULT_TIMER_HALF_WIDTH@@</PinX>"+
+"		<PinY F=\"Sheet.50!Height*0.5\">@@DEFAULT_TIMER_HALF_HEIGHT@@</PinY>"+
+"		<LocPinX F=\"Width*0.5\">@@DEFAULT_TIMER_HALF_WIDTH@@</LocPinX>"+
+"		<LocPinY F=\"Height*0.5\">@@DEFAULT_TIMER_HALF_HEIGHT@@</LocPinY>"+
 "		<Angle>0.0</Angle>"+
 "	    </XForm>"+
 "	    <Fill>"+
@@ -165,12 +165,12 @@ public interface ITIMER {
 "	</Shape>"+
 "	<Shape ID=\"@@TIMER_ID@@3\" MasterShape=\"8\" Type=\"Shape\">"+
 "	    <XForm>"+
-"		<Width F=\"Sheet.50!Width*1\">0.375</Width>"+
-"		<Height F=\"Sheet.50!Height*1\">0.375</Height>"+
-"		<PinX F=\"Sheet.50!Width*0.5\">0.1875</PinX>"+
-"		<PinY F=\"Sheet.50!Height*0.5\">0.1875</PinY>"+
-"		<LocPinX F=\"Width*0.5\">0.1875</LocPinX>"+
-"		<LocPinY F=\"Height*0.5\">0.1875</LocPinY>"+
+"		<Width F=\"Sheet.50!Width*1\">@@DEFAULT_TIMER_WIDTH@@</Width>"+
+"		<Height F=\"Sheet.50!Height*1\">@@DEFAULT_TIMER_HEIGHT@@</Height>"+
+"		<PinX F=\"Sheet.50!Width*0.5\">@@DEFAULT_TIMER_HALF_WIDTH@@</PinX>"+
+"		<PinY F=\"Sheet.50!Height*0.5\">@@DEFAULT_TIMER_HALF_HEIGHT@@</PinY>"+
+"		<LocPinX F=\"Width*0.5\">@@DEFAULT_TIMER_HALF_WIDTH@@</LocPinX>"+
+"		<LocPinY F=\"Height*0.5\">@@DEFAULT_TIMER_HALF_HEIGHT@@</LocPinY>"+
 "		<Angle>0.0</Angle>"+
 "	    </XForm>"+
 "	    <Fill>"+

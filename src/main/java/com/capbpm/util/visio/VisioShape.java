@@ -10,6 +10,12 @@ public class VisioShape  implements ISHAPE_CONSTANTS{
 	
 	private float EVENT_WIDTH=0.375f;
 	private float EVENT_HEIGH=0.375f;
+
+	private float END_WIDTH=0.375f;
+	private float END_HEIGH=0.375f;
+	
+	private float START_WIDTH=0.375f;
+	private float START_HEIGH=0.375f;
 	
 	private String type;
 	private float x;
@@ -62,6 +68,9 @@ public class VisioShape  implements ISHAPE_CONSTANTS{
 		if (this.type.equalsIgnoreCase("A")) initActivity();
 		if (this.type.equalsIgnoreCase("G")) initGateway();
 		if (this.type.equalsIgnoreCase("E")) initEvent();
+		if (this.type.equalsIgnoreCase("T")) initTimer();
+		if (this.type.equalsIgnoreCase("END")) initEnd();
+		if (this.type.equalsIgnoreCase("S")) initStart();
 	}
 
 
@@ -187,7 +196,7 @@ public class VisioShape  implements ISHAPE_CONSTANTS{
 		}
 		if (type.equalsIgnoreCase("T"))
 		{
-			//initTimer();
+			initTimer();
 		}
 		if (type.equalsIgnoreCase("G"))
 		{
@@ -196,6 +205,10 @@ public class VisioShape  implements ISHAPE_CONSTANTS{
 		if (type.equalsIgnoreCase("E"))
 		{
 			initEvent();
+		}
+		if (type.equalsIgnoreCase("END"))
+		{
+			initEnd();
 		}
 	}
 	
@@ -251,6 +264,41 @@ public class VisioShape  implements ISHAPE_CONSTANTS{
 		
 		xml = makeTimer(clean, name, ""+x, ""+y, id);
 	}
+	private void initEnd() {
+		// make activities
+		float defWidthScaled =DEFAULT_END_WIDTH * imgScaling;
+		float defHeightScaled =DEFAULT_END_HEIGHT * imgScaling;
+
+		float defWeightHalfScaled =defWidthScaled/2f;
+		float defHeightHalfScaled =defHeightScaled/2f;
+
+		String clean = IEND.template;
+		clean = clean.replaceAll("@@DEFAULT_END_WIDTH@@", ""+defWidthScaled);
+		clean = clean.replaceAll("@@DEFAULT_END_HEIGHT@@", ""+defHeightScaled);
+		clean = clean.replaceAll("@@DEFAULT_END_HALF_WEIGHT@@", ""+defWeightHalfScaled);
+		clean = clean.replaceAll("@@DEFAULT_END_HALF_HEIGHT@@", ""+defHeightHalfScaled);
+		
+		xml = makeEnd(clean, name, ""+x, ""+y, id);
+	}
+
+	private void initStart() {
+		// make activities
+		float defWidthScaled =DEFAULT_START_WIDTH * imgScaling;
+		float defHeightScaled =DEFAULT_START_HEIGHT * imgScaling;
+
+		float defWeightHalfScaled =defWidthScaled/2f;
+		float defHeightHalfScaled =defHeightScaled/2f;
+
+		String clean = ISTART.template;
+		clean = clean.replaceAll("@@DEFAULT_START_WIDTH@@", ""+defWidthScaled);
+		clean = clean.replaceAll("@@DEFAULT_START_HEIGHT@@", ""+defHeightScaled);
+		clean = clean.replaceAll("@@DEFAULT_START_HALF_WIDTH@@", ""+defWeightHalfScaled);
+		clean = clean.replaceAll("@@DEFAULT_START_HALF_HEIGHT@@", ""+defHeightHalfScaled);
+	
+		
+		xml = makeStart(clean, name, ""+x, ""+y, id);
+	}
+	
 	private void initGateway() {
 		// make activities
 		float defGatewayWidthScaled =DEFAULT_GATEWAY_WIDTH * imgScaling;
@@ -282,6 +330,23 @@ public class VisioShape  implements ISHAPE_CONSTANTS{
 		content = content.replaceAll("@@EVENT_X@@", x);
 		content = content.replaceAll("@@EVENT_Y@@", y);
 		content = content.replaceAll("@@EVENT_ID@@", id);
+		return content;
+	}
+	private static String makeEnd(String content, String n, String x, String y, String id) {
+		////
+		content = content.replaceAll("@@END_NAME@@", n);
+		content = content.replaceAll("@@END_X@@", x);
+		content = content.replaceAll("@@END_Y@@", y);
+		content = content.replaceAll("@@END_ID@@", id);
+		return content;
+	}
+	
+	private static String makeStart(String content, String n, String x, String y, String id) {
+		////
+		content = content.replaceAll("@@START_NAME@@", n);
+		content = content.replaceAll("@@START_X@@", x);
+		content = content.replaceAll("@@START_Y@@", y);
+		content = content.replaceAll("@@START_ID@@", id);
 		return content;
 	}
 	

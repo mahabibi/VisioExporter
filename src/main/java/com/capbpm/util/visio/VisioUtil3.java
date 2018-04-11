@@ -12,7 +12,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
-public class VisioUtil2 implements ISHAPE_CONSTANTS {
+public class VisioUtil3 implements ISHAPE_CONSTANTS {
 
 
 
@@ -36,7 +36,7 @@ public class VisioUtil2 implements ISHAPE_CONSTANTS {
 
 		String FOLDER_PATH = "C:\\Users\\max\\Documents\\GitHub\\VisioExporter\\src\\main\\resources\\";
 
-		String template = FOLDER_PATH + "template5_w_event_and_timer.vdx";
+		String template = FOLDER_PATH + "template6.vdx";
 		// fragments
 		// String pool_fragment="C:\\_citi\\sandbox\\fragments\\pool.vdx";
 		// String end_fragment="C:\\_citi\\sandbox\\fragments\\end.vdx";
@@ -62,6 +62,8 @@ public class VisioUtil2 implements ISHAPE_CONSTANTS {
 		// make swimlanes
 		String sClean = getFileContent(swimlane_fragment);
 		String s1 = makeSwimlane(sClean, "Request Vacation", "5.4531", "4.5", "26", 10.0938f, 6.0f);
+		
+		VisioShape vStart1 = new VisioShape( "Start", "S", 2.5938f, 5.0219f, "707");
 
 		// make activities
 		VisioShape vs1 = new VisioShape( "XRequest Vacation", "A", 2.5938f, 5.0219f, "77");
@@ -70,14 +72,8 @@ public class VisioUtil2 implements ISHAPE_CONSTANTS {
 
 		// make gateways
 		VisioShape vg1 = new VisioShape( "check1", "G", 4.2344f, 5.0118f, "34");
-		VisioShape vg2 = new VisioShape( "check2", "G", 4.2344f, 3.0219f, "36");
-		VisioShape vg3 = new VisioShape( "check3", "G", 7.5938f, 5.0219f, "197");
+		VisioShape vg3 = new VisioShape( "check3", "G", 7.5938f, 6.0938f, "197");
 
-		// make events
-		VisioShape ve1 = new VisioShape( "Event 1", "E", 8.75f, 6.0938f, "324");
-
-		// make events
-		VisioShape vt1 = new VisioShape( "wait 5 minutes", "T", 8.75f, 3.0938f, "524");
 
 
 		// make lines
@@ -86,16 +82,15 @@ public class VisioUtil2 implements ISHAPE_CONSTANTS {
 		String l1 = makeConnection(lClean, "", vs1, 4,vg1,8, "3");
 		String l2 = makeConnection(lClean, "check or cash", vg1, 2,vs2,8, "4");
 		String l3 = makeConnection(lClean, "credit", vg1, 6,vs3,8, "5");
-		String l4 = makeConnection(lClean, "credit", vs2, 4,vg3,2, "6");
+		String l4 = makeConnection(lClean, "credit", vs2, 4,vg3,8, "6");
 		String l5 = makeConnection(lClean, "credit", vs3, 4,vg3,6, "7");
 		//String l2 = makeConnection(lClean, "Credit Card", 3.4844f, 4.7844f, 5.375f, 3.375f, "4");	
 		
 		src = src.replaceAll("@@SHAPES@@", 
+				/*vStart1.getXml() + */
 				vs1.getXml() + vs2.getXml() + vs3.getXml() +
-				vg1.getXml() + vg2.getXml() + vg3.getXml() +
-				l1 + l2  + l3 + l4 + l5 + 
-				ve1.getXml() + 
-				vt1.getXml()
+				vg1.getXml() + vg3.getXml() +
+				l1 + l2  + l3 + l4 + l5 
 				);
 		
 		src = src.replaceAll("@SWIM_AND_POOL", s1);
