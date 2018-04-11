@@ -72,18 +72,18 @@ public class VisioUtil3 implements ISHAPE_CONSTANTS {
 
 		// make gateways
 		VisioShape vg1 = new VisioShape( "check1", "G", 4.2344f, 5.0118f, "34");
-		VisioShape vg3 = new VisioShape( "check3", "G", 7.5938f, 6.0938f, "197");
+		VisioShape vg3 = new VisioShape( "check3", "G", 7.5938f, 5.0118f, "197");
 
 
 
 		// make lines
 		String lClean = getFileContent(line_fragment);
 		//String l1 = makeConnection(lClean, "check or cash", vs1.getPosition(2)[0], vs1.getPosition(2)[1], vs2.getPosition(8)[0], vs2.getPosition(8)[1], "3");
-		String l1 = makeConnection(lClean, "", vs1, 4,vg1,8, "3");
-		String l2 = makeConnection(lClean, "check or cash", vg1, 2,vs2,8, "4");
-		String l3 = makeConnection(lClean, "credit", vg1, 6,vs3,8, "5");
-		String l4 = makeConnection(lClean, "credit", vs2, 4,vg3,8, "6");
-		String l5 = makeConnection(lClean, "credit", vs3, 4,vg3,6, "7");
+		String l1 = makeConnection(lClean, "first", vs1, 5,vg1,11, "3");
+		String l2 = makeConnection(lClean, "second", vg1, 2,vs2,11, "4");
+		String l3 = makeConnection(lClean, "3rd", vg1, 5,vs3,11, "5");
+		String l4 = makeConnection(lClean, "fourth", vs2, 5,vg3,2, "6");
+		String l5 = makeConnection(lClean, "fifth", vs3, 5,vg3,8, "7");
 		//String l2 = makeConnection(lClean, "Credit Card", 3.4844f, 4.7844f, 5.375f, 3.375f, "4");	
 		
 		src = src.replaceAll("@@SHAPES@@", 

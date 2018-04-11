@@ -3,19 +3,20 @@ package com.capbpm.util.visio;
 public class VisioShape  implements ISHAPE_CONSTANTS{
 
 	private float ACT_WIDTH=1f;
-	private float ACT_HEIGH=0.75f;
+	private float ACT_HEIGHT=0.75f;
 
-	private float GATE_WIDTH=0.4688f;
-	private float GATE_HEIGH=0.4688f;
+	private float GATEWAY_WIDTH=0.4688f;
+	private float GATEWAY_HEIGHT=0.4688f;
 	
 	private float EVENT_WIDTH=0.375f;
-	private float EVENT_HEIGH=0.375f;
+	private float EVENT_HEIGHT=0.375f;
 
 	private float END_WIDTH=0.375f;
-	private float END_HEIGH=0.375f;
+	private float END_HEIGHT=0.375f;
 	
 	private float START_WIDTH=0.375f;
-	private float START_HEIGH=0.375f;
+	private float START_HEIGHT=0.375f;
+
 	
 	private String type;
 	private float x;
@@ -91,14 +92,14 @@ public class VisioShape  implements ISHAPE_CONSTANTS{
 
 
 	public float getACT_HEIGH() {
-		return ACT_HEIGH;
+		return ACT_HEIGHT;
 	}
 
 
 
 
 	public void setACT_HEIGH(float aCT_HEIGH) {
-		ACT_HEIGH = aCT_HEIGH;
+		ACT_HEIGHT = aCT_HEIGH;
 	}
 
 
@@ -371,66 +372,184 @@ public class VisioShape  implements ISHAPE_CONSTANTS{
 	public float[] getPosition(int pos)
 	{
 		float[] retval = {x,y};
-		getPositionsForActivities(pos, retval);
-		getPositionsForGateways( pos, retval);
-		getPositionsForEventsAndTimers( pos, retval);
+		//getPositionsForActivities(pos, retval);
+		if (type.equalsIgnoreCase("A")) {getPos( pos,  ACT_WIDTH,ACT_HEIGHT);}
+		if (type.equalsIgnoreCase("G")) {getPos( pos,  GATEWAY_WIDTH,GATEWAY_HEIGHT);}
+		if (type.equalsIgnoreCase("E") || type.equalsIgnoreCase("T")) {getPos( pos,  END_WIDTH,END_HEIGHT);}
+		//getPositionsForEventsAndTimers( pos, retval);
 		
 		return retval;
 	}
 
-	private void getPositionsForEventsAndTimers(int pos, float[] retval) {
+	/*private void getPositionsForEventsAndTimers(int pos, float[] retval) {
 		if (type.equalsIgnoreCase("E") || type.equalsIgnoreCase("T") )
 		{
-			if (pos==1 || pos==7 || pos==8)
+			if (pos==10 || pos==11 || pos==12)
 			{
-				retval[0]= x - EVENT_WIDTH/2;
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[0]= x - END_WIDTH/2;
 			}
-
-			if (pos==3 || pos==4 || pos==5)
+			if (pos==1 || pos==9)
 			{
-				retval[0]= x + EVENT_WIDTH/2;
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[0]= x - END_WIDTH/3;
 			}
-
+			if (pos==1 || pos==9)
+			{
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[0]= x + END_WIDTH/3;
+			}			
+			if (pos==4 || pos==5 || pos==6)
+			{
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[0]= x + END_WIDTH/2;
+			}
 			if (pos==1 || pos==2 || pos==3)
 			{
-				retval[1]= y + EVENT_HEIGH/2;
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[1]= y - END_HEIGH/2;
+			}
+
+			if (pos==12 || pos==4)
+			{
+				retval[1]= y - END_HEIGH/3;
+				//retval[0]= x + ACT_WIDTH/2;
+			}
+
+			if (pos==11 || pos==5)
+			{
+				retval[1]= y + END_HEIGH/3;
+				//retval[1]= y + ACT_HEIGH/2;
 			}	
 
-			if (pos==5 || pos==6 || pos==7)
+			if (pos==10 || pos==6)
 			{
-				retval[1]= y - EVENT_HEIGH/2;
+				//retval[1]= y - ACT_HEIGH/2;
+			}
+			if (pos==9 || pos==8 || pos==7)
+			{
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[1]= y + END_HEIGH/2;
 			}	
 			bindx = retval[0];
 			bindy = retval[1];
 		}
-	}
-	private void getPositionsForGateways(int pos, float[] retval) {
-		if (type.equalsIgnoreCase("G"))
+	}*/
+	private float[] getPos(int pos, float localWidth, float localHeight ) {
+		//if (type.equalsIgnoreCase("G"))
+		float retval[] = {x,y};
 		{
-			if (pos==1 || pos==7 || pos==8)
+			if (pos==10 || pos==11 || pos==12)
 			{
-				retval[0]= x - GATE_WIDTH/2;
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[0]= x - localWidth/2;
 			}
-
-			if (pos==3 || pos==4 || pos==5)
+			if (pos==1 || pos==9)
 			{
-				retval[0]= x + GATE_WIDTH/2;
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[0]= x - localWidth/3;
 			}
-
+			if (pos==3 || pos==7)
+			{
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[0]= x + localWidth/3;
+			}			
+			if (pos==4 || pos==5 || pos==6)
+			{
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[0]= x + localWidth/2;
+			}
+			
 			if (pos==1 || pos==2 || pos==3)
 			{
-				retval[1]= y + GATE_HEIGH/2;
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[1]= y + localHeight/2;
+			}
+
+			if (pos==12 || pos==4)
+			{
+				retval[1]= y - localHeight/3;
+				//retval[0]= x + ACT_WIDTH/2;
+			}
+
+			if (pos==11 || pos==5)
+			{
+				//retval[1]= y + GATEWAY_HEIGH/3;
+				//retval[1]= y + ACT_HEIGH/2;
 			}	
 
-			if (pos==5 || pos==6 || pos==7)
+			if (pos==10 || pos==6)
 			{
-				retval[1]= y - GATE_HEIGH/2;
+				retval[1]= y + localHeight/3;
+				//retval[1]= y - ACT_HEIGH/2;
+			}
+			if (pos==9 || pos==8 || pos==7)
+			{
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[1]= y - localHeight/2;
 			}	
 			bindx = retval[0];
 			bindy = retval[1];
 		}
+		
+		return retval;
 	}
-	private void getPositionsForActivities(int pos, float[] retval) {
+	/*private void getPositionsForActivities(int pos, float[] retval) {
+		if (type.equalsIgnoreCase("A"))
+		{
+			if (pos==10 || pos==11 || pos==12)
+			{
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[0]= x - ACT_WIDTH/2;
+			}
+			if (pos==1 || pos==9)
+			{
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[0]= x - ACT_WIDTH/3;
+			}
+			if (pos==1 || pos==9)
+			{
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[0]= x + ACT_WIDTH/3;
+			}			
+			if (pos==4 || pos==5 || pos==6)
+			{
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[0]= x + ACT_WIDTH/2;
+			}
+			if (pos==1 || pos==2 || pos==3)
+			{
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[1]= y - ACT_HEIGH/2;
+			}
+
+			if (pos==12 || pos==4)
+			{
+				retval[1]= y - ACT_HEIGH/3;
+				//retval[0]= x + ACT_WIDTH/2;
+			}
+
+			if (pos==11 || pos==5)
+			{
+				//retval[1]= y + ACT_HEIGH/3;
+				//retval[1]= y + ACT_HEIGH/2;
+			}	
+
+			if (pos==10 || pos==6)
+			{
+				retval[1]= y + ACT_HEIGH/3;
+				//retval[1]= y - ACT_HEIGH/2;
+			}
+			if (pos==9 || pos==8 || pos==7)
+			{
+				//retval[0]= x - ACT_WIDTH/2;
+				retval[1]= y + ACT_HEIGH/2;
+			}		
+			bindx = retval[0];
+			bindy = retval[1];
+		}
+	}
+	private void getPositionsForActivities2(int pos, float[] retval) {
 		if (type.equalsIgnoreCase("A"))
 		{
 			if (pos==1 || pos==7 || pos==8)
@@ -456,6 +575,6 @@ public class VisioShape  implements ISHAPE_CONSTANTS{
 			bindx = retval[0];
 			bindy = retval[1];
 		}
-	}
+	}*/
 	
 }
