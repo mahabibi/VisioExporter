@@ -3,8 +3,11 @@ package com.capbpm.util.visio;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.nio.charset.Charset;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -58,18 +61,18 @@ public class VisioUtil3 implements ISHAPE_CONSTANTS {
 		float defGatewayWidthScaled =DEFAULT_GATEWAY_WIDTH * IMAGE_SCALING;
 		float defGatewayHeightScaled =DEFAULT_GATEWAY_HEIGHT * IMAGE_SCALING;
 
-		String FOLDER_PATH = "C:\\Users\\max\\Documents\\GitHub\\VisioExporter\\src\\main\\resources\\";
+		String FOLDER_PATH = "src/main/resources/";
 
 		String template = FOLDER_PATH + "template6.vdx";
 		// fragments
 		// String pool_fragment="C:\\_citi\\sandbox\\fragments\\pool.vdx";
 		// String end_fragment="C:\\_citi\\sandbox\\fragments\\end.vdx";
-		String act_fragment = FOLDER_PATH + "fragments\\activity_fragment.vdx";
-		String gateway_fragment = FOLDER_PATH + "fragments\\gateway_fragment.vdx";
-		String swimlane_fragment = FOLDER_PATH + "fragments\\swimlane_fragment.vdx";
-		String line_fragment = FOLDER_PATH + "fragments\\line_fragment.vdx";
-		String event_fragment = FOLDER_PATH + "fragments\\event_fragment.vdx";
-		String timer_fragment = FOLDER_PATH + "fragments\\timer_fragment.vdx";
+		String act_fragment = FOLDER_PATH + "fragments/activity_fragment.vdx";
+		String gateway_fragment = FOLDER_PATH + "fragments/gateway_fragment.vdx";
+		String swimlane_fragment = FOLDER_PATH + "fragments/swimlane_fragment.vdx";
+		String line_fragment = FOLDER_PATH + "fragments/line_fragment.vdx";
+		String event_fragment = FOLDER_PATH + "fragments/event_fragment.vdx";
+		String timer_fragment = FOLDER_PATH + "fragments/timer_fragment.vdx";
 
 		String target = FOLDER_PATH + "new.vdx";
 		new File(target).delete();
@@ -148,6 +151,16 @@ public class VisioUtil3 implements ISHAPE_CONSTANTS {
 		// src =doIt(src, target,"@TEMPLATE_POOL",poolFrag);
 		src = setFileContent(target, src);
 
+		try(
+			FileOutputStream fos = new FileOutputStream(new File("output.vsdx"))
+			){
+			fos.write(src.getBytes(StandardCharsets.UTF_8));
+			fos.close();
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 	public static String doIt(String source, String target, String placeHolder, String replacement) {
@@ -168,7 +181,7 @@ public class VisioUtil3 implements ISHAPE_CONSTANTS {
 		return content;
 	}
 
-	private static String makeSwimlane(String content, String n, String x, String y, String id, float pH, float pW) {
+	public static String makeSwimlane(String content, String n, String x, String y, String id, float pH, float pW) {
 		////
 		String poolHeight = "" + pH;
 		String poolPercentHeight = "" + (pH / 2f);
@@ -189,7 +202,7 @@ public class VisioUtil3 implements ISHAPE_CONSTANTS {
 		return content;
 	}
 
-	private static String makeConnection(String content, String n, VisioShape source, int sourceBindPosition, VisioShape target,  int TargetBindPosition, String id) {
+	public static String makeConnection(String content, String n, VisioShape source, int sourceBindPosition, VisioShape target,  int TargetBindPosition, String id) {
 		////
 		source.getPosition(sourceBindPosition);
 		target.getPosition(TargetBindPosition);
@@ -289,7 +302,7 @@ public class VisioUtil3 implements ISHAPE_CONSTANTS {
 		return content;
 	}
 
-	private static String makeEnd(String endFrag) {
+	public static String makeEnd(String endFrag) {
 		////
 		endFrag = endFrag.replaceAll("@@END_EVENT_NAME@@", "End");
 		endFrag = endFrag.replaceAll("@@END_EVENT_MASTER_ID@@", "2");
@@ -303,7 +316,7 @@ public class VisioUtil3 implements ISHAPE_CONSTANTS {
 		return endFrag;
 	}
 
-	private static String makeStart(String content) {
+	public static String makeStart(String content) {
 		////
 		content = content.replaceAll("@@START_EVENT_NAME@@", "Start");
 		content = content.replaceAll("@@START_EVENT_MASTER_ID@@", "7");
@@ -314,7 +327,7 @@ public class VisioUtil3 implements ISHAPE_CONSTANTS {
 		return content;
 	}
 
-	private static String createHeading(String title, String author, String date, String content) {
+	public static String createHeading(String title, String author, String date, String content) {
 		content = content.replaceAll("@@TITLE@@", title);
 		content = content.replaceAll("@@AUTHOR@@", author);
 		content = content.replaceAll("@@DATE@@", date);
