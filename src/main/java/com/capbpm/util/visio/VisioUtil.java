@@ -16,7 +16,7 @@ public class VisioUtil implements ISHAPE_CONSTANTS {
 
 
 
-	public static void main(String args[]) {
+	public static void main1(String args[]) {
 
 		float IMAGE_SCALING = 1f;
 		float defActivityWidthScaled =DEFAULT_ACTIVITY_WIDTH * IMAGE_SCALING;
