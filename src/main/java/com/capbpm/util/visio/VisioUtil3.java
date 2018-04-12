@@ -11,6 +11,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
+import java.util.List;
 
 import com.capbpm.scout.exporter.model.process.Node;
 
@@ -40,6 +41,7 @@ public class VisioUtil3 implements ISHAPE_CONSTANTS {
 
 	public static void main(String args[]) {
 
+		List<Line> conns =new ArrayList<Line>();
 		float IMAGE_SCALING = 1f;
 		float defActivityWidthScaled =DEFAULT_ACTIVITY_WIDTH * IMAGE_SCALING;
 		float defActivityHeightScaled =DEFAULT_ACTIVITY_HEIGHT * IMAGE_SCALING;
@@ -85,38 +87,52 @@ public class VisioUtil3 implements ISHAPE_CONSTANTS {
 		String sClean = getFileContent(swimlane_fragment);
 		String s1 = makeSwimlane(sClean, "Request Vacation", "5.4531", "4.5", "26", 10.0938f, 6.0f);
 		
-		VisioShape vStart1 = new VisioShape( "Start", "S", 2.5938f, 5.0219f, "707");
+		VisioShape vStart1 = new VisioShape( "Start", "S", 2.5938f, 5.0219f);
 
 		// make activities
-		VisioShape vs1 = new VisioShape( "XRequest Vacation", "A", 2.5938f, 5.0219f, "77");
-		VisioShape vs2 = new VisioShape( "XReview Vacation", "A", 5.75f, 6.0938f, "87");
-		VisioShape vs3 = new VisioShape( "XApprove Vacation", "A", 5.875f, 3.375f, "97");
+		VisioShape vs1 = new VisioShape( "XRequest Vacation", "A", 2.5938f, 5.0219f);
+		VisioShape vs2 = new VisioShape( "XReview Vacation", "A", 5.75f, 6.0938f);
+		VisioShape vs3 = new VisioShape( "XApprove Vacation", "A", 5.875f, 3.375f);
 
 		// make gateways
-		VisioShape vg1 = new VisioShape( "check1", "G", 4.2344f, 5.0118f, "34");
-		VisioShape vg3 = new VisioShape( "check3", "G", 7.5938f, 5.0118f, "197");
+		VisioShape vg1 = new VisioShape( "check1", "G", 4.2344f, 5.0118f);
+		VisioShape vg3 = new VisioShape( "check3", "G", 7.5938f, 5.0118f);
 
 
 
 		// make lines
-		String lClean = getFileContent(line_fragment);
+		String lClean = ILINE.template;
 		//String l1 = makeConnection(lClean, "check or cash", vs1.getPosition(2)[0], vs1.getPosition(2)[1], vs2.getPosition(8)[0], vs2.getPosition(8)[1], "3");
-		String l1 = makeConnection(lClean, "first", vs1, 5,vg1,11, "3");
-		String l2 = makeConnection(lClean, "second", vg1, 2,vs2,11, "4");
-		String l3 = makeConnection(lClean, "3rd", vg1, 5,vs3,11, "5");
-		String l4 = makeConnection(lClean, "fourth", vs2, 5,vg3,2, "6");
-		String l5 = makeConnection(lClean, "fifth", vs3, 5,vg3,8, "7");
-		//String l2 = makeConnection(lClean, "Credit Card", 3.4844f, 4.7844f, 5.375f, 3.375f, "4");	
+		Line l1 = new Line("FIRST",vs1, 5,vg1,11);		
+		Line l2 =  new Line("SECOND",vg1, 2,vs2,11);//makeConnection(lClean, "second", vg1, 2,vs2,11, "4");
+		Line l3 = new Line("THIRD",vg1, 8,vs3,11);//makeConnection(lClean, "3rd", vg1, 8,vs3,11, "5");
+		Line l4 = new Line("FOURTH",vs2, 5,vg3,2);//makeConnection(lClean, "fourth", vs2, 5,vg3,2, "6");
+		Line l5 = new Line("FIFTH",vs3, 5,vg3,8);// makeConnection(lClean, "fifth", vs3, 5,vg3,8, "7");
+		conns.add(l1);
+		conns.add(l2);
+		conns.add(l3);
+		conns.add(l4);
+		conns.add(l5);
+		
+		String conz= "";
+		
+		for (Line lx : conns)
+		{
+			conz += lx.getConnection();
+		}
 		
 		src = src.replaceAll("@@SHAPES@@", 
 				/*vStart1.getXml() + */
 				vs1.getXml() + vs2.getXml() + vs3.getXml() +
 				vg1.getXml() + vg3.getXml() +
-				l1 + l2  + l3 + l4 + l5 
+				l1.getXml()  + l2.getXml()   + l3.getXml()  + l4.getXml()  + l5.getXml()   
 				);
 		
 		src = src.replaceAll("@SWIM_AND_POOL", s1);
 		src = src.replaceAll("@@POOL_NAME@@", "Da Pool");
+		
+		src = src.replaceAll("@@CONNZ@@", conz);
+		src = src.replaceAll("@@CONNZ@@", "");
 
 		// make end
 		src = makeEnd(src);
@@ -204,7 +220,7 @@ public class VisioUtil3 implements ISHAPE_CONSTANTS {
 		content = content.replaceAll("@@LINE_ID@@", id);
 		return content;
 	}
-	private static String makeConnection(String content, String n, float x, float y, float ex, float ey, String id) {
+	/*private static String makeConnection(String content, String n, float x, float y, float ex, float ey, String id) {
 		////
 
 		content = content.replaceAll("@@LINE_LABEL@@", n);
@@ -232,7 +248,7 @@ public class VisioUtil3 implements ISHAPE_CONSTANTS {
 
 		content = content.replaceAll("@@LINE_ID@@", id);
 		return content;
-	}
+	}*/
 
 	private static String makeTimer(String content, String n, String x, String y, String id) {
 		////

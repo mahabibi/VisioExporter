@@ -3001,20 +3001,7 @@
                 @@SHAPES@@
             </Shapes>
             <Connects>
-                <Connect FromPart="9" FromSheet="1" ToPart="101" ToSheet="8" />
-                <Connect FromPart="12" FromSheet="1" ToPart="100" ToSheet="13" />
-                <Connect FromPart="9" FromSheet="2" ToPart="101" ToSheet="13" />
-                <Connect FromPart="12" FromSheet="2" ToPart="100" ToSheet="32" />
-                <Connect FromPart="9" FromSheet="3" ToPart="103" ToSheet="32" />
-                <Connect FromPart="12" FromSheet="3" ToPart="100" ToSheet="15" />
-                <Connect FromPart="9" FromSheet="4" ToPart="102" ToSheet="32" />
-                <Connect FromPart="12" FromSheet="4" ToPart="100" ToSheet="17" />
-                <Connect FromPart="9" FromSheet="5" ToPart="101" ToSheet="17" />
-                <Connect FromPart="12" FromSheet="5" ToPart="104" ToSheet="19" />
-                <Connect FromPart="9" FromSheet="6" ToPart="101" ToSheet="15" />
-                <Connect FromPart="12" FromSheet="6" ToPart="105" ToSheet="19" />
-                <Connect FromPart="9" FromSheet="7" ToPart="101" ToSheet="19" />
-                <Connect FromPart="12" FromSheet="7" ToPart="100" ToSheet="10" />
+                @@CONNZ@@
             </Connects>
         </Page>
     </Pages>

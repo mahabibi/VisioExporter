@@ -1,5 +1,7 @@
 package com.capbpm.util.visio;
 
+import java.util.Random;
+
 import com.capbpm.scout.exporter.model.process.Node;
 import com.capbpm.scout.exporter.model.process.NodeType;
 
@@ -23,7 +25,7 @@ public class VisioShape implements ISHAPE_CONSTANTS {
 	private String type;
 	private float x;
 	private float y;
-	private String id;
+	private String id = "" + new Random().nextInt(10000);;
 	private String name;
 	private String xml;
 	private float imgScaling = 1f;
@@ -48,7 +50,8 @@ public class VisioShape implements ISHAPE_CONSTANTS {
 	}
 
 	public VisioShape() {
-
+		super();
+		this.id = "" + new Random().nextInt(10000);
 	}
 
 	public float getImgScaling() {
@@ -59,6 +62,18 @@ public class VisioShape implements ISHAPE_CONSTANTS {
 		this.imgScaling = imgScaling;
 	}
 
+	public VisioShape(String name, String type, float x, float y) {
+		super();
+		this.type = type;
+		this.x = x;
+		this.y = y;
+		this.id = "" + new Random().nextInt(10000);
+		this.bindx = x;
+		this.bindy = y;
+		this.name = name;
+		init();
+
+	}
 	public VisioShape(String name, String type, float x, float y, String id) {
 		super();
 		this.type = type;
